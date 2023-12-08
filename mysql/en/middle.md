@@ -1,49 +1,20 @@
-1. **Purpose of the EXPLAIN statement in SQL: How it can be used for query optimization?**
-
-2. **Difference between a Clustered and a Non-clustered Index:**
-
-3. **Handling Database Migrations in a Production Environment:**
-
-4. **Concept of Database Sharding: When it might be beneficial?**
-
-5. **Benefits and Drawbacks of Using Denormalization in a Database:**
-
-6. **Handling Concurrent Transactions and Ensuring Data Consistency in a Database:**
-
-7. **Differences Between INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN Operations:**
-
-8. **Improving the Performance of a Slow-performing Query Without Modifying the Schema:**
-
-9. **Advantages and Disadvantages of Using Stored Procedures versus Ad-hoc Queries:**
-
-10. **Purpose of the WITH Clause (Common Table Expressions) in SQL:**
-
-11. **Role of the COMMIT and ROLLBACK Statements in Database Transactions:**
-
-12. **Designing a Database Schema for a Social Media Platform with User Profiles, Posts, and Comments:**
-
-13. **Concept of Normalization and Denormalization in the Context of Database Design:**
-
-14. **Approaching Optimization of a Database for Read-heavy Workloads versus Write-heavy Workloads:**
-
-15. **Materialized Views and When to Use Them in a Database:**
-
-16. **Implementing Row-level Security in a Relational Database:**
-
-17. **Concept of Database Indexing and Its Impact on Query Performance:**
-
-18. **Implementing Pagination in a SQL Query Efficiently:**
-
-19. **Differences Between Optimistic and Pessimistic Locking in Database Transactions:**
-
-20. **Importance of Database Backups and How to Implement a Robust Backup Strategy:**
-
-21. **Purpose of the MERGE Statement in SQL and When to Use It:**
-
-22. **Handling Versioning of Database Schema in a Continuous Integration/Continuous Deployment (CI/CD) Environment:**
-
-23. **Concept of Database Normalization Forms (1NF, 2NF, 3NF, BCNF):**
-
-24. **Purpose of the WINDOW Functions in SQL and an Example of How They Can Be Used:**
-
-25. **Considerations and Challenges When Migrating Data from One Database System to Another:**
+1. Explain the difference between MyISAM and InnoDB regarding locking mechanisms.
+2. How would you design a schema for a many-to-many relationship in MySQL?
+3. Discuss the use of stored functions and triggers in MySQL.
+4. How do you implement full-text search in MySQL?
+5. Explain the purpose of the MySQL binary log and relay log.
+6. Discuss the role of the UNION operator in MySQL queries.
+7. How can you handle and optimize the storage of large BLOB or TEXT data in MySQL?
+8. Explain the concept of MySQL query caching and when you would use it.
+9. How do you secure a MySQL database, especially in a production environment?
+10. Discuss the benefits and challenges of using MySQL replication.
+11. How would you troubleshoot and optimize a slow-performing MySQL query?
+12. What is the purpose of the InnoDB doublewrite buffer in MySQL?
+13. How do you implement high availability in MySQL, especially in a clustered environment?
+14. Discuss the differences between MyISAM and InnoDB in terms of table-level locking.
+15. How can you schedule recurring tasks or events in MySQL?
+16. Explain the role of the MySQL Performance Schema in query analysis.
+17. How do you handle database connection pooling in a MySQL-based application?
+18. Discuss the use of MySQL views and their impact on performance.
+19. How can you implement and manage MySQL user privileges and access control?
+20. Explain the concept of MySQL sharding and when it's appropriate.

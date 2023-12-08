@@ -1,25 +1,20 @@
-1. **How would you design a distributed database system to ensure high availability and fault tolerance?**
-2. **Explain the CAP theorem and its implications for distributed databases.**
-3. **Discuss the pros and cons of using NoSQL databases in specific scenarios compared to traditional relational databases.**
-4. **Describe the steps you would take to optimize a database schema for performance and scalability.**
-5. **How do you handle data consistency in a distributed database environment?**
-6. **Explain the principles of database partitioning and when it should be used.**
-7. **Discuss the differences between horizontal and vertical database scaling.**
-8. **How would you approach database performance tuning in a large-scale application?**
-9. **Describe a scenario where you implemented database caching and the impact on performance.**
-10. **Explain the concept of database sharding and provide examples of when it might be appropriate.**
-11. **How do you handle data migration and synchronization between multiple databases?**
-12. **Discuss the role of indexing in a database and the factors influencing the choice of indexes.**
-13. **How would you implement and manage database security in a production environment?**
-14. **Explain the concept of eventual consistency and its relevance in distributed databases.**
-15. **Discuss the challenges and solutions when dealing with large datasets in a database.**
-16. **What are some strategies for handling database deadlocks, and how do you avoid them?**
-17. **How do you design a database schema to support multitenancy in a SaaS (Software as a Service) application?**
-18. **Explain the concept of database normalization and denormalization in the context of complex data structures.**
-19. **How do you approach optimizing complex queries involving multiple joins and subqueries?**
-20. **Describe the steps involved in creating an efficient backup and recovery strategy for a database.**
-21. **Discuss the use of database triggers and their potential impact on performance.**
-22. **How would you implement and manage a database replication strategy for high availability?**
-23. **Explain the role of database monitoring and profiling in maintaining optimal performance.**
-24. **Discuss the challenges and solutions in implementing a data archiving strategy for historical data.**
-25. **How do you ensure data integrity and consistency across microservices in a distributed system?**
+1. Discuss the use of partitioning in MySQL tables and its impact on performance.
+2. How do you handle data migration and schema changes in a large MySQL database?
+3. Explain the role of the MySQL optimizer and how you can influence query optimization.
+4. Discuss the use of MySQL in-memory storage engines and their advantages.
+5. How would you design a MySQL database for a time-series data application?
+6. Explain the concept of MySQL event scheduling and its use cases.
+7. Discuss the benefits and challenges of using MySQL with a NoSQL data store.
+8. How can you implement and manage MySQL replication for load balancing?
+9. Explain the considerations for implementing MySQL in a cloud-based environment.
+10. How do you perform database performance tuning in MySQL, and what tools would you use?
+11. Discuss the use of MySQL JSON functions and their role in modern applications.
+12. How can you ensure data consistency in a distributed MySQL environment?
+13. Explain the differences between MySQL row-based and statement-based replication.
+14. Discuss the use of MySQL query profiling and optimization techniques.
+15. How would you handle and recover from MySQL database failures?
+16. Explain the concept of MySQL table compression and its impact on storage.
+17. How do you implement and manage MySQL high-availability solutions such as Galera Cluster?
+18. Discuss the use of MySQL with geospatial data and indexing.
+19. How can you implement and manage MySQL backups in a large-scale system?
+20. What are your thoughts on the future trends and innovations in MySQL and relational databases?
