@@ -1,25 +1,20 @@
-1. What is Laravel, and why is it popular for web development?
-2. Can you explain the MVC architecture and how it is implemented in Laravel?
-3. What is Eloquent ORM, and how does it simplify database interactions in Laravel?
-4. Describe the process of setting up a new Laravel project.
-5. What are migrations in Laravel, and why are they useful?
-6. How does Laravel handle routing, and what is the significance of route model binding?
-7. Explain the purpose and usage of middleware in Laravel.
-8. What are Laravel Eloquent relationships, and can you provide examples of each type?
-9. How does Laravel handle database transactions, and why are they important?
-10. What is the purpose of the Blade templating engine in Laravel?
-11. How does Laravel handle dependency injection, and why is it beneficial?
-12. Can you explain the concept of facades in Laravel and provide an example of their usage?
-13. What is the purpose of Laravel Artisan, and can you name some common Artisan commands?
-14. Explain the role of the Laravel service container and how it helps manage class dependencies.
-15. How does Laravel handle session management, and what are the available session drivers?
-16. What is the purpose of Laravel Homestead, and how does it simplify local development?
-17. Describe the difference between "belongsTo" and "hasOne" relationships in Laravel Eloquent.
-18. How can you implement caching in Laravel, and why is it important for performance?
-19. Explain the concept of middleware groups in Laravel and provide a use case.
-20. What are the Laravel best practices for handling security concerns, such as SQL injection and cross-site scripting?
-21. How does Laravel support RESTful API development, and what are the key components involved?
-22. Can you explain the purpose of Laravel's Eloquent scopes and how they can be used?
-23. What is the purpose of the Laravel Task Scheduling feature, and how can you set up scheduled tasks?
-24. How does Laravel handle validation, and what are some validation rules you commonly use?
-25. Describe the process of deploying a Laravel application to a production server, including any best practices you follow.
+1. What is Laravel, and why is it popular in web development?
+2. Explain the concept of Eloquent ORM in Laravel.
+3. How do you install Laravel using Composer?
+4. Describe the structure of a typical Laravel project.
+5. What is the purpose of the artisan command-line tool in Laravel?
+6. How does routing work in Laravel, and what is the significance of the web.php file?
+7. Explain the difference between GET and POST routes in Laravel.
+8. How do you create and run database migrations in Laravel?
+9. What are Laravel controllers, and how are they used?
+10. Discuss the importance of middleware in Laravel applications.
+11. How does Laravel handle user authentication, and what are the default authentication controllers?
+12. Explain the concept of Blade templating in Laravel.
+13. What is Laravel's Eloquent relationship, and how do you define a one-to-many relationship?
+14. How can you handle form validation in Laravel?
+15. Discuss the role of the Laravel Artisan tinker tool in development.
+16. What is method injection in Laravel, and where would you use it?
+17. Explain the purpose of service providers in Laravel.
+18. How do you handle AJAX requests in a Laravel application?
+19. Discuss the use of Laravel's task scheduling and cron jobs.
+20. Can you explain the concept of Laravel middleware and provide an example?
