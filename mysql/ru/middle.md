@@ -1,20 +1,39 @@
-1. Объясните разницу между MyISAM и InnoDB с точки зрения механизмов блокировки.
-2. Как вы бы спроектировали схему для отношения многие ко многим в MySQL?
-3. Обсудите использование хранимых функций и триггеров в MySQL.
-4. Как реализовать полнотекстовый поиск в MySQL?
-5. Объясните назначение двоичного журнала MySQL и журнала ретрансляции.
-6. Обсудите роль оператора UNION в запросах MySQL.
-7. Как можно обрабатывать и оптимизировать хранение больших данных BLOB или TEXT в MySQL?
-8. Что такое кеширование запросов MySQL, и когда его следует использовать?
-9. Как обеспечить безопасность базы данных MySQL, особенно в производственной среде?
-10. Обсудите преимущества и проблемы использования репликации MySQL.
-11. Как бы вы диагностировали и оптимизировали медленный запрос MySQL?
-12. В чем смысл буфера двойной записи InnoDB в MySQL?
-13. Как реализовать высокую доступность в MySQL, особенно в кластерной среде?
-14. Обсудите различия между MyISAM и InnoDB в плане блокировки на уровне таблицы.
-15. Как можно планировать повторяющиеся задачи или события в MySQL?
-16. Объясните роль MySQL Performance Schema в анализе запросов.
-17. Как обрабатывать пулинг соединений с базой данных в приложении, использующем MySQL?
-18. Обсудите использование представлений MySQL и их влияние на производительность.
-19. Как можно реализовать и управлять привилегиями пользователей MySQL и контролем доступа?
-20. Объясните концепцию шардинга MySQL и когда его следует использовать.
+**Partitioning in MySQL:**
+- Discuss the concept of partitioning in MySQL tables.
+- When would you consider using partitioning for a large dataset?
+
+**High Availability and Replication:**
+- Explain how MySQL replication works and its role in achieving high availability.
+- Discuss scenarios where MySQL replication might be suitable or unsuitable.
+
+**MySQL Triggers:**
+- What are MySQL triggers, and how can they be used?
+- Discuss potential use cases and considerations when implementing triggers.
+
+**Optimistic vs. Pessimistic Locking:**
+- Compare optimistic and pessimistic locking in MySQL.
+- When would you choose one locking strategy over the other?
+
+**Common Table Expressions (CTEs):**
+- Explain the use of Common Table Expressions in MySQL.
+- Provide an example of a scenario where CTEs can simplify complex queries.
+
+**MySQL Performance Schema:**
+- Discuss the MySQL Performance Schema and its role in performance monitoring.
+- How can you use the Performance Schema to identify performance bottlenecks?
+
+**Handling Large Datasets:**
+- Strategies for efficiently handling large datasets in MySQL.
+- How can you optimize memory usage and processing speed for large queries?
+
+**Character Sets and Collations:**
+- Explain the importance of character sets and collations in MySQL.
+- Discuss scenarios where choosing the right character set is crucial.
+
+**Database Sharding in MySQL:**
+- Discuss strategies for implementing database sharding in a MySQL application.
+- What challenges may arise when implementing sharding, and how can they be mitigated?
+
+**MySQL JSON Data Type:**
+- Explain the MySQL JSON data type and its advantages.
+- How can you query and manipulate JSON data in MySQL?

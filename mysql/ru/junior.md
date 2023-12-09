@@ -1,20 +1,39 @@
-1. Что такое MySQL и в чем отличие от других систем управления базами данных?
-2. Объясните разницу между хранилищами InnoDB и MyISAM в MySQL.
-3. Как создать новую базу данных в MySQL?
-4. Что такое первичный ключ и почему он важен в проектировании базы данных?
-5. Опишите назначение оператора SELECT в MySQL.
-6. Как фильтровать результаты запроса MySQL с использованием условия WHERE?
-7. Что такое нормализация и почему она важна в проектировании баз данных?
-8. Как создать индекс в MySQL, и когда его следует использовать?
-9. Объясните понятие внешних ключей и их роль в поддержании целостности данных.
-10. Какова роль оператора JOIN в MySQL, и как он работает?
-11. Как обрабатывать транзакции в MySQL?
-12. Обсудите различия между хранимой процедурой и функцией в MySQL.
-13. Как выполнять резервное копирование и восстановление базы данных MySQL?
-14. В чем смысл оператора EXPLAIN в MySQL?
-15. Объясните принципы ACID для транзакций баз данных.
-16. Как избежать SQL-инъекций в запросах MySQL?
-17. Какова роль оператора GROUP BY в MySQL?
-18. Обсудите преимущества и недостатки использования триггеров MySQL.
-19. Как оптимизировать запрос MySQL для лучшей производительности?
-20. Какова роль оператора LIMIT в MySQL?
+**Indexing in MySQL:**
+- What is indexing, and why is it essential in MySQL?
+- Explain the difference between clustered and non-clustered indexes.
+
+**Normalization and Denormalization:**
+- Discuss the concepts of normalization and denormalization in the context of database design.
+- When might you choose denormalization over normalization?
+
+**Foreign Key Constraints:**
+- Explain the purpose of foreign key constraints in MySQL.
+- How do foreign key constraints contribute to maintaining data integrity?
+
+**MySQL Storage Engines:**
+- Discuss different storage engines in MySQL (e.g., InnoDB, MyISAM).
+- What factors would you consider when choosing a storage engine for a specific scenario?
+
+**MySQL Transactions:**
+- What is a MySQL transaction, and why is it important?
+- Discuss the ACID properties and their significance in transactions.
+
+**Query Optimization:**
+- How can you optimize a MySQL query for better performance?
+- Discuss the importance of using the EXPLAIN statement for query analysis.
+
+**MySQL Views:**
+- What are MySQL views, and how do they simplify query execution?
+- Discuss scenarios where using views can be beneficial.
+
+**Backup and Recovery:**
+- Explain strategies for backing up and recovering MySQL databases.
+- How can you perform a point-in-time recovery in MySQL?
+
+**Stored Procedures and Functions:**
+- Discuss the advantages of using stored procedures and functions in MySQL.
+- Provide examples of scenarios where stored procedures are useful.
+
+**Full-Text Search in MySQL:**
+- Explain the full-text search capabilities in MySQL.
+- How would you implement full-text search functionality in a MySQL application?
