@@ -1,20 +1,39 @@
-1. Обсудите поддержку тестирования в Laravel, включая PHPUnit и лучшие практики тестирования.
-2. Как бы вы спроектировали модульную и масштабируемую архитектуру Laravel для большого проекта?
-3. Объясните использование Laravel Passport для аутентификации API и реализации OAuth2.
-4. Обсудите Laravel Nova и его роль в создании панелей администрирования.
-5. Как оптимизировать производительность базы данных в приложении Laravel, особенно при больших объемах данных?
-6. Объясните использование Laravel Dusk для тестирования веб-приложений через браузер.
-7. Обсудите поддержку Laravel для управления и развертывания конфигураций, зависящих от среды выполнения.
-8. Как обрабатывать версионирование API в приложении Laravel?
-9. Объясните использование Laravel Mix для компиляции и оптимизации ресурсов.
-10. Обсудите поддержку Laravel для событийного программирования (event sourcing) и CQRS.
-11. Как реализовать единичную аутентификацию (SSO) в приложении Laravel?
-12. Объясните использование Laravel Vapor и его преимущества для развертывания без серверов.
-13. Обсудите роль Laravel Telescope в отладке и мониторинге приложений.
-14. Как обращаться с использованием Laravel's Eloquent ORM для выполнения сложных запросов и работы с отношениями.
-15. Объясните концепцию макросов Laravel и как их можно использовать для расширения функциональности фреймворка.
-16. Как вы подходите к профилированию и отладке производительности в приложении Laravel?
-17. Обсудите использование Laravel Echo для обработки событий в реальном времени и уведомлений.
-18. Объясните соображения по оптимизации приложений Laravel для поисковых систем (SEO).
-19. Как бы вы реализовали и управляли стратегией кеширования для приложения Laravel?
-20. Каковы ваши мысли по поводу будущего Laravel и его экосистемы?
+**Laravel Macroable Traits:**
+ - Implement a macroable trait that extends the functionality of Eloquent models
+ - Discuss the potential challenges and best practices for using macroable traits in a large codebase.
+
+**Laravel Eloquent Indexes:**
+ - Optimize a complex query in Laravel by utilizing database indexes
+ - Discuss strategies for monitoring and maintaining optimal indexes in a production environment.
+
+**Laravel Databases and Sharding:**
+ - Implement a database sharding solution for handling large amounts of data in a Laravel application
+ - Discuss challenges and considerations for data consistency and scalability in a sharded database architecture.
+
+**Laravel Macros and Traits:**
+ - Create a macro that extends the functionality of the Laravel collection class
+ - Discuss advanced use cases for traits and macros in Laravel, including potential pitfalls.
+
+**Laravel Custom Casts:**
+ - Implement a custom cast for handling encryption and decryption of sensitive data in a Laravel model
+ - Discuss best practices for using custom casts to enhance data storage and retrieval.
+
+**Laravel Testing Strategies:**
+ - Implement a testing strategy for a Laravel application that involves external services and APIs
+ - Discuss techniques for testing complex scenarios such as race conditions and long-running processes.
+
+**Laravel Database Transactions:**
+ - Implement a nested transaction strategy to handle complex database interactions in Laravel
+ - Discuss potential issues and solutions related to nested transactions in a Laravel application.
+
+**Laravel Observer Pattern:**
+ - Create an advanced implementation of the Observer pattern in Laravel with dynamic event subscriptions
+ - Discuss scenarios where the Observer pattern is preferable over other event-driven approaches.
+
+**Laravel Authorization Policies:**
+ - Implement a dynamic and configurable role-based access control system using Laravel policies
+ - Discuss strategies for handling complex and dynamic authorization scenarios.
+
+**Laravel Testing with Factories:**
+ - Implement a factory that generates realistic test data for complex relationships in a Laravel application
+ - Discuss considerations for maintaining and evolving factories in a growing codebase

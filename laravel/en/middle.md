@@ -1,20 +1,39 @@
-1. Describe the purpose and usage of Laravel migrations.
-2. How does Laravel handle caching, and what are the different caching mechanisms available?
-3. Explain the concept of Laravel policies and gates for authorization.
-4. Discuss the role of Laravel Mix in asset compilation and versioning.
-5. How can you optimize Laravel performance, especially in a production environment?
-6. Explain the use of Laravel events and listeners for decoupled application logic.
-7. Discuss Laravel's support for API development, including API routes and resource controllers.
-8. How do you implement and use Laravel facades?
-9. Explain the concept of dependency injection in Laravel.
-10. Discuss the use of Laravel's Eloquent ORM for complex queries and relationships.
-11. How do you handle database transactions in Laravel?
-12. Explain Laravel's approach to handling user sessions.
-13. Discuss Laravel's support for localization and internationalization.
-14. How do you implement and use Laravel middleware groups?
-15. Explain the role of Laravel's Artisan console in managing application tasks.
-16. How can you secure a Laravel application, especially against common web vulnerabilities?
-17. Discuss the use of Laravel's job queues and their significance in background processing.
-18. How do you handle file uploads in a Laravel application?
-19. Explain Laravel's support for broadcasting and real-time updates.
-20. What is Laravel Horizon, and how can it be used for monitoring queues?
+**Laravel Queues:**
+ - Implement a custom queue driver for a specialized use case
+ - Discuss the pros and cons of using different queue drivers in Laravel.
+
+**Task Scheduling in Laravel:**
+ - How can you dynamically schedule tasks based on runtime conditions in Laravel
+ - Discuss the impact of long-running scheduled tasks on the overall application performance.
+
+**Laravel Policies and Gates:**
+ - Implement a complex policy that considers multiple authorization factors
+ - Discuss how you can use gates for fine-grained authorization control in Laravel.
+
+**Laravel Notifications:**
+ - Create a notification that sends messages via multiple channels based on user preferences
+ - Discuss the use of the Notification::route method for routing notifications to specific channels.
+
+**Laravel Mix and Asset Compilation:**
+ - Implement custom Laravel Mix tasks for specialized asset compilation scenarios
+ - Discuss how you can use versioning and caching to optimize asset delivery in Laravel.
+
+**API Authentication in Laravel:**
+ - How can you implement OAuth2 authentication for API routes in Laravel
+ - Discuss the challenges and solutions for implementing API throttling in a Laravel application.
+
+**Laravel Localization:**
+ - Implement a multi-language application with dynamic content translation based on user preferences
+ - Discuss how you can extend Laravel's localization features for additional language-related functionalities.
+
+**Laravel Eloquent Relationships:**
+ - Implement a polymorphic many-to-many relationship in Laravel
+ - Discuss advanced techniques for optimizing queries in scenarios with deep Eloquent relationships.
+
+**Laravel Collection Methods:**
+ - Create a custom collection method that transforms collection data using a callback
+ - Discuss performance considerations when working with large datasets using Laravel collections.
+
+**Laravel Testing Basics:**
+ - How can you mock a third-party API response for testing in Laravel
+ - Discuss strategies for testing asynchronous processes such as queued jobs in Laravel
