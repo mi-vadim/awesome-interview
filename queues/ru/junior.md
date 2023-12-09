@@ -1,80 +1,80 @@
-Основы обмена сообщениями:
-- Каково назначение очереди сообщений в распределенной системе?
-- Объясните разницу между синхронной и асинхронной коммуникацией.
-- Какова роль брокера сообщений в системах обмена сообщениями?
+**Basics of Messaging:**
+- What is the purpose of a message queue in a distributed system?
+- Explain the difference between synchronous and asynchronous communication.
+- What is the role of a message broker in messaging systems?
 
-Форматы сообщений:
-- Опишите форматы JSON и XML, обычно используемые в системах обмена сообщениями.
-- Как сериализовать и десериализовать сообщения в системе обмена сообщениями?
+**Message Formats:**
+- Describe the JSON and XML formats commonly used in messaging.
+- How do you serialize and deserialize messages in a messaging system?
 
-Очередь и тема:
-- Объясните разницу между очередью сообщений и темой сообщений.
-- В каких случаях используется очередь, а в каких - тема?
+**Queue vs. Topic:**
+- Explain the difference between a message queue and a message topic.
+- When would you use a queue, and when would you use a topic?
 
-Надежность и долговечность:
-- Какое значение имеет долговечность сообщений в системе обмена сообщениями?
-- Как можно обеспечить надежную доставку сообщений в очереди?
+**Reliability and Durability:**
+- What is the significance of message durability in a messaging system?
+- How can you ensure reliable message delivery in a queue?
 
-Обработка ошибок:
-- Как следует обрабатывать ошибки в системе обмена сообщениями?
-- Объясните очереди с мертвой буквой и их назначение.
+**Error Handling:**
+- How should errors be handled in a messaging system?
+- Explain dead-letter queues and their purpose.
 
-Приоритет сообщений:
-- Обсудите концепцию приоритета сообщений. Как она может быть реализована?
-- Каковы потенциальные проблемы использования приоритета сообщений?
+**Message Priority:**
+- Discuss the concept of message priority. How can it be implemented?
+- What are the potential challenges of using message priority?
 
-Параллелизм:
-- Как можно управлять параллелизмом в системе обмена сообщениями?
-- Объясните термины "производитель" и "потребитель" в контексте обмена сообщениями.
+**Concurrency:**
+- How can you handle concurrency in a messaging system?
+- Explain the terms "producer" and "consumer" in the context of messaging.
 
-Масштабируемость:
-- Обсудите стратегии масштабирования системы обмена сообщениями.
-- Какие соображения следует принимать во внимание при масштабировании потребителей?
+**Scalability:**
+- Discuss strategies for scaling a messaging system.
+- What considerations should be taken into account when scaling consumers?
 
-Подтверждение сообщений:
-- Что такое подтверждение сообщения и почему оно важно?
-- Объясните разницу между автоматическим и ручным подтверждением.
+**Message Acknowledgment:**
+- What is message acknowledgment, and why is it important?
+- Explain the difference between automatic and manual acknowledgment.
 
-Меры безопасности:
-- Как защитить связь между производителями и потребителями?
-- Обсудите использование шифрования в системах обмена сообщениями.
+**Security Measures:**
+- How can you secure communication between producers and consumers?
+- Discuss the use of encryption in messaging systems.
 
-Истечение срока действия сообщения:
-- Что такое истечение срока действия сообщения и почему это важно в системе очередей/сообщений?
-- Как обрабатывать просроченные сообщения в очереди сообщений?
+**Message Expiry:**
+- What is message expiration, and why is it important in a queue/messaging system?
+- How can you handle expired messages in a message queue?
 
-Fanout Exchange:
-- Объясните концепцию fanout-обмена в контексте очередей сообщений.
-- Когда вы можете использовать веерный обмен и в чем его преимущества?
+**Fanout Exchange:**
+- Explain the concept of a fanout exchange in the context of message queues.
+- When would you use a fanout exchange, and what are its advantages?
 
-Ключ маршрутизации сообщений:
-- Какова роль ключа маршрутизации в очередях сообщений?
-- Как он помогает направлять сообщения в определенные очереди?
+**Message Routing Key:**
+- What is the role of a routing key in message queues?
+- How does it contribute to directing messages to specific queues?
 
-Контроль параллелизма:
-- Обсудите стратегии управления контролем параллелизма в системе обработки сообщений.
-- Как можно избежать условий гонки при потреблении сообщений?
+**Concurrency Control:**
+- Discuss strategies for managing concurrency control in a message processing system.
+- How can you avoid race conditions in message consumption?
 
-Заголовки сообщений:
-- Опишите назначение заголовков сообщений в очереди сообщений.
-- Приведите пример сценария, в котором полезны пользовательские заголовки сообщений.
+**Message Headers:**
+- Describe the purpose of message headers in a message queue.
+- Provide an example of a scenario where custom message headers are useful.
 
-Пакетная обработка:
-- Как реализовать пакетную обработку с помощью очереди сообщений?
-- Обсудите преимущества и проблемы пакетной обработки.
+**Batch Processing:**
+- How can you implement batch processing using a message queue?
+- Discuss the advantages and challenges of batch processing.
 
-Режимы подтверждения сообщений:
-- Объясните различные режимы квитирования при обработке сообщений.
-- Когда вы будете использовать автоматическое подтверждение, а когда предпочтете ручное подтверждение?
+**Message Acknowledgment Modes:**
+- Explain different acknowledgment modes in message processing.
+- When would you use auto acknowledgment, and when would you prefer manual acknowledgment?
 
-Форматы сериализации сообщений:
-- Обсудите распространенные форматы сериализации сообщений, используемые в очередях сообщений.
-- Как выбор формата сериализации влияет на совместимость?
+**Message Serialization Formats:**
+- Discuss common message serialization formats used in message queues.
+- How does the choice of serialization format impact interoperability?
 
-Балансировка нагрузки в очередях:
-- Как добиться балансировки нагрузки среди нескольких потребителей очереди сообщений?
-- Обсудите факторы, которые необходимо учитывать при проектировании системы очередей с балансировкой нагрузки.
+**Load Balancing in Queues:**
+- How can you achieve load balancing among multiple consumers of a message queue?
+- Discuss the factors to consider when designing a load-balanced queue system.
 
-Шаблоны очередей сообщений:
-- Опишите по крайней мере два общих шаблона проектирования, используемых в архитектурах очередей сообщений.
-- Как эти шаблоны решают проблемы масштабируемости и отказоустойчивости?
+**Message Queue Patterns:**
+- Describe at least two common design patterns used in message queue architectures.
+- How do these patterns address scalability and fault tolerance?
