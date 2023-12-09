@@ -1,97 +1,98 @@
-1. **Архитектура системы:**
-    - Можете рассказать о ситуации, где вы сыграли ключевую роль в проектировании архитектуры сложной системы?
-    - Как вы обеспечиваете масштабируемость и поддерживаемость при принятии архитектурных решений?
+**System Architecture:**
+ - Can you discuss a situation where you played a key role in designing the architecture of a complex system?
+ - How do you ensure scalability and maintainability in your architectural decisions?
 
-2. **Техническое руководство:**
-    - Опишите ваш опыт предоставления технического руководства в команде разработки.
-    - Как вы способствуете созданию совместной и инновационной культуры в вашей команде разработки?
+**Technical Leadership:**
+ - Describe your experience in providing technical leadership within a development team.
+ - How do you foster a collaborative and innovative culture within your development team?
 
-3. **Качество кода и обзор кода:**
-    - Как вы поддерживаете высокие стандарты качества кода в команде?
-    - Можете рассказать о вашем подходе к проведению обзоров кода для сложных проектов?
+**Code Quality and Code Reviews:**
+ - How do you enforce and maintain high code quality standards within a team?
+ - Can you discuss your approach to conducting code reviews for complex projects?
 
-4. **Оптимизация производительности:**
-    - Поделитесь примерами оптимизации производительности приложений или систем.
-    - Как вы подходите к тестированию и настройке производительности в рабочей среде?
+**Performance Optimization:**
+ - Share examples of how you've optimized the performance of applications or systems.
+ - How do you approach performance testing and tuning in a production environment?
 
-5. **Проектирование API и интеграция:**
-    - Обсудите ваш подход к проектированию API для крупномасштабных приложений.
-    - Как вы обеспечиваете беспроблемную интеграцию между различными компонентами системы?
+**API Design and Integration:**
+ - Discuss your approach to designing APIs for large-scale applications.
+ - How do you ensure seamless integration between different components of a system?
 
-6. **Лучшие практики по безопасности:**
-    - Какие стратегии вы используете для обеспечения безопасности приложений, над которыми работаете?
-    - Можете рассказать о вашем опыте работы с уязвимостями безопасности в проекте?
+**Security Best Practices:**
+ - What strategies do you employ to ensure the security of applications you work on?
+ - Can you discuss your experience with handling security vulnerabilities in a project?
 
-7. **Управление техническим долгом:**
-    - Как вы выявляете и управляете техническим долгом в долгосрочных проектах?
-    - Можете рассказать о ситуации, когда работа с техническим долгом имела существенное влияние?
+**Technical Debt Management:**
+ - How do you identify and manage technical debt in a long-term project?
+ - Can you discuss a situation where addressing technical debt had a significant impact?
 
-8. **Инновации и новые технологии:**
-    - Как вы остаетесь в курсе новых технологий и как вы решаете, когда внедрять новые технологии в ваши проекты?
-    - Можете поделиться примером успешного внедрения новой технологии в проект?
+**Innovation and New Technologies:**
+ - How do you stay informed about emerging technologies, and how do you decide when to adopt new technologies in your projects?
+ - Can you share an example of successfully introducing a new technology into a project?
 
-9. **Кросс-функциональное взаимодействие:**
-    - Как вы взаимодействуете с не-техническими заинтересованными сторонами, такими как менеджеры продукта или бизнес-аналитики?
-    - Можете рассказать о ситуации, когда эффективное взаимодействие с не-разработчиками было критическим для успеха проекта?
+**Cross-Functional Collaboration:**
+ - How do you collaborate with non-technical stakeholders, such as product managers or business analysts?
+ - Can you discuss a situation where effective collaboration with non-developers was crucial to project success?
 
-10. **Непрерывное совершенствование:**
-    - Как вы поощряете культуру непрерывного совершенствования в вашей команде разработки?
-    - Можете рассказать о ситуации, когда внедрение улучшения процесса оказало положительное воздействие?
-11. **Управление проектом и приоритизация:**
-    - Как вы подходите к приоритизации проектов и распределению ресурсов в динамичной среде?
-    - Можете рассказать о ситуации, когда эффективное управление проектом способствовало успеху проекта?
+**Continuous Improvement:**
+ - How do you encourage a culture of continuous improvement within your development team?
+ - Can you discuss a situation where a process improvement you introduced had a positive impact?
 
-12. **Кросс-функциональное взаимодействие:**
-    - Как вы сотрудничаете с другими разработческими командами или отделами в организации?
-    - Можете рассказать о ситуации, когда кросс-функциональное взаимодействие было необходимо для успеха проекта?
+**Project Management and Prioritization:**
+ - How do you approach project prioritization and resource allocation in a dynamic environment?
+ - Can you discuss a situation where effective project management contributed to project success?
 
-13. **Техническая документация:**
-    - Как вы обеспечиваете создание и поддержание высококачественной технической документации для ваших проектов?
-    - Можете рассказать о ситуации, когда тщательная документация сыграла ключевую роль?
+**Cross-Team Collaboration:**
+ - How do you collaborate with other development teams or departments within an organization?
+ - Can you discuss a situation where cross-team collaboration was essential for project success?
 
-14. **Лидерство и менторство:**
-    - Как вы наставляете младших разработчиков и способствуете их профессиональному росту?
-    - Можете рассказать о ситуации, когда вы предоставили руководство или наставничество члену команды?
+**Technical Documentation:**
+ - How do you ensure the creation and maintenance of high-quality technical documentation for your projects?
+ - Can you discuss a situation where thorough documentation played a crucial role?
 
-15. **Архитектурные решения:**
-    - Как вы принимаете решения относительно архитектуры новой функции или компонента?
-    - Можете рассказать о ситуации, когда вам пришлось рефакторить значительную часть кодовой базы, и каков был результат?
+**Leadership and Mentorship:**
+ - How do you mentor junior developers and contribute to their professional growth?
+ - Can you discuss a situation where you provided guidance or mentorship to a team member?
 
-16. **Приспособляемость и обучение:**
-    - Как вы подходите к изучению новых технологий или адаптации к изменениям в среде разработки?
-    - Можете рассказать о ситуации, когда вы быстро изучили и применили новую технологию в проекте?
+**Architecture Decisions:**
+ - How do you make decisions about the architecture of a new feature or component?
+ - Can you discuss a situation where you had to refactor a significant part of the codebase, and what was the outcome?
 
-17. **Оценка и планирование:**
-    - Как вы подходите к оценке времени, необходимого для выполнения задачи разработки или проекта?
-    - Можете рассказать о ситуации, когда точная оценка была критически важна для планирования проекта?
+**Adaptability and Learning:**
+ - How do you approach learning new technologies or adapting to changes in the development landscape?
+ - Can you discuss a situation where you quickly learned and applied a new technology in a project?
 
-18. **Сотрудничество при удаленной работе:**
-    - Как вы поддерживаете эффективное сотрудничество и коммуникацию, работая в удаленной или распределенной команде?
-    - Можете рассказать о стратегиях преодоления трудностей, связанных с удаленной работой?
+**Estimation and Planning:**
+ - How do you approach estimating the time required for a development task or project?
+ - Can you discuss a situation where accurate estimation was crucial to project planning?
 
-19. **Принятие решений в разработке:**
-    - Как вы принимаете критические решения в процессе разработки, особенно когда сталкиваетесь с компромиссами или противоречивыми требованиями?
-    - Можете рассказать о ситуации, когда стратегическое решение существенно повлияло на успех проекта?
+**Remote Work Collaboration:**
+ - How do you maintain effective collaboration and communication while working in a remote or distributed team?
+ - Can you discuss strategies for overcoming challenges associated with remote work?
 
-20. **Влияние на корпоративную культуру команды:**
-    - Как вы вносите свой вклад в формирование и укрепление позитивной корпоративной культуры в вашей команде разработки?
-    - Можете рассказать о ситуации, когда вы положительно повлияли на динамику или боевой дух команды?
+**Decision-Making in Development:**
+ - How do you make critical decisions in the development process, especially when faced with trade-offs or conflicting requirements?
+ - Can you discuss a situation where a strategic decision had a significant impact on project success?
 
-21. **Лицензирование программного обеспечения и юридические аспекты:**
-    - Как вы обеспечиваете соблюдение лицензирования программного обеспечения и юридических аспектов в ваших проектах?
-    - Можете рассказать о ситуации, когда юридические аспекты повлияли на техническое решение?
+**Influence on Team Culture:**
+ - How do you contribute to shaping and reinforcing a positive team culture within your development team?
+ - Can you discuss a situation where you positively influenced team dynamics or morale?
 
-22. **Разработка с учетом потребностей клиента:**
-    - Как вы обеспечиваете сохранение ориентированности команды разработки на потребности клиента и соответствие им?
-    - Можете рассказать о ситуации, когда обратная связь пользователей значительно повлияла на направление проекта?
+**Software Licensing and Legal Considerations:**
+ - How do you ensure compliance with software licensing and legal considerations in your development projects?
+ - Can you discuss a situation where legal aspects influenced a technical decision?
 
-23. **Управление рисками:**
-    - Как вы выявляете и смягчаете риски в проекте разработки?
-    - Можете рассказать о ситуации, когда проактивное управление рисками положительно сказалось на результате проекта?
+**Customer-Focused Development:**
+ - How do you ensure that the development team remains customer-focused and aligned with user needs?
+ - Can you discuss a situation where user feedback significantly influenced project direction?
 
-24. **Управление поставщиками:**
-    - Как вы управляете зависимостями от сторонних поставщиков или услуг в ваших проектах?
-    - Можете рассказать о ситуации, когда эффективное управление поставщиками было ключевым для успеха проекта?
+**Risk Management:**
+ - How do you identify and mitigate risks in a development project?
+ - Can you discuss a situation where proactive risk management positively impacted project outcomes?
 
-25. **Эволюция устаревших систем:**
-    - Как вы подходите к обновлению и современной модернизации устаревших систем с течением времени?
+**Vendor Management:**
+ - How do you handle dependencies on third-party vendors or services in your projects?
+ - Can you discuss a situation where effective vendor management was crucial for project success?
+
+**Legacy System Evolution:**
+ - How do you approach evolving and modernizing legacy systems over time?
