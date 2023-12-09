@@ -1,29 +1,79 @@
-Стратегические шаблоны DDD:
-- Различие между стратегическими и тактическими шаблонами DDD.
-- Как стратегические шаблоны, такие как context mapping, способствуют хорошо спроектированной системе?
-- Обсудите применение стратегических шаблонов DDD в сложных проектах на уровне предприятия.
+**Strategic Design in DDD:**
+ - Discuss the importance of strategic design in Domain-Driven Design
+ - How does strategic design influence the overall architecture of a system?
 
-Продвинутые методы сотрудничества:
-- Объясните концепции дивергентного и конвергентного сотрудничества в DDD.
-- Как вы обеспечиваете последовательное применение принципов DDD в проекте с распределенными командами разработки?
-- Поделитесь стратегиями поддержания общего понимания домена между командами разработки.
+**DDD and Microservices:**
+ - How does DDD align with microservices architecture
+ - Discuss the challenges and benefits of applying DDD principles in a microservices environment.
 
-Шаблоны Event Sourcing и CQRS:
-- Объясните концепции Event Sourcing и CQRS (Command Query Responsibility Segregation).
-- Как Event Sourcing способствует эволюции системы со временем?
-- Обсудите преимущества и трудности реализации CQRS в приложении, основанном на DDD.
+**Event Storming:**
+ - What is event storming, and how can it be used in the early stages of DDD
+ - Discuss the role of different stakeholders in an event storming session.
 
-Работа с сложностью:
-- Как DDD помогает управлять сложностью в больших и сложных моделях предметной области?
-- Поделитесь стратегиями разбиения и организации сложных моделей предметной области в проекте DDD.
-- Можете рассказать о ситуации, когда принципы DDD были использованы в процессе рефакторинга.
+**Anti-Corruption Layer:**
+ - Explain the concept of an Anti-Corruption Layer (ACL) in DDD
+ - How does an ACL facilitate communication between different bounded contexts?
 
-Расширенные соображения по ограниченным контекстам:
-- Обсудите, как принципы DDD соотносятся и дополняют архитектуру микросервисов.
-- Можете ли поделиться примером, когда DDD повлиял на дизайн микросервисов в проекте?
-- Как вы управляете распределенными транзакциями в микросервисной архитектуре, основанной на DDD?
+**Domain Services:**
+ - What are domain services in DDD, and when should they be used
+ - Provide an example of a situation where a domain service is more appropriate than an entity.
 
-Применение в реальных проектах:
-- Расскажите о том, как принципы DDD улучшили масштабируемость крупного приложения.
-- Как вы решаете вопросы безопасности при применении принципов DDD?
-- Можете рассказать о сценарии, когда принципы DDD сыграли ключевую роль в обеспечении безопасности приложения?
+**Modeling Aggregates:**
+ - Discuss best practices for modeling aggregates in DDD
+ - How can you ensure consistency within an aggregate?
+
+**DDD and Testing:**
+ - How does DDD influence the testing strategy for a software project
+ - Discuss the role of behavioral testing in DDD.
+
+**Refactoring in DDD:**
+ - Explain the importance of refactoring in a DDD-driven project
+ - Provide examples of common refactoring techniques in DDD.
+
+**Read Models in CQRS:**
+ - What is a read model in the context of CQRS
+ - How do you optimize read models for query performance?
+
+**DDD and Legacy Systems:**
+ - Discuss strategies for introducing DDD principles into a legacy system
+ - How can DDD help mitigate challenges in maintaining and evolving legacy code?
+
+**Eventual Consistency in DDD:**
+ - Explain the concept of eventual consistency in a DDD context
+ - Discuss scenarios where eventual consistency is preferable.
+
+**Bounded Context Evolution:**
+ - How can bounded contexts evolve over time in a DDD-driven project
+ - Discuss strategies for handling changes in the understanding of a domain.
+
+**Consistency in Distributed Systems:**
+ - Discuss challenges and strategies for maintaining consistency in distributed DDD systems
+ - How do you balance consistency and availability in a distributed architecture?
+
+**DDD and Hexagonal Architecture:**
+ - How does Hexagonal Architecture align with DDD principles
+ - Discuss the benefits of using a hexagonal architecture in a DDD project.
+
+**Domain-Driven Testing:**
+ - How can testing practices be aligned with domain-driven development
+ - Discuss the role of behavior-driven testing in a DDD context.
+
+**Implementing Domain Services:**
+ - Share best practices for implementing domain services in DDD
+ - Discuss situations where a domain service is more appropriate than an entity or value object.
+
+**Event Sourcing and Event Storage:**
+ - How do you choose an event storage mechanism in an event-sourced system
+ - Discuss considerations for persisting events in an event-sourced architecture.
+
+**Sagas in DDD:**
+ - Explain the concept of sagas in DDD
+ - How can sagas be used to manage long-running business processes?
+
+**Event Collaboration vs. Event Storming:**
+ - Compare event collaboration and event storming as DDD modeling techniques
+ - Discuss scenarios where one technique might be more suitable than the other.
+
+**External Systems Integration in DDD:**
+ - How do you integrate external systems in a DDD-driven project
+ - Discuss challenges and strategies for maintaining consistency across boundaries
