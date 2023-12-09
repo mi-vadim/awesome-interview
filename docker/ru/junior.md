@@ -1,20 +1,79 @@
-1. Что такое Docker, и как он упрощает процесс развертывания?
-2. Объясните основные компоненты Docker-контейнера.
-3. Как устанавливается Docker на машине с Linux?
-4. Что такое образ Docker, и в чем его связь с контейнером Docker?
-5. Опишите назначение Dockerfile и предоставьте пример.
-6. Как вы загружаете образ Docker из Docker Hub?
-7. Что такое Docker Compose, и в чем разница между Docker и Docker Compose?
-8. Объясните концепцию Docker-тома и когда его стоит использовать.
-9. Как вы задаете переменные окружения в файле Docker Compose?
-10. В чем разница между инструкциями CMD и ENTRYPOINT в Dockerfile?
-11. Как вы открываете порт в Docker-контейнере, используя Docker Compose?
-12. Какова роль файла docker-compose.yml, и какая информация в нем содержится?
-13. Как вы останавливаете и удаляете Docker-контейнеры с использованием Docker Compose?
-14. Объясните важность директивы depends_on в Docker Compose.
-15. Каковы преимущества использования Docker Compose для локальных сред разработки?
-16. Как вы масштабируете сервисы в настройке Docker Compose?
-17. Какова роль раздела networks в файле Docker Compose?
-18. Как бы вы совместно использовали данные между сервисами в конфигурации Docker Compose?
-19. Опишите сценарий, при котором вы могли бы использовать Docker Compose в тестировании.
-20. Можете ли вы объяснить различия между Docker Compose и Kubernetes?
+**Docker Basics:**
+ - Explain the basic concepts of Docker
+ - What is the purpose of a Docker image?
+
+**Container Lifecycle:**
+ - Describe the lifecycle of a Docker container
+ - How do you stop and remove a running container?
+
+**Dockerfile Basics:**
+ - What is a Dockerfile, and how is it used
+ - Provide an example of a simple Dockerfile.
+
+**Docker Volumes:**
+ - What are Docker volumes, and why are they important
+ - How do you share data between a Docker container and the host machine?
+
+**Docker Networking:**
+ - Explain the different types of Docker networks
+ - How can containers communicate with each other in a custom network?
+
+**Docker Compose Basics:**
+ - What is Docker Compose, and how does it simplify multi-container setups
+ - Provide an example of a basic Docker Compose file.
+
+**Docker Hub:**
+ - What is Docker Hub, and how is it used in Docker workflows
+ - How can you pull a specific version of an image from Docker Hub?
+
+**Container Orchestration:**
+ - Briefly explain the concept of container orchestration
+ - How does Docker Compose differ from container orchestration tools like Kubernetes?
+
+**Docker Compose Services:**
+ - Explain the purpose of services in a Docker Compose file
+ - How can you scale services in a Docker Compose setup?
+
+**Docker Health Checks:**
+ - What is a Docker health check, and why would you use it
+ - Provide an example of implementing a health check in a Dockerfile.
+
+**Docker Image Cleanup:**
+ - Explain the importance of cleaning up unused Docker images
+ - How can you remove all stopped containers with a single command?
+
+**Docker Container Logs:**
+ - How can you view the logs of a running Docker container
+ - Discuss the options for redirecting container logs to external storage.
+
+**Docker Compose Build Context:**
+ - What is the build context in a Docker Compose file
+ - How can you optimize the build context for better performance?
+
+**Docker Compose Port Mapping:**
+ - Explain how port mapping is defined in a Docker Compose file
+ - How can you expose a service on a specific host port in Docker Compose?
+
+**Docker Networking: Bridge vs. Host:**
+ - Compare and contrast the Bridge and Host network modes in Docker
+ - When would you choose one network mode over the other?
+
+**Docker Compose Environment Variables (Continued):**
+ - How can you use environment variable files with Docker Compose
+ - Discuss the order of precedence for environment variables in Docker Compose.
+
+**Docker Swarm Mode Basics:**
+ - What is Docker Swarm, and how does it enable orchestration
+ - How can you initialize a Docker Swarm?
+
+**Docker Compose Restart Policies:**
+ - Explain the role of restart policies in Docker Compose
+ - Provide examples of different restart policies and their use cases.
+
+**Dockerfile ARG vs. ENV:**
+ - Discuss the differences between ARG and ENV in a Dockerfile
+ - When would you use ARG over ENV, and vice versa?
+
+**Docker Compose and Dependency Management:**
+ - How can you express dependencies between services in a Docker Compose file
+ - Discuss scenarios where service dependencies are crucial in a multi-container application

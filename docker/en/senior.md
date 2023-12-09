@@ -1,20 +1,78 @@
-1. Discuss the challenges and best practices for orchestrating multiple Docker Compose files.
-2. How do you implement rolling updates in a Docker Compose environment?
-3. Describe your experience with using Docker Compose in a microservices architecture.
-4. How would you design a high-availability setup using Docker Compose?
-5. Discuss the considerations for managing configuration files in a Docker Compose stack.
-6. How can you integrate Docker Compose with service discovery tools like Consul or etcd?
-7. Explain the concept of dynamic service discovery in a Docker Compose environment.
-8. How do you handle secrets and sensitive information across different environments (development, staging, production) in Docker Compose?
-9. Discuss the benefits and challenges of using Docker Compose for stateful applications.
-10. How can you optimize the startup time of a Docker Compose stack?
-11. Describe your experience with using Docker Compose in a continuous deployment pipeline.
-12. How do you manage resource constraints and performance tuning in a Docker Compose setup?
-13. Explain the considerations for implementing rolling back updates in Docker Compose.
-14. How would you design a Docker Compose setup for a hybrid cloud environment?
-15. Discuss the role of Docker Compose in supporting blue-green deployments.
-16. How do you implement security scanning and vulnerability management in a Docker Compose workflow?
-17. Describe your approach to managing environment-specific configurations in Docker Compose.
-18. How would you handle complex dependencies between services in a Docker Compose configuration?
-19. Discuss the integration of Docker Compose with monitoring and logging tools.
-20. What are your thoughts on the future trends and developments in Docker and Docker Compose?
+**Docker Networking: Advanced Topics:**
+ - Discuss advanced networking features in Docker, such as overlay networks
+ - How can you implement secure communication between containers in different Docker networks?
+
+**Docker Security Scanning:**
+ - What is Docker Security Scanning, and how does it enhance container security
+ - Discuss the steps to perform a security scan on a Docker image.
+
+**Docker Compose Workflows:**
+ - Share best practices for managing complex workflows with Docker Compose
+ - How can you handle dependencies and ordering of services in Docker Compose?
+
+**Docker Compose Extensibility:**
+ - Explain how to use extension fields in Docker Compose files
+ - How can you leverage Compose file templates for reuse?
+
+**Dockerfile Advanced Techniques:**
+ - Discuss advanced techniques for optimizing Dockerfiles
+ - How can you use multi-stage builds for language-specific applications?
+
+**Docker Compose and Service Discovery:**
+ - How does service discovery work in Docker Compose
+ - Discuss strategies for handling service discovery in a dynamic environment.
+
+**Docker Swarm Mode:**
+ - What is Docker Swarm, and how does it differ from standalone Docker
+ - Discuss the steps to create and manage a Docker Swarm.
+
+**Docker Compose Health Checks:**
+ - Explain advanced health check configurations in a Docker Compose file
+ - How can you customize health check intervals and timeouts?
+
+**Docker Compose and Secrets Management:**
+ - Discuss approaches for managing secrets in Docker Compose
+ - How can you integrate Docker Compose with external secrets management tools?
+
+**Docker BuildKit:**
+ - What is Docker BuildKit, and how does it improve the build process
+ - Discuss advanced features provided by Docker BuildKit.
+
+**Docker Compose and CI/CD Integration:**
+ - How can Docker Compose be integrated into a CI/CD pipeline
+ - Discuss strategies for testing and deploying Docker Compose configurations.
+
+**Docker Image Signing:**
+ - What is image signing in Docker, and why is it important
+ - Discuss the steps to sign and verify Docker images.
+
+**Docker Compose Extending Services:**
+ - How can you extend services defined in a Docker Compose file
+ - Discuss scenarios where service extension is beneficial.
+
+**Docker Content Trust:**
+ - Explain Docker Content Trust and its role in image security
+ - How can you enable and disable content trust in Docker?
+
+**Docker Compose for Multi-Environment Deployment:**
+ - Discuss strategies for using Docker Compose in multi-environment deployments
+ - How can you parameterize a Docker Compose file for different environments?
+
+**Docker and Kernel Capabilities:**
+ - Explain Linux kernel capabilities in the context of Docker
+ - Discuss scenarios where you might need to adjust kernel capabilities for a container.
+
+**Docker Compose and External Networks:**
+ - How can you connect Docker Compose services to external networks
+ - Discuss considerations when dealing with external networks in Docker Compose.
+
+**Docker and Persistent Storage:**
+ - Discuss strategies for managing persistent storage in Docker containers
+ - How can you achieve data persistence in stateful Docker applications?
+
+**Docker Compose and Application Scaling:**
+ - Explain strategies for scaling applications defined in a Docker Compose file
+ - How can you dynamically adjust the number of replicas for a service?
+
+**Docker Image Hardening:**
+ - Share best practices for hardening Docke
