@@ -1,20 +1,79 @@
-1. **Абстрактное Синтаксическое Дерево (AST):** Обсудите роль Абстрактного Синтаксического Дерева (AST) в PHP. Как его можно модифицировать для преобразования кода?
-2. **Пользовательские Расширения PHP:** Объясните процесс создания пользовательского расширения PHP. В каких случаях это может быть необходимо?
-3. **Потокобезопасность в PHP:** Обсудите соображения и вызовы, связанные с потокобезопасностью в PHP. Как PHP обрабатывает конкурентные запросы?
-4. **Асинхронный PHP:** Исследуйте концепцию асинхронного программирования в PHP. Как это может быть применено, и какие у него последствия?
-5. **Возможности PHP 8:** Обсудите ключевые возможности, представленные в PHP 8, и их влияние на разработку на PHP.
-6. **Оптимизации Управления Памятью:** Как можно оптимизировать использование памяти в приложении PHP? Обсудите продвинутые техники.
-7. **Настройка OPcache:** Обсудите продвинутые конфигурации для OPcache в PHP. Как можно настроить OPcache для конкретных приложений?
-8. **Продвинутые Обобщения:** Обсудите концепцию продвинутых обобщений в PHP. Как они могут улучшить безопасность типов и ясность кода?
-9. **PHPStan и Psalm:** Обсудите преимущества инструментов статического анализа, таких как PHPStan и Psalm, в PHP-коде. Как они способствуют качеству кода?
-10. **Профилирование Производительности PHP:** Как вы профилируете и оптимизируете производительность приложения на PHP? Обсудите инструменты и методологии.
-11. **Обработка Больших Наборов Данных:** Стратегии эффективной обработки больших наборов данных в PHP. Как можно оптимизировать использование памяти и скорость обработки?
-12. **Шаблон Наблюдатель с Использованием SPL:** Объясните шаблон проектирования "Наблюдатель" с использованием классов SPL в PHP. Приведите пример его реализации.
-13. **Альтернативы Подавлению Ошибок:** Обсудите альтернативы подавлению ошибок с использованием символа @ в PHP. Какие риски связаны с подавлением ошибок?
-14. **Контейнеры Внедрения Зависимостей:** Как работают контейнеры внедрения зависимостей в PHP, и какие преимущества они предоставляют в большом кодовом базисе?
-15. **Динамическая Проверка Типов:** Обсудите динамическую проверку типов в PHP. Как можно реализовать надежную проверку типов в языке с динамической типизацией?
-16. **PHPStan и Psalm:** Обсудите преимущества инструментов статического анализа, таких как PHPStan и Psalm, в PHP-коде. Как они способствуют качеству кода?
-17. **PHP Расширения:** Как можно создавать и использовать пользовательские расширения PHP? Обсудите случаи использования и потенциальные сложности.
-18. **Потокобезопасность в PHP:** Discuss considerations and challenges related to thread safety in PHP. How does PHP handle concurrent requests?
-19. **Стратегии Продвинутого Управления Ошибками:** Как можно реализовать стратегии продвинутого управления ошибками помимо базовых блоков try...catch в PHP?
-20. **Использование Предзагрузки в PHP 7.4+:** Исследуйте концепцию предзагрузки в PHP 7.4 и более поздних версиях. Как это влияет на время запуска приложения и производительность?
+**PHP Reflection API:**
+- Discuss the applications of the Reflection API in PHP.
+- How can it be used for runtime code inspection and manipulation?
+
+**Secure Password Hashing:**
+- Discuss best practices for secure password hashing in PHP.
+- How would you implement password hashing using the password_hash function?
+
+**PHP Generics and Type Hinting:**
+- Explain the concept of generics in PHP and their potential use cases.
+- How does type hinting contribute to code quality and maintainability?
+
+**Dependency Injection in PHP:**
+- Explain the principles of dependency injection and how it can be implemented in PHP.
+- Discuss the advantages of using dependency injection containers.
+
+**PHP Error Logging and Monitoring:**
+- How can you implement advanced error handling beyond basic try-catch blocks in PHP?
+- Discuss strategies for error logging and monitoring in a PHP application.
+
+**Message Queues in PHP:**
+- How can message queues be implemented in a PHP application?
+- Discuss the benefits of using message queues for asynchronous processing.
+
+**PHP SPL (Standard PHP Library) Classes:**
+- Discuss the purpose of SPL classes in PHP.
+- Provide examples of scenarios where SPL classes are beneficial.
+
+**Event Sourcing in PHP:**
+- Explain the concept of event sourcing and how it can be implemented in a PHP application.
+- Discuss the advantages and challenges of using event sourcing.
+
+**Handling File Uploads Securely:**
+- What security considerations should be taken into account when handling file uploads in PHP?
+- Discuss best practices for secure file upload handling.
+
+**GraphQL in PHP:**
+- Discuss the role of GraphQL in PHP-based APIs.
+- How can you implement and optimize GraphQL APIs in PHP?
+
+**PHP Reflection API:**
+- Discuss the limitations and considerations when using the Reflection API.
+- How can you dynamically generate and execute PHP code using reflection?
+
+**Secure Password Hashing and Argon2:**
+- Explain the benefits of the Argon2 password hashing algorithm.
+- How can you mitigate password hash cracking using techniques like salting?
+
+**Advanced PHP Error Logging and Monitoring:**
+- Discuss strategies for centralized logging and monitoring of PHP applications.
+- How can you implement real-time error alerts using external services?
+
+**Microservices and PHP Integration:**
+- How can you design PHP microservices to communicate asynchronously?
+- Discuss challenges and solutions for maintaining consistency in distributed transactions across PHP microservices.
+
+**Asynchronous Programming in PHP:**
+- Explain the use of async/await in PHP and its impact on performance.
+- How can you handle exceptions in asynchronous PHP code?
+
+**APCu (Alternative PHP Cache User Cache):**
+- Explain the purpose of APCu and how it differs from OPcache.
+- How can you use APCu for user-specific caching in a PHP application?
+
+**PHP SAPI (Server API) and CLI:**
+- Discuss the different Server API (SAPI) types in PHP.
+- How does the Command Line Interface (CLI) SAPI differ from other SAPIs?
+
+**PHP FPM (FastCGI Process Manager):**
+- Explain the role of PHP-FPM in PHP process management.
+- How can you configure and optimize PHP-FPM for a high-traffic website?
+
+**PHP Generators and Coroutines:**
+- Discuss advanced use cases for generators and coroutines in PHP.
+- How can you implement cooperative multitasking with coroutines for scalable PHP applications?
+
+**Alternative PHP Implementations:**
+- Discuss alternative PHP implementations like HHVM and RoadRunner.
+- What are the advantages and challenges of using an alternative PHP implementation?
