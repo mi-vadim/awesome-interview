@@ -1,20 +1,39 @@
-1. Что такое микросервисы, и в чем их отличие от монолитных архитектур?
-2. Объясните преимущества и недостатки использования микросервисов.
-3. Какова роль API-шлюза в микросервисной архитектуре?
-4. Как микросервисы общаются друг с другом?
-5. Обсудите проблемы согласованности данных в среде микросервисов.
-6. Что такое обнаружение служб, и почему оно важно в микросервисах?
-7. Объясните концепцию балансировки нагрузки в контексте микросервисов.
-8. Как обрабатывать распределенные транзакции в микросервисной архитектуре?
-9. Обсудите важность устойчивости к отказам в микросервисах.
-10. Какова роль контейнеров и их оркестрации в микросервисах?
-11. Объясните термин "полиглотное хранение данных" в контексте баз данных микросервисов.
-12. Как вы бы реализовали аутентификацию и авторизацию в экосистеме микросервисов?
-13. Обсудите воздействие микросервисов на пайплайны CI/CD и стратегии развертывания.
-14. Каковы принципы методологии Twelve-Factor App и как они связаны с микросервисами?
-15. Объясните различия между синхронным и асинхронным обменом в микросервисах.
-16. Как вы мониторите и отслеживаете микросервисы в распределенной системе?
-17. Обсудите соображения по версионированию API в микросервисной архитектуре.
-18. Что такое "замыкатель" (circuit breaker), и как он помогает в устойчивости микросервисов?
-19. Как бы вы обеспечили безопасность в микросервисной среде?
-20. Можете ли вы описать сценарий, когда микросервисы могут быть не самым лучшим архитектурным выбором?
+**Microservices Architecture:**
+ - Define microservices architecture and explain its benefits over monolithic architecture
+ - Discuss potential challenges and drawbacks associated with microservices.
+
+**Service Discovery:**
+ - Explain the role of service discovery in a microservices environment
+ - How does service discovery contribute to dynamic and scalable systems?
+
+**API Gateway:**
+ - What is an API Gateway, and how does it facilitate communication in microservices
+ - Discuss the advantages of using an API Gateway in a microservices architecture.
+
+**Containerization:**
+ - Explain the concept of containerization and how it relates to microservices
+ - What are the benefits of using containers like Docker in a microservices setup?
+
+**Load Balancing in Microservices:**
+ - Discuss the importance of load balancing in microservices
+ - How can load balancing contribute to improved performance and availability?
+
+**Event-Driven Architecture:**
+ - Explain the principles of event-driven architecture in the context of microservices
+ - Provide an example scenario where an event-driven approach is beneficial.
+
+**Fault Tolerance and Resilience:**
+ - Discuss strategies for achieving fault tolerance and resilience in microservices
+ - How can the Circuit Breaker pattern enhance the reliability of microservices?
+
+**Microservices Testing:**
+ - Explain the challenges and strategies for testing microservices
+ - How can you implement testing automation in a microservices environment?
+
+**Continuous Integration and Deployment (CI/CD):**
+ - Discuss the role of CI/CD in microservices development
+ - How does CI/CD contribute to the agility and reliability of microservices?
+
+**Database Per Service Pattern:**
+ - Explain the concept of the Database Per Service pattern in microservices
+ - What are the advantages and challenges associated with this pattern

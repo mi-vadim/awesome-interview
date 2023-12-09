@@ -1,20 +1,39 @@
-1. Обсудите концепцию оркестрации и хореографии микросервисов.
-2. Как вы проектируете микросервисы для масштабирования и независимого развертывания?
-3. Объясните роль архитектуры, основанной на событиях, в обмене сообщениями микросервисов.
-4. Обсудите использование документации API и дизайна, ориентированного на контракты, в разработке микросервисов.
-5. Как бы вы обработали конечную согласованность в системе микросервисов?
-6. Объясните преимущества и сложности использования серверных вычислений в дополнение к микросервисам.
-7. Обсудите стратегии управления межсервисным взаимодействием в экосистеме микросервисов.
-8. Как можно реализовать устойчивость и механизмы запаса в микросервисах?
-9. Объясните принципы Domain-Driven Design (DDD) и их значимость для микросервисов.
-10. Обсудите соображения при выборе между REST и GraphQL в микросервисном API.
-11. Как бы вы реализовали развертывание blue-green или canary deployment
-12. Объясните роль событийного механизма (event-driven architecture) в обмене сообщениями микросервисов.
-13. Обсудите преимущества и сложности тестирования системы микросервисов.
-14. Как бы вы реализовали обработку долгосрочных процессов и рабочих процессов (workflows) в системе микросервисов?
-15. Объясните концепцию теоремы CAP и ее влияние на базы данных микросервисов.
-16. Обсудите сложности и стратегии миграции данных в микросервисной архитектуре.
-17. Как бы вы обрабатывали проблемы связанные с поиском консистентности в множестве баз данных микросервисов?
-18. Как обеспечить обратную совместимость в API микросервисов во время обновлений?
-19. Обсудите роль шлюза API (API gateway) в агрегации микросервисов.
-20. Какие соображения при выборе между синхронным и асинхронным взаимодействием важны для системы микросервисов?
+**Microservices Communication Protocols:**
+ -  Discuss common communication protocols used in microservices (e.g., HTTP, gRPC)
+ -  How can you choose the most suitable communication protocol for a microservice?
+
+**Service Mesh:**
+ -  - Define a service mesh and discuss its role in microservices architecture
+ -  - How can service mesh technologies like Istio enhance microservices communication?
+
+**Observability in Microservices:**
+ - Explain the importance of observability for monitoring and managing microservices
+ - Discuss key tools and techniques for achieving observability in a microservices system.
+
+**Microservices Security:**
+ - Discuss security considerations specific to microservices architecture
+ - How can you implement authentication and authorization across microservices?
+
+**Saga Pattern:**
+ - Explain the Saga pattern and its use in managing distributed transactions
+ - Discuss scenarios where the Saga pattern is preferable over a traditional transactional approach.
+
+**Microservices Data Consistency:**
+ - Discuss strategies for maintaining data consistency across microservices
+ - How can you handle eventual consistency in a microservices environment?
+
+**Serverless Architecture with Microservices:**
+ - Explain the relationship between serverless architecture and microservices
+ - Discuss scenarios where serverless functions complement microservices.
+
+**Micro Frontends:**
+ - Discuss the concept of micro frontends and how it aligns with microservices
+ - What challenges may arise when implementing micro frontends in a microservices ecosystem?
+
+**Chaos Engineering:**
+ - Define chaos engineering and explain its relevance to microservices
+ - How can you conduct chaos experiments to improve microservices resilience?
+
+**Microservices Versioning:**
+ - Discuss challenges and best practices for versioning microservices
+ - How can you implement backward-compatible changes in a microservices architecture
