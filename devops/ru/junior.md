@@ -1,20 +1,79 @@
-1. Какова роль систем управления версиями в DevOps, и можете ли вы назвать несколько популярных?
-2. Объясните концепцию Continuous Integration (CI) и как она полезна в процессе разработки.
-3. Какова цель автоматизированного тестирования в пайплайне DevOps?
-4. Расскажите о разнице между контейнерами и виртуальными машинами в контексте DevOps.
-5. Как Docker способствует оркестрации контейнеров в среде DevOps?
-6. Объясните важность инфраструктуры как кода (IaC) в практиках DevOps.
-7. Что представляет собой архитектура микросервисов, и как она соотносится с принципами DevOps?
-8. Как вы мониторите и устраняете проблемы производительности в распределенной системе?
-9. Какова значимость автоматизированного развертывания, и как оно работает в пайплайне CI/CD?
-10. Опишите концепцию "Инфраструктура как сервис" (IaaS) и предоставьте пример.
-11. Какова роль балансировщика нагрузки в масштабируемой архитектуре веб-приложения?
-12. Как бы вы обращались с конфиденциальной информацией, такой как ключи API, в рабочем процессе DevOps?
-13. Объясните роль обратного прокси в контексте бекенд-систем.
-14. Каковы основные различия между развертыванием Blue-Green и Canary?
-15. Как вы обеспечиваете согласованность данных при развертывании изменений схемы базы данных?
-16. Опишите преимущества использования инструмента управления конфигурацией в среде DevOps.
-17. Какова роль менеджера пакетов в процессе разработки программного обеспечения?
-18. Объясните концепцию "Инфраструктура как сервис" (IaaS) и предоставьте пример.
-19. Как бы вы реализовали лучшие практики по безопасности в рабочем процессе DevOps?
-20. Можете ли вы обсудить важность ведения логов и мониторинга в производственной среде?
+**Version Control Systems:**
+ - Explain the purpose of version control systems in DevOps
+ - How does Git differ from other version control systems?
+
+**Continuous Integration (CI) Basics:**
+ - What is continuous integration, and why is it important
+ - Name a popular CI tool, and explain its primary features.
+
+**Docker Basics:**
+ - What is Docker, and how does it simplify application deployment
+ - Explain the difference between an image and a container.
+
+**Basic Linux Commands:**
+ - Name three essential Linux commands for navigating the file system
+ - How do you check the usage of system resources in Linux?
+
+**Infrastructure as Code (IaC) Introduction:**
+ - What is Infrastructure as Code, and why is it valuable
+ - Name a popular IaC tool and explain its benefits.
+
+**Basic Networking Concepts:**
+ - What is the difference between TCP and UDP
+ - Explain the purpose of DNS in a network.
+
+**Basic Shell Scripting:**
+ - Write a simple shell script that prints the numbers 1 to 5
+ - How can you pass arguments to a shell script?
+
+**Monitoring Basics:**
+ - What is the role of monitoring in DevOps
+ - Name a monitoring tool and explain its key features.
+
+**Basic Security Practices:**
+ - Explain the importance of keeping software and systems up to date
+ - How can you secure SSH access to a Linux server?
+
+**Basic CI/CD Pipeline Understanding:**
+ - Describe the stages in a basic CI/CD pipeline
+ - How does a CI/CD pipeline contribute to software delivery?
+
+**Continuous Deployment:**
+ - Explain the concept of continuous deployment in DevOps
+ - What are the benefits and challenges of implementing continuous deployment?
+
+**Secrets Management:**
+ - Why is secrets management crucial in a DevOps environment
+ - Name a tool or method for securely managing and distributing secrets.
+
+**Container Orchestration Benefits:**
+ - Discuss the benefits of using container orchestration tools
+ - How does container orchestration contribute to scalability and reliability?
+
+**Git Branching Strategies:**
+ - Explain the importance of branching strategies in Git
+ - Discuss a common Git branching model used in software development.
+
+**Infrastructure Scalability:**
+ - What is horizontal scalability, and how is it achieved in infrastructure design
+ - Discuss scenarios where vertical scalability is more appropriate.
+
+**Load Balancing:**
+ - Why is load balancing important in distributed systems
+ - Name different types of load balancing algorithms and their characteristics.
+
+**Deployment Strategies:**
+ - Discuss various deployment strategies, such as rolling deployments and blue-green deployments
+ - When would you choose one deployment strategy over another?
+
+**Basic Cloud Concepts:**
+ - Explain the difference between IaaS, PaaS, and SaaS
+ - How does cloud elasticity contribute to infrastructure flexibility?
+
+**Collaborative Coding Practices:**
+ - How can version control systems enhance collaborative coding practices
+ - Discuss the importance of code reviews in a collaborative development environment.
+
+**Incident Response Basics:**
+ - What is an incident response plan, and why is it important
+ - How do you prioritize incidents during a system outage
