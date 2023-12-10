@@ -1,79 +1,79 @@
-**Understanding DDD:**
- - What is Domain-Driven Design (DDD), and why is it important in software development
- - Explain the basic concepts of a domain, entity, and value object in DDD.
+**Понимание DDD:**
+- Что такое Domain-Driven Design (DDD), и почему это важно в разработке программного обеспечения?
+- Объясните основные концепции домена, сущности и объекта-значения в DDD.
 
-**Ubiquitous Language:**
- - What is the role of a ubiquitous language in DDD
- - How does a ubiquitous language contribute to better communication between development teams and domain experts?
+**Убиквитозный язык:**
+- Какова роль убиквитозного языка в DDD?
+- Как убиквитозный язык способствует лучшему взаимопониманию между командами разработки и экспертами домена?
 
-**Aggregates in DDD:**
- - What is an aggregate in DDD, and why is it useful
- - How can you identify and define aggregates in a given domain?
+**Агрегаты в DDD:**
+- Что такое агрегат в DDD, и почему он полезен?
+- Как вы можете выявлять и определять агрегаты в данном домене?
 
-**Bounded Contexts:**
- - Define the concept of a bounded context in DDD
- - Discuss how bounded contexts help manage complexity in large systems.
+**Ограниченные контексты:**
+- Определите концепцию ограниченного контекста в DDD.
+- Обсудите, как ограниченные контексты помогают управлять сложностью в больших системах.
 
-**Repositories and DDD:**
- - Explain the purpose of repositories in DDD
- - How do repositories facilitate data access within a domain-driven application?
+**Репозитории и DDD:**
+- Объясните цель репозиториев в DDD.
+- Как репозитории облегчают доступ к данным в приложении, основанном на DDD?
 
-**Value Objects in DDD:**
- - Describe the characteristics of a value object in DDD
- - Provide an example of when you would use a value object instead of an entity.
+**Объекты-значения в DDD:**
+- Опишите характеристики объекта-значения в DDD.
+- Приведите пример ситуации, когда вы бы использовали объект-значение вместо сущности.
 
-**Aggregate Roots:**
- - What is the significance of an aggregate root in DDD
- - How do you determine the aggregate root in a given domain?
+**Корни агрегатов:**
+- Каково значение корня агрегата в DDD?
+- Как вы определяете корень агрегата в данном домене?
 
-**Event Sourcing Basics:**
- - What is event sourcing in DDD, and how does it differ from traditional data storage approaches
- - Discuss the benefits and challenges of using event sourcing.
+**Основы событийного моделирования:**
+- Что такое событийное моделирование в DDD, и в чем отличие от традиционных подходов к хранению данных?
+- Обсудите плюсы и минусы использования событийного моделирования.
 
-**CQRS in DDD:**
- - Explain the Command Query Responsibility Segregation (CQRS) pattern in the context of DDD
- - How can CQRS improve the scalability of a system?
+**CQRS в DDD:**
+- Объясните шаблон Command Query Responsibility Segregation (CQRS) в контексте DDD.
+- Как CQRS может улучшить масштабируемость системы?
 
-**Domain Events:**
- - What are domain events, and how are they used in DDD
- - Provide an example of modeling a business process using domain events.
+**Доменные события:**
+- Что такое доменные события и как они используются в DDD?
+- Приведите пример моделирования бизнес-процесса с использованием доменных событий.
 
-**Service Layer in DDD:**
- - Explain the role of a service layer in Domain-Driven Design
- - When would you introduce a service layer in a domain model?
+**Слой сервиса в DDD:**
+- Объясните роль слоя сервиса в Domain-Driven Design.
+- В каких случаях вы бы внедряли слой сервиса в доменную модель?
 
-**Value Object Equality:**
- - How do you implement equality for value objects in DDD
- - Discuss the importance of maintaining value object immutability.
+**Равенство объектов-значений:**
+- Как вы реализуете равенство для объектов-значений в DDD?
+- Обсудите важность сохранения неизменяемости объектов-значений.
 
-**Decoupling in DDD:**
- - Why is decoupling important in DDD, and how can it be achieved
- - Discuss techniques for reducing dependencies between different parts of a domain model.
+**Развязывание в DDD:**
+- Почему важно развязывание в DDD, и как его можно достичь?
+- Обсудите методы уменьшения зависимостей между различными частями доменной модели.
 
-**Aggregates and Consistency Boundaries:**
- - What is the consistency boundary of an aggregate
- - Explain how aggregates contribute to maintaining consistency in a domain model.
+**Агрегаты и границы согласованности:**
+- Что такое граница согласованности агрегата?
+- Объясните, как агрегаты способствуют поддержанию согласованности в доменной модели.
 
-**UI-Driven Design in DDD:**
- - Discuss the concept of UI-driven design in the context of DDD
- - How can a user interface influence the design of a domain model?
+**Дизайн, ориентированный на пользовательский интерфейс в DDD:**
+- Обсудите концепцию дизайна, ориентированного на пользовательский интерфейс в контексте DDD.
+- Как пользовательский интерфейс может повлиять на дизайн доменной модели?
 
-**Behavior-Driven Development (BDD) and DDD:**
- - How does Behavior-Driven Development (BDD) align with DDD practices
- - Discuss the benefits of using BDD for specifying and validating domain behavior.
+**Разработка, ориентированная на поведение (BDD) и DDD:**
+- Как связана разработка, ориентированная на поведение (BDD), с практиками DDD?
+- Обсудите преимущества использования BDD для спецификации и проверки поведения домена.
 
-**Repositories vs. Query Objects:**
- - Differentiate between repositories and query objects in DDD
- - When would you use a repository, and when would you use a query object?
+**Репозитории против объектов запросов:**
+- Разграничьте репозитории и объекты запросов в DDD.
+- В каких случаях вы бы использовали репозиторий, а в каких - объект запроса?
 
-**Context Mapping Strategies:**
- - Explain different strategies for context mapping in DDD
- - Discuss the role of context maps in aligning different bounded contexts.
+**Стратегии отображения контекстов:**
+- Объясните различные стратегии отображения контекстов в DDD.
+- Обсудите роль карт контекста в выравнивании различных ограниченных контекстов.
 
-**Domain Events vs. Integration Events:**
- - Compare and contrast domain events and integration events in DDD
- - When would you choose to use one type of event over the other?
+**Доменные события против событий интеграции в DDD:**
+- В чем разница между доменными событиями и событиями интеграции в DDD?
+- В каких случаях вы предпочли бы использовать один тип событий перед другим?
 
-**Handling Concurrency in DDD:**
- - How can you address concurrency issues in a DDD application
- - Discuss optimistic concurrency control and its implications
+**Управление конкурентностью в DDD:**
+- Как можно решать проблемы конкурентности в приложении, построенном на DDD?
+- Обсудите оптимистическое управление конкурентностью и его последствия.

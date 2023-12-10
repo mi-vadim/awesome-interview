@@ -1,79 +1,79 @@
-**Site Reliability Engineering (SRE):**
- - What is Site Reliability Engineering, and how does it relate to DevOps
- - Discuss the principles of the SRE model for managing large-scale systems.
+**Инженерия надежности сайта (SRE):**.
+- Что такое инженерия надежности сайта и как она связана с DevOps.
+- Обсудите принципы модели SRE для управления крупномасштабными системами.
 
-**Advanced Kubernetes Concepts:**
- - Explain Kubernetes custom resources and controllers
- - How can you implement pod auto-scaling in Kubernetes?
+**Дополнительные концепции Kubernetes:**
+- Объясните, что такое пользовательские ресурсы и контроллеры Kubernetes.
+- Как реализовать автомасштабирование стручков в Kubernetes?
 
-**Advanced CI/CD Strategies:**
- - Discuss canary analysis and its role in advanced deployment strategies
- - How can you implement feature toggles in a CI/CD pipeline?
+**Дополнительные стратегии CI/CD:**
+- Обсудите канареечный анализ и его роль в передовых стратегиях развертывания
+- Как реализовать переключение функций в конвейере CI/CD?
 
-**Advanced Networking Security:**
- - Discuss strategies for securing microservices communication
- - How can you implement network policies in Kubernetes for enhanced security?
+**Дополнительная сетевая безопасность:**
+- Обсудите стратегии обеспечения безопасности взаимодействия микросервисов
+- Как реализовать сетевые политики в Kubernetes для повышения безопасности?
 
-**Advanced Infrastructure as Code (IaC):**
- - Explain the benefits of using a declarative IaC approach
- - How can you implement parameterized templates in an IaC tool?
+**Дополнительная инфраструктура как код (IaC):**
+- Объясните преимущества использования декларативного подхода к IaC.
+- Как реализовать параметризованные шаблоны в инструменте IaC?
 
-**Chaos Engineering:**
- - What is chaos engineering, and how can it improve system resilience
- - Discuss a scenario where chaos engineering could be applied effectively.
+**Инженерия хаоса:**
+- Что такое хаос-инженерия и как она может повысить устойчивость систем.
+- Обсудите сценарий, в котором хаос-инженерия может быть эффективно применена.
 
-**Advanced Monitoring and Observability:**
- - Discuss the difference between monitoring and observability
- - How can distributed tracing contribute to observability in a system?
+**Дополнительный мониторинг и наблюдаемость:**
+- Обсудите разницу между мониторингом и наблюдаемостью.
+- Как распределенная трассировка может способствовать наблюдаемости системы?
 
-**DevSecOps Practices:**
- - Explain the principles of DevSecOps
- - How can you integrate security practices seamlessly into a DevOps pipeline?
+**Практики DevSecOps:**
+- Объясните принципы DevSecOps
+- Как можно интегрировать практики безопасности в конвейер DevOps?
 
-**Advanced Container Security:**
- - Discuss strategies for securing containerized applications
- - How can you implement image scanning for vulnerabilities in a CI/CD pipeline?
+**Дополнительная безопасность контейнеров:**
+- Обсуждение стратегий защиты контейнерных приложений
+- Как реализовать сканирование образов для поиска уязвимостей в конвейере CI/CD?
 
-**Infrastructure Resilience:**
- - How can you design infrastructure to be resilient to failures
- - Discuss strategies for implementing disaster recovery in a cloud environment.
+**Устойчивость инфраструктуры:**
+- Как спроектировать инфраструктуру, чтобы она была устойчива к сбоям.
+- Обсудите стратегии реализации аварийного восстановления в облачной среде.
 
-**Serverless Computing:**
- - Explain the concept of serverless computing
- - Discuss use cases where serverless architecture is advantageous.
+**Бессерверные вычисления:**
+- Объясните концепцию бессерверных вычислений
+- Обсудите случаи использования бессерверной архитектуры.
 
-**Advanced Collaboration and Knowledge Sharing:**
- - How can you foster a culture of collaboration and knowledge sharing within a DevOps team
- - Discuss strategies for documenting and sharing knowledge effectively.
+**Усовершенствованная совместная работа и обмен знаниями:**.
+- Как вы можете способствовать развитию культуры сотрудничества и обмена знаниями в команде DevOps.
+- Обсудите стратегии документирования и эффективного обмена знаниями.
 
-**Metrics-Driven Decision Making:**
- - How can metrics be used for data-driven decision-making in DevOps
- - Provide examples of key performance indicators (KPIs) in a DevOps context.
+**Принятие решений на основе метрик:**.
+- Как можно использовать метрики для принятия решений на основе данных в DevOps.
+- Приведите примеры ключевых показателей эффективности (KPI) в контексте DevOps.
 
-**Automation Beyond CI/CD:**
- - Discuss areas outside of CI/CD where automation can significantly benefit DevOps practices
- - How can you implement automated incident response in a production environment?
+**Автоматизация за пределами CI/CD:**.
+- Обсудите области за пределами CI/CD, в которых автоматизация может принести значительную пользу практике DevOps.
+- Как реализовать автоматизированное реагирование на инциденты в производственной среде?
 
-**Infrastructure as Code Best Practices:**
- - Share best practices for writing modular and reusable Infrastructure as Code
- - How can you implement infrastructure testing as part of the CI/CD pipeline?
+**Infrastructure as Code Best Practices:**.
+- Поделитесь лучшими практиками написания модульной и многократно используемой инфраструктуры как кода
+- Как реализовать тестирование инфраструктуры в рамках конвейера CI/CD?
 
-**Advanced Cloud Security:**
- - Discuss strategies for securing cloud-based infrastructure
- - How can you implement identity and access management (IAM) best practices in a cloud environment?
+**Дополнительная безопасность облачных вычислений:**
+- Обсудите стратегии защиты облачной инфраструктуры.
+- Как внедрить передовые методы управления идентификацией и доступом (IAM) в облачной среде?
 
-**Cost Optimization in the Cloud:**
- - Explain strategies for optimizing costs in a cloud-based environment
- - How can you monitor and control resource expenditures effectively?
+**Оптимизация затрат в облаке:**.
+- Объясните стратегии оптимизации расходов в облачной среде.
+- Как можно эффективно отслеживать и контролировать расходы ресурсов?
 
-**Governance and Compliance in DevOps:**
- - Discuss the role of governance and compliance in a DevOps environment
- - How can you ensure adherence to regulatory requirements within a DevOps workflow?
+**Управление и соблюдение нормативных требований в DevOps:**.
+- Обсудите роль управления и соответствия в среде DevOps.
+- Как обеспечить соблюдение нормативных требований в рамках рабочего процесса DevOps?
 
-**Advanced Docker Networking:**
- - Discuss advanced networking features in Docker, such as overlay networks
- - How can you implement secure communication between containers in different Docker networks?
+**Дополнительные сетевые возможности Docker:**
+- Обсудите расширенные сетевые возможности Docker, такие как оверлейные сети.
+- Как реализовать безопасную связь между контейнерами в разных сетях Docker?
 
 **Advanced Release Management:**
- - Discuss strategies for managing releases in complex and distributed systems
- - How can you implement feature toggles at scale for controlled feature releases
+- Обсудите стратегии управления релизами в сложных и распределенных системах.
+- Как реализовать переключение функций в масштабе для контролируемых выпусков функций

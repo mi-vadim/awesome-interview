@@ -1,59 +1,59 @@
-**Fundamentals of Testing:**
-- Explain the difference between functional testing and non-functional testing.
-- What is the purpose of test cases, and how are they written?
+**Фундаментальные основы тестирования:**.
+- Объясните разницу между функциональным и нефункциональным тестированием.
+- Какова цель тестовых примеров и как они пишутся?
 
-**Types of Testing:**
-- Discuss the distinctions between smoke testing and sanity testing.
-- What is regression testing, and why is it essential in software development?
+**Типы тестирования:**
+- Обсудите различия между "дымовым" и "вменяемым" тестированием.
+- Что такое регрессионное тестирование и почему оно необходимо при разработке программного обеспечения?
 
-**Test Automation Basics:**
-- Explain the benefits and challenges of test automation.
-- What are the key considerations for selecting test cases for automation?
+**Основы автоматизации тестирования:**
+- Объясните преимущества и проблемы автоматизации тестирования.
+- Каковы ключевые соображения при выборе тестовых случаев для автоматизации?
 
-**Unit Testing in PHP:**
-- What is unit testing, and how does it contribute to code quality?
-- Discuss the popular PHP unit testing frameworks and their features.
+**Юнит-тестирование в PHP:**
+- Что такое модульное тестирование и как оно влияет на качество кода?
+- Обсудите популярные фреймворки для модульного тестирования на PHP и их особенности.
 
-**Black Box Testing:**
-- Describe the principles of black box testing.
-- How can equivalence partitioning be applied in black box testing?
+**Тестирование черного ящика:**
+- Опишите принципы тестирования "черного ящика".
+- Как можно применить разделение по эквивалентности при тестировании "черного ящика"?
 
-**Web Application Testing:**
-- What are common security vulnerabilities in web applications, and how can they be tested?
-- Explain the differences between UI testing and API testing.
+**Тестирование веб-приложений:**
+- Какие уязвимости безопасности часто встречаются в веб-приложениях и как их можно протестировать?
+- Объясните разницу между тестированием пользовательского интерфейса и тестированием API.
 
-**Database Testing:**
-- Discuss the importance of database testing in a software project.
-- How can you perform data integrity testing in a relational database?
+**Тестирование баз данных:**
+- Обсудите важность тестирования баз данных в программном проекте.
+- Как можно выполнить тестирование целостности данных в реляционной базе данных?
 
-**Performance Testing Basics:**
-- What is the goal of performance testing, and what metrics are typically measured?
-- Explain the differences between stress testing and load testing.
+**Основы тестирования производительности:**.
+- Какова цель тестирования производительности, и какие показатели обычно измеряются?
+- Объясните разницу между стресс-тестированием и нагрузочным тестированием.
 
-**Testing Documentation:**
-- What types of documentation are crucial for effective software testing?
-- How can traceability matrices be used in testing documentation?
+** Документация по тестированию:**
+- Какие типы документации важны для эффективного тестирования программного обеспечения?
+- Как матрицы прослеживаемости могут быть использованы в документации по тестированию?
 
-**Defect Life Cycle:**
-- Describe the stages of a defect life cycle.
-- How can you prioritize defects based on severity and priority?
+**Жизненный цикл дефекта:**
+- Опишите этапы жизненного цикла дефекта.
+- Как расставить приоритеты дефектов по степени серьезности и приоритетности?
 
-**PHPUnit Basics:**
-- Explain the purpose of PHPUnit in PHP development.
-- How can you install PHPUnit in a PHP project using Composer?
+**Основы PHPUnit:**
+- Объясните назначение PHPUnit в разработке на PHP.
+- Как установить PHPUnit в PHP-проект с помощью Composer?
 
-**Writing Test Cases:**
-- Discuss the basic structure of a PHPUnit test case.
-- What is the purpose of the setUp method in PHPUnit?
+**Написание тестовых примеров:**
+- Обсудите основную структуру тестового примера PHPUnit.
+- Каково назначение метода setUp в PHPUnit?
 
-**Assertions in PHPUnit:**
-- Name and explain three common assertions used in PHPUnit.
-- How can you assert that an exception is thrown in a test?
+**Утверждения в PHPUnit:**.
+- Назовите и объясните три распространенных утверждения, используемых в PHPUnit.
+- Как можно утверждать, что в тесте возникло исключение?
 
-**Test Fixtures:**
-- What is a test fixture in PHPUnit, and why is it useful?
-- How can you share a common setup among multiple test cases?
+**Тестовые приспособления:**
+- Что такое тестовое приспособление в PHPUnit и почему оно полезно?
+- Как можно использовать общие приспособления в нескольких тестовых случаях?
 
-**PHPUnit Data Providers:**
-- Explain the use of data providers in PHPUnit.
-- Provide an example of using a data provider in a test case.
+**Провайдеры данных в PHPUnit:**
+- Объясните использование провайдеров данных в PHPUnit.
+- Приведите пример использования провайдера данных в тестовом примере.

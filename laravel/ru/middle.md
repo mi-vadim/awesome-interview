@@ -1,39 +1,39 @@
-**Laravel Queues:**
- - Implement a custom queue driver for a specialized use case
- - Discuss the pros and cons of using different queue drivers in Laravel.
+**Очереди Ларавеля:**
+- Реализация пользовательского драйвера очереди для специализированного случая использования
+- Обсудите плюсы и минусы использования различных драйверов очередей в Laravel.
 
-**Task Scheduling in Laravel:**
- - How can you dynamically schedule tasks based on runtime conditions in Laravel
- - Discuss the impact of long-running scheduled tasks on the overall application performance.
+**Планирование задач в Laravel:**.
+- Как в Laravel можно динамически планировать задачи, основываясь на условиях выполнения.
+- Обсудите влияние длительного выполнения запланированных задач на общую производительность приложения.
 
-**Laravel Policies and Gates:**
- - Implement a complex policy that considers multiple authorization factors
- - Discuss how you can use gates for fine-grained authorization control in Laravel.
+**Политики и ворота в Laravel:**
+- Реализуйте сложную политику, учитывающую множество факторов авторизации
+- Обсудите, как можно использовать ворота для тонкого контроля авторизации в Laravel.
 
-**Laravel Notifications:**
- - Create a notification that sends messages via multiple channels based on user preferences
- - Discuss the use of the Notification::route method for routing notifications to specific channels.
+**Уведомления в Laravel:**
+- Создайте уведомление, которое отправляет сообщения по нескольким каналам в зависимости от предпочтений пользователя
+- Обсудите использование метода Notification::route для маршрутизации уведомлений по определенным каналам.
 
-**Laravel Mix and Asset Compilation:**
- - Implement custom Laravel Mix tasks for specialized asset compilation scenarios
- - Discuss how you can use versioning and caching to optimize asset delivery in Laravel.
+**Laravel Mix и компиляция активов:**.
+- Реализация пользовательских задач Laravel Mix для специализированных сценариев компиляции активов
+- Обсудите, как можно использовать версионность и кэширование для оптимизации доставки активов в Laravel.
 
-**API Authentication in Laravel:**
- - How can you implement OAuth2 authentication for API routes in Laravel
- - Discuss the challenges and solutions for implementing API throttling in a Laravel application.
+**Аутентификация в Laravel:**
+- Как реализовать аутентификацию OAuth2 для маршрутов API в Laravel
+- Обсудите проблемы и решения для реализации дросселирования API в приложении Laravel.
 
-**Laravel Localization:**
- - Implement a multi-language application with dynamic content translation based on user preferences
- - Discuss how you can extend Laravel's localization features for additional language-related functionalities.
+**Локализация в Laravel:**
+- Реализация мультиязычного приложения с динамическим переводом контента на основе предпочтений пользователя
+- Обсудите, как можно расширить возможности локализации Laravel для получения дополнительных функций, связанных с языками.
 
-**Laravel Eloquent Relationships:**
- - Implement a polymorphic many-to-many relationship in Laravel
- - Discuss advanced techniques for optimizing queries in scenarios with deep Eloquent relationships.
+**Laravel Eloquent Relationships:**.
+- Реализация полиморфных отношений "многие-ко-многим" в Laravel
+- Обсуждение передовых методов оптимизации запросов в сценариях с глубокими отношениями Eloquent.
 
-**Laravel Collection Methods:**
- - Create a custom collection method that transforms collection data using a callback
- - Discuss performance considerations when working with large datasets using Laravel collections.
+**Методы коллекций в Laravel:**
+- Создайте пользовательский метод коллекции, который преобразует данные коллекции с помощью обратного вызова
+- Обсудите вопросы производительности при работе с большими наборами данных с помощью коллекций Laravel.
 
-**Laravel Testing Basics:**
- - How can you mock a third-party API response for testing in Laravel
- - Discuss strategies for testing asynchronous processes such as queued jobs in Laravel
+**Основы тестирования в Laravel:**.
+- Как в Laravel можно сымитировать ответ API стороннего разработчика для тестирования
+- Обсудите стратегии тестирования асинхронных процессов, таких как задания в очереди, в Laravel

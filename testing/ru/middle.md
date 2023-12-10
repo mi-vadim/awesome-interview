@@ -1,59 +1,59 @@
-**Test Planning and Strategy:**
-- Explain the components of a test plan.
-- How do you develop a test strategy for a complex software project?
+**Планирование и стратегия тестирования:**
+- Объясните компоненты плана тестирования.
+- Как разработать стратегию тестирования для сложного программного проекта?
 
-**Exploratory Testing:**
-- Discuss the principles and benefits of exploratory testing.
-- How can exploratory testing complement scripted testing approaches?
+**Исследовательское тестирование:**
+- Обсудите принципы и преимущества исследовательского тестирования.
+- Как исследовательское тестирование может дополнить сценарные подходы к тестированию?
 
-**Security Testing Techniques:**
-- What are common techniques used in security testing?
-- How can penetration testing enhance the security of a software application?
+**Техники тестирования безопасности:**.
+- Какие распространенные техники используются при тестировании на безопасность?
+- Как тестирование на проникновение может повысить безопасность программного приложения?
 
-**Cross-Browser Testing:**
-- Discuss challenges and strategies for cross-browser testing.
-- How can you automate cross-browser testing in a web application?
+**Кроссбраузерное тестирование:**.
+- Обсудите проблемы и стратегии кроссбраузерного тестирования.
+- Как можно автоматизировать кроссбраузерное тестирование в веб-приложении?
 
-**API Testing in RESTful Services:**
-- Explain the key considerations for testing RESTful APIs.
-- How can you handle authentication and authorization in API testing?
+**Тестирование API в RESTful-сервисах:**.
+- Объясните ключевые аспекты тестирования RESTful API.
+- Как работать с аутентификацией и авторизацией при тестировании API?
 
-**Mobile Application Testing:**
-- Discuss challenges specific to mobile application testing.
-- What strategies can be employed for mobile application performance testing?
+**Тестирование мобильных приложений:**
+- Обсудите проблемы, характерные для тестирования мобильных приложений.
+- Какие стратегии можно использовать для тестирования производительности мобильных приложений?
 
-**Load Balancer Testing:**
-- Why is it important to test load balancers in a distributed system?
-- How can you simulate and test load balancing scenarios?
+**Тестирование балансировщиков нагрузки:**.
+- Почему важно тестировать балансировщики нагрузки в распределенной системе?
+- Как можно смоделировать и протестировать сценарии балансировки нагрузки?
 
-**Usability Testing:**
-- Explain the goals and methods of usability testing.
-- How can usability testing contribute to improving user experience?
+**Тестирование удобства использования:**
+- Объясните цели и методы тестирования удобства использования.
+- Как тестирование юзабилити может способствовать улучшению пользовательского опыта?
 
-**Continuous Integration and Testing:**
-- Discuss the integration of testing into a continuous integration pipeline.
-- How can you ensure the reliability of automated tests in a CI/CD environment?
+**Непрерывная интеграция и тестирование:**
+- Обсудите интеграцию тестирования в конвейер непрерывной интеграции.
+- Как обеспечить надежность автоматизированных тестов в среде CI/CD?
 
-**Testing Microservices:**
-- What challenges are associated with testing microservices architecture?
-- How can contract testing be applied to ensure compatibility between microservices?
+** Тестирование микросервисов:**.
+- Какие проблемы связаны с тестированием архитектуры микросервисов?
+- Как можно применить контрактное тестирование для обеспечения совместимости микросервисов?
 
 **PHPUnit Mocking:**
-- Discuss the concept of mocking in PHPUnit.
-- How can you create a mock object for a class in PHPUnit?
+- Обсудите концепцию mocking в PHPUnit.
+- Как в PHPUnit можно создать mock-объект для класса?
 
-**Testing Legacy Code:**
-- What challenges are commonly faced when testing legacy PHP code with PHPUnit?
-- How can you write tests for code that lacks proper separation of concerns?
+**Тестирование устаревшего кода:**
+- С какими проблемами обычно сталкиваются при тестировании устаревшего PHP-кода с помощью PHPUnit?
+- Как написать тесты для кода, в котором отсутствует надлежащее разделение проблем?
 
-**PHPUnit Configuration:**
-- Explain the role of the phpunit.xml configuration file.
-- How can you configure PHPUnit to run tests in parallel?
+**Конфигурация PHPUnit:**.
+- Объясните роль конфигурационного файла phpunit.xml.
+- Как настроить PHPUnit на параллельный запуск тестов?
 
-**Code Coverage in PHPUnit:**
-- Discuss the importance of code coverage in unit testing.
-- How can you generate and interpret code coverage reports with PHPUnit?
+**Покрытие кода в PHPUnit:**
+- Обсудите важность покрытия кода в модульном тестировании.
+- Как генерировать и интерпретировать отчеты о покрытии кода с помощью PHPUnit?
 
-**PHPUnit Extensions:**
-- What additional PHPUnit extensions can be used for specialized testing scenarios?
-- Provide an example of using a custom PHPUnit extension.
+**Расширения PHPUnit:**
+- Какие дополнительные расширения PHPUnit можно использовать для специализированных сценариев тестирования?
+- Приведите пример использования пользовательского расширения PHPUnit.

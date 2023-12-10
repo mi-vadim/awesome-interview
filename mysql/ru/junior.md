@@ -1,39 +1,39 @@
-**Indexing in MySQL:**
-- What is indexing, and why is it essential in MySQL?
-- Explain the difference between clustered and non-clustered indexes.
+**Индексирование в MySQL:**.
+- Что такое индексирование и почему оно необходимо в MySQL?
+- Объясните разницу между кластерными и некластерными индексами.
 
-**Normalization and Denormalization:**
-- Discuss the concepts of normalization and denormalization in the context of database design.
-- When might you choose denormalization over normalization?
+**Нормализация и денормализация:**.
+- Обсудите понятия нормализации и денормализации в контексте проектирования баз данных.
+- В каких случаях можно предпочесть денормализацию нормализации?
 
-**Foreign Key Constraints:**
-- Explain the purpose of foreign key constraints in MySQL.
-- How do foreign key constraints contribute to maintaining data integrity?
+**Ограничения по внешним ключам:**
+- Объясните назначение ограничений внешних ключей в MySQL.
+- Как ограничения внешних ключей способствуют поддержанию целостности данных?
 
-**MySQL Storage Engines:**
-- Discuss different storage engines in MySQL (e.g., InnoDB, MyISAM).
-- What factors would you consider when choosing a storage engine for a specific scenario?
+**Движки хранения MySQL:**.
+- Обсудите различные механизмы хранения данных в MySQL (например, InnoDB, MyISAM).
+- Какие факторы следует учитывать при выборе механизма хранения данных для конкретного сценария?
 
-**MySQL Transactions:**
-- What is a MySQL transaction, and why is it important?
-- Discuss the ACID properties and their significance in transactions.
+**Транзакции MySQL:**
+- Что такое транзакция MySQL и почему она важна?
+- Обсудите свойства ACID и их значение для транзакций.
 
-**Query Optimization:**
-- How can you optimize a MySQL query for better performance?
-- Discuss the importance of using the EXPLAIN statement for query analysis.
+**Оптимизация запросов:**
+- Как можно оптимизировать запрос MySQL для повышения производительности?
+- Обсудите важность использования оператора EXPLAIN для анализа запросов.
 
-**MySQL Views:**
-- What are MySQL views, and how do they simplify query execution?
-- Discuss scenarios where using views can be beneficial.
+**Представления MySQL:**
+- Что такое представления MySQL и как они упрощают выполнение запросов?
+- Обсудите сценарии, в которых использование представлений может быть полезным.
 
-**Backup and Recovery:**
-- Explain strategies for backing up and recovering MySQL databases.
-- How can you perform a point-in-time recovery in MySQL?
+**Резервное копирование и восстановление:**
+- Объясните стратегии резервного копирования и восстановления баз данных MySQL.
+- Как в MySQL можно выполнить восстановление "точка-время"?
 
-**Stored Procedures and Functions:**
-- Discuss the advantages of using stored procedures and functions in MySQL.
-- Provide examples of scenarios where stored procedures are useful.
+**Хранимые процедуры и функции:**.
+- Обсудите преимущества использования хранимых процедур и функций в MySQL.
+- Приведите примеры сценариев, в которых хранимые процедуры могут быть полезны.
 
-**Full-Text Search in MySQL:**
-- Explain the full-text search capabilities in MySQL.
-- How would you implement full-text search functionality in a MySQL application?
+**Полнотекстовый поиск в MySQL:**.
+- Объясните возможности полнотекстового поиска в MySQL.
+- Как бы вы реализовали функцию полнотекстового поиска в приложении MySQL?

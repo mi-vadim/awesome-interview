@@ -1,79 +1,79 @@
-**PHP Reflection API:**
-- Discuss the applications of the Reflection API in PHP.
-- How can it be used for runtime code inspection and manipulation?
+**PHP Reflection API:**.
+- Обсудите применение Reflection API в PHP.
+- Как его можно использовать для проверки и манипулирования кодом во время выполнения?
 
-**Secure Password Hashing:**
-- Discuss best practices for secure password hashing in PHP.
-- How would you implement password hashing using the password_hash function?
+**Безопасное хеширование паролей:**
+- Обсудите лучшие практики безопасного хэширования паролей в PHP.
+- Как бы вы реализовали хэширование паролей с помощью функции password_hash?
 
 **PHP Generics and Type Hinting:**
-- Explain the concept of generics in PHP and their potential use cases.
-- How does type hinting contribute to code quality and maintainability?
+- Объясните концепцию дженериков в PHP и их возможные варианты использования.
+- Как подсказки типов способствуют повышению качества кода и его сопровождаемости?
 
-**Dependency Injection in PHP:**
-- Explain the principles of dependency injection and how it can be implemented in PHP.
-- Discuss the advantages of using dependency injection containers.
+**Инъекция зависимостей в PHP:**
+- Объясните принципы инъекции зависимостей и то, как она может быть реализована в PHP.
+- Обсудите преимущества использования контейнеров для инъекции зависимостей.
 
-**PHP Error Logging and Monitoring:**
-- How can you implement advanced error handling beyond basic try-catch blocks in PHP?
-- Discuss strategies for error logging and monitoring in a PHP application.
+**Логирование и мониторинг ошибок в PHP:**
+- Как в PHP можно реализовать расширенную обработку ошибок, выходящую за рамки базовых блоков try-catch?
+- Обсудите стратегии регистрации и мониторинга ошибок в PHP-приложениях.
 
-**Message Queues in PHP:**
-- How can message queues be implemented in a PHP application?
-- Discuss the benefits of using message queues for asynchronous processing.
+**Очереди сообщений в PHP:**.
+- Как можно реализовать очереди сообщений в PHP-приложении?
+- Обсудите преимущества использования очередей сообщений для асинхронной обработки.
 
-**PHP SPL (Standard PHP Library) Classes:**
-- Discuss the purpose of SPL classes in PHP.
-- Provide examples of scenarios where SPL classes are beneficial.
+**Классы SPL (стандартной библиотеки PHP) в PHP:**.
+- Обсудите назначение классов SPL в PHP.
+- Приведите примеры сценариев, в которых SPL-классы могут быть полезны.
 
-**Event Sourcing in PHP:**
-- Explain the concept of event sourcing and how it can be implemented in a PHP application.
-- Discuss the advantages and challenges of using event sourcing.
+**Использование событий в PHP:**.
+- Объясните концепцию поиска событий и то, как она может быть реализована в PHP-приложении.
+- Обсудите преимущества и проблемы использования источников событий.
 
-**Handling File Uploads Securely:**
-- What security considerations should be taken into account when handling file uploads in PHP?
-- Discuss best practices for secure file upload handling.
+**Безопасная обработка загрузки файлов:**.
+- Какие соображения безопасности следует принимать во внимание при работе с загрузкой файлов в PHP?
+- Обсудите лучшие практики безопасной обработки загрузки файлов.
 
-**GraphQL in PHP:**
-- Discuss the role of GraphQL in PHP-based APIs.
-- How can you implement and optimize GraphQL APIs in PHP?
+**GraphQL в PHP:**
+- Обсудите роль GraphQL в API на базе PHP.
+- Как можно реализовать и оптимизировать GraphQL API в PHP?
 
-**PHP Reflection API:**
-- Discuss the limitations and considerations when using the Reflection API.
-- How can you dynamically generate and execute PHP code using reflection?
+**PHP Reflection API:**.
+- Обсудите ограничения и соображения при использовании Reflection API.
+- Как динамически генерировать и выполнять PHP-код с помощью отражения?
 
-**Secure Password Hashing and Argon2:**
-- Explain the benefits of the Argon2 password hashing algorithm.
-- How can you mitigate password hash cracking using techniques like salting?
+**Безопасное хэширование паролей и Argon2:**.
+- Объясните преимущества алгоритма хэширования паролей Argon2.
+- Как можно снизить вероятность взлома хэша пароля с помощью таких методов, как высаливание?
 
-**Advanced PHP Error Logging and Monitoring:**
-- Discuss strategies for centralized logging and monitoring of PHP applications.
-- How can you implement real-time error alerts using external services?
+**Дополнительное протоколирование и мониторинг ошибок PHP:**
+- Обсудите стратегии централизованного протоколирования и мониторинга PHP-приложений.
+- Как реализовать оповещение об ошибках в реальном времени с помощью внешних сервисов?
 
-**Microservices and PHP Integration:**
-- How can you design PHP microservices to communicate asynchronously?
-- Discuss challenges and solutions for maintaining consistency in distributed transactions across PHP microservices.
+**Микросервисы и интеграция PHP:**
+- Как спроектировать микросервисы PHP для асинхронного взаимодействия?
+- Обсудите проблемы и решения для поддержания согласованности распределенных транзакций между PHP-микросервисами.
 
-**Asynchronous Programming in PHP:**
-- Explain the use of async/await in PHP and its impact on performance.
-- How can you handle exceptions in asynchronous PHP code?
+**Асинхронное программирование в PHP:**.
+- Объясните использование async/await в PHP и его влияние на производительность.
+- Как обрабатывать исключения в асинхронном PHP-коде?
 
-**APCu (Alternative PHP Cache User Cache):**
-- Explain the purpose of APCu and how it differs from OPcache.
-- How can you use APCu for user-specific caching in a PHP application?
+**APCu (Альтернативный пользовательский кэш PHP Cache):**.
+- Объясните назначение APCu и его отличие от OPcache.
+- Как можно использовать APCu для пользовательского кэширования в PHP-приложении?
 
-**PHP SAPI (Server API) and CLI:**
-- Discuss the different Server API (SAPI) types in PHP.
-- How does the Command Line Interface (CLI) SAPI differ from other SAPIs?
+**PHP SAPI (серверный API) и CLI:**.
+- Обсудите различные типы серверных API (SAPI) в PHP.
+- Чем отличается SAPI интерфейса командной строки (CLI) от других SAPI?
 
-**PHP FPM (FastCGI Process Manager):**
-- Explain the role of PHP-FPM in PHP process management.
-- How can you configure and optimize PHP-FPM for a high-traffic website?
+**PHP FPM (FastCGI Process Manager):**.
+- Объясните роль PHP-FPM в управлении процессами PHP.
+- Как настроить и оптимизировать PHP-FPM для сайта с высокой посещаемостью?
 
-**PHP Generators and Coroutines:**
-- Discuss advanced use cases for generators and coroutines in PHP.
-- How can you implement cooperative multitasking with coroutines for scalable PHP applications?
+**PHP Generators and Coroutines:**.
+- Обсудите расширенные варианты использования генераторов и корутинов в PHP.
+- Как реализовать кооперативную многозадачность с помощью корутинов для масштабируемых PHP-приложений?
 
-**Alternative PHP Implementations:**
-- Discuss alternative PHP implementations like HHVM and RoadRunner.
-- What are the advantages and challenges of using an alternative PHP implementation?
+**Альтернативные реализации PHP:**
+- Обсудите альтернативные реализации PHP, такие как HHVM и RoadRunner.
+- Каковы преимущества и проблемы использования альтернативных реализаций PHP?

@@ -1,79 +1,79 @@
-**Docker Basics:**
- - Explain the basic concepts of Docker
- - What is the purpose of a Docker image?
+**Основы Docker:**
+- Объясните основные концепции Docker
+- Каково назначение образа Docker?
 
-**Container Lifecycle:**
- - Describe the lifecycle of a Docker container
- - How do you stop and remove a running container?
+**Жизненный цикл контейнера:**
+- Опишите жизненный цикл контейнера Docker.
+- Как остановить и удалить запущенный контейнер?
 
-**Dockerfile Basics:**
- - What is a Dockerfile, and how is it used
- - Provide an example of a simple Dockerfile.
+**Основы докерфайлов:**
+- Что такое Dockerfile и как он используется
+- Приведите пример простого Dockerfile.
 
-**Docker Volumes:**
- - What are Docker volumes, and why are they important
- - How do you share data between a Docker container and the host machine?
+**Докерные тома:**
+- Что такое тома Docker и почему они важны.
+- Как обмениваться данными между контейнером Docker и хост-машиной?
 
-**Docker Networking:**
- - Explain the different types of Docker networks
- - How can containers communicate with each other in a custom network?
+**Сети Docker:**
+- Объясните различные типы сетей Docker.
+- Как контейнеры могут взаимодействовать друг с другом в пользовательской сети?
 
-**Docker Compose Basics:**
- - What is Docker Compose, and how does it simplify multi-container setups
- - Provide an example of a basic Docker Compose file.
+**Основы Docker Compose:**
+- Что такое Docker Compose и как он упрощает настройку нескольких контейнеров.
+- Приведите пример базового файла Docker Compose.
 
 **Docker Hub:**
- - What is Docker Hub, and how is it used in Docker workflows
- - How can you pull a specific version of an image from Docker Hub?
+- Что такое Docker Hub и как он используется в рабочих процессах Docker.
+- Как можно извлечь определенную версию образа из Docker Hub?
 
-**Container Orchestration:**
- - Briefly explain the concept of container orchestration
- - How does Docker Compose differ from container orchestration tools like Kubernetes?
+**Оркестрация контейнеров:**.
+- Кратко объясните концепцию оркестровки контейнеров
+- Чем Docker Compose отличается от таких инструментов оркестровки контейнеров, как Kubernetes?
 
-**Docker Compose Services:**
- - Explain the purpose of services in a Docker Compose file
- - How can you scale services in a Docker Compose setup?
+**Сервисы Docker Compose:**
+- Объясните назначение сервисов в файле Docker Compose
+- Как можно масштабировать сервисы в системе Docker Compose?
 
-**Docker Health Checks:**
- - What is a Docker health check, and why would you use it
- - Provide an example of implementing a health check in a Dockerfile.
+**Проверка работоспособности Docker:**
+- Что такое проверка работоспособности Docker и зачем она нужна.
+- Приведите пример реализации проверки работоспособности в Docker-файле.
 
-**Docker Image Cleanup:**
- - Explain the importance of cleaning up unused Docker images
- - How can you remove all stopped containers with a single command?
+**Очистка образов Docker:**.
+- Объясните важность очистки неиспользуемых образов Docker.
+- Как удалить все остановленные контейнеры с помощью одной команды?
 
-**Docker Container Logs:**
- - How can you view the logs of a running Docker container
- - Discuss the options for redirecting container logs to external storage.
+**Журналы контейнеров Docker:**
+- Как просмотреть журналы запущенного контейнера Docker.
+- Обсудите варианты перенаправления журналов контейнера во внешнее хранилище.
 
-**Docker Compose Build Context:**
- - What is the build context in a Docker Compose file
- - How can you optimize the build context for better performance?
+**Контекст сборки Docker Compose:**
+- Что такое контекст сборки в файле Docker Compose.
+- Как можно оптимизировать контекст сборки для повышения производительности?
 
-**Docker Compose Port Mapping:**
- - Explain how port mapping is defined in a Docker Compose file
- - How can you expose a service on a specific host port in Docker Compose?
+**Docker Compose Port Mapping:**.
+- Объясните, как определяется сопоставление портов в файле Docker Compose.
+- Как в Docker Compose можно выставить сервис на определенный порт хоста?
 
-**Docker Networking: Bridge vs. Host:**
- - Compare and contrast the Bridge and Host network modes in Docker
- - When would you choose one network mode over the other?
+**Сетевое взаимодействие в Docker: Bridge vs. Host:**
+- Сравните и противопоставьте сетевые режимы Bridge и Host в Docker.
+- В каких случаях вы предпочтете один сетевой режим другому?
 
-**Docker Compose Environment Variables (Continued):**
- - How can you use environment variable files with Docker Compose
- - Discuss the order of precedence for environment variables in Docker Compose.
+**Переменные окружения Docker Compose (продолжение):**
+- Как можно использовать файлы переменных окружения в Docker Compose
+- Обсудите порядок приоритета переменных окружения в Docker Compose.
 
-**Docker Swarm Mode Basics:**
- - What is Docker Swarm, and how does it enable orchestration
- - How can you initialize a Docker Swarm?
+**Основы режима Docker Swarm:**.
+- Что такое Docker Swarm и как он обеспечивает оркестровку.
+- Как инициализировать Docker Swarm?
 
-**Docker Compose Restart Policies:**
- - Explain the role of restart policies in Docker Compose
- - Provide examples of different restart policies and their use cases.
+**Политики перезапуска в Docker Compose:**.
+- Объясните роль политик перезапуска в Docker Compose.
+- Приведите примеры различных политик перезапуска и их использования.
 
 **Dockerfile ARG vs. ENV:**
- - Discuss the differences between ARG and ENV in a Dockerfile
- - When would you use ARG over ENV, and vice versa?
+- Обсудите различия между ARG и ENV в Dockerfile.
+- Когда лучше использовать ARG, а не ENV, и наоборот?
 
-**Docker Compose and Dependency Management:**
- - How can you express dependencies between services in a Docker Compose file
- - Discuss scenarios where service dependencies are crucial in a multi-container application
+**Docker Compose и управление зависимостями:**.
+- Как можно выразить зависимости между сервисами в файле Docker Compose
+- Обсудите сценарии, в которых зависимости между сервисами имеют решающее значение в многоконтейнерном приложении

@@ -1,39 +1,39 @@
-**Partitioning in MySQL:**
-- Discuss the concept of partitioning in MySQL tables.
-- When would you consider using partitioning for a large dataset?
+**Разбиение таблиц в MySQL:**.
+- Обсудите концепцию разделения таблиц MySQL.
+- Когда следует использовать разделение для большого набора данных?
 
-**High Availability and Replication:**
-- Explain how MySQL replication works and its role in achieving high availability.
-- Discuss scenarios where MySQL replication might be suitable or unsuitable.
+**Высокая доступность и репликация:**
+- Объясните, как работает репликация MySQL и какова ее роль в достижении высокой доступности.
+- Обсудите сценарии, в которых репликация MySQL может быть уместной или неуместной.
 
-**MySQL Triggers:**
-- What are MySQL triggers, and how can they be used?
-- Discuss potential use cases and considerations when implementing triggers.
+**Триггеры MySQL:**
+- Что такое триггеры MySQL и как они могут быть использованы?
+- Обсудите возможные сценарии использования и соображения при внедрении триггеров.
 
-**Optimistic vs. Pessimistic Locking:**
-- Compare optimistic and pessimistic locking in MySQL.
-- When would you choose one locking strategy over the other?
+**Оптимистическая и пессимистическая блокировка:**.
+- Сравните оптимистическую и пессимистическую блокировку в MySQL.
+- В каких случаях вы предпочтете одну стратегию блокировки другой?
 
-**Common Table Expressions (CTEs):**
-- Explain the use of Common Table Expressions in MySQL.
-- Provide an example of a scenario where CTEs can simplify complex queries.
+**Общие табличные выражения (CTE):**.
+- Объясните использование общих табличных выражений в MySQL.
+- Приведите пример сценария, в котором CTE могут упростить сложные запросы.
 
-**MySQL Performance Schema:**
-- Discuss the MySQL Performance Schema and its role in performance monitoring.
-- How can you use the Performance Schema to identify performance bottlenecks?
+**Схема производительности MySQL:**
+- Обсудите схему производительности MySQL и ее роль в мониторинге производительности.
+- Как вы можете использовать схему производительности для выявления узких мест в производительности?
 
-**Handling Large Datasets:**
-- Strategies for efficiently handling large datasets in MySQL.
-- How can you optimize memory usage and processing speed for large queries?
+**Работа с большими массивами данных:**.
+- Стратегии эффективной работы с большими массивами данных в MySQL.
+- Как оптимизировать использование памяти и скорость обработки больших запросов?
 
-**Character Sets and Collations:**
-- Explain the importance of character sets and collations in MySQL.
-- Discuss scenarios where choosing the right character set is crucial.
+**Наборы символов и коллации:**
+- Объясните важность наборов символов и коллизий в MySQL.
+- Обсудите сценарии, в которых выбор правильного набора символов имеет решающее значение.
 
-**Database Sharding in MySQL:**
-- Discuss strategies for implementing database sharding in a MySQL application.
-- What challenges may arise when implementing sharding, and how can they be mitigated?
+**Шардинг баз данных в MySQL:**
+- Обсудите стратегии реализации разделения баз данных в приложении MySQL.
+- Какие проблемы могут возникнуть при реализации шардинга и как их можно решить?
 
-**MySQL JSON Data Type:**
-- Explain the MySQL JSON data type and its advantages.
-- How can you query and manipulate JSON data in MySQL?
+**Тип данных MySQL JSON:**
+- Объясните тип данных MySQL JSON и его преимущества.
+- Как можно запрашивать и манипулировать данными JSON в MySQL?

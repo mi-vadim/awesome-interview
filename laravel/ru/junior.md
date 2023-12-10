@@ -1,39 +1,39 @@
-**Routing in Laravel:**
- - Explain how route model binding works in Laravel and provide an example
- - Discuss the differences between named routes and route groups in Laravel.
+**Роутинг в Laravel:**.
+- Объясните, как работает привязка маршрутной модели в Laravel, и приведите пример
+- Обсудите различия между именованными маршрутами и группами маршрутов в Laravel.
 
-**Eloquent ORM Basics:**
- - How can you utilize the withCount method in Eloquent for efficient query optimization
- - Discuss the role of global scopes in Eloquent and provide an example of their application.
+**Основы ORM в Eloquent:**
+- Как можно использовать метод withCount в Eloquent для эффективной оптимизации запросов
+- Обсудите роль глобальных диапазонов в Eloquent и приведите пример их применения.
 
-**Middleware in Laravel:**
- - Implement a middleware that modifies the response content of a JSON API by adding additional data
- - Discuss the order of middleware execution and how it can impact the request lifecycle.
+**Промежуточное ПО в Laravel:**.
+- Реализуйте промежуточное ПО, которое изменяет содержимое ответа JSON API путем добавления дополнительных данных.
+- Обсудите порядок выполнения промежуточного ПО и то, как это может повлиять на жизненный цикл запроса.
 
-**Blade Templating Engine:**
- - Explore the concept of Blade directives and provide examples of custom Blade directives
- - Discuss how you can conditionally include a Blade view based on the existence of a variable.
+**Шаблонный движок Blade:**.
+- Изучите концепцию директив Blade и приведите примеры пользовательских директив Blade.
+- Обсудите, как можно условно включить представление Blade, основываясь на существовании переменной.
 
-**Validation in Laravel:**
- - Implement a custom validation rule that checks if a given value is a prime number
- - How can you perform conditional validation based on the input of other fields?
+**Валидация в Laravel:**.
+- Реализация пользовательского правила валидации, которое проверяет, является ли заданное значение простым числом
+- Как выполнить условную валидацию на основе ввода других полей?
 
-**Database Migrations and Seeders:**
- - Discuss the use of database transactions in migrations and how they enhance database integrity
- - Implement a seeder that dynamically generates and inserts a large dataset into the database.
+**Миграция баз данных и сеялки:**
+- Обсудите использование транзакций базы данных при миграции и то, как они повышают целостность базы данных
+- Реализуйте сеялку, которая динамически генерирует и вставляет в базу данных большой набор данных.
 
-**Laravel Artisan Commands:**
- - Create a custom Artisan command that interacts with a third-party API
- - How can you schedule an Artisan command to run at specific intervals using task scheduling?
+**Команды Laravel Artisan:**
+- Создание пользовательской команды Artisan, которая взаимодействует с API сторонних разработчиков
+- Как запланировать выполнение команды Artisan через определенные промежутки времени с помощью планирования задач?
 
-**Dependency Injection in Controllers:**
- - Explain how you can leverage method injection in a Laravel controller
- - Discuss the concept of contextual binding in Laravel's service container.
+**Инъекция зависимости в контроллерах:**
+- Объясните, как можно использовать инъекцию методов в контроллере Laravel.
+- Обсудите концепцию контекстного связывания в контейнере сервисов Laravel.
 
-**Laravel Events and Listeners:**
- - Implement an event listener that performs an action only if multiple events are fired within a specific timeframe
- - Discuss the differences between events and observers in Laravel.
+**События и слушатели в Laravel:**
+- Реализуйте слушатель событий, который выполняет действие только в том случае, если в течение определенного времени происходит несколько событий
+- Обсудите различия между событиями и наблюдателями в Laravel.
 
-**File Storage in Laravel:**
- - Explore the usage of Laravel's file storage for cloud-based services like Amazon S3
- - How can you efficiently handle file uploads with progress tracking in Laravel
+**Файловое хранилище в Laravel:**.
+- Изучите возможности использования файлового хранилища Laravel для облачных сервисов, таких как Amazon S3.
+- Как эффективно обрабатывать загрузку файлов с отслеживанием выполнения в Laravel

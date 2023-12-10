@@ -1,59 +1,59 @@
-**Problem Solving:**
- -  Can you describe a challenging problem you faced in a coding project, and how you approached solving it?
- -  How do you debug and troubleshoot issues in your code?
+**Решение проблем:**
+-  Можете ли вы описать сложную проблему, с которой вы столкнулись в проекте по кодированию, и как вы подошли к ее решению?
+-  Как вы отлаживаете и устраняете проблемы в своем коде?
 
-**Version Control:**
- -  Have you used version control systems like Git before?
- -  Can you explain the purpose of branches in Git?
- 
-**Algorithms and Data Structures:**
- -  What data structures are you familiar with, and in what scenarios would you use each?
- -  Can you explain the difference between an array and a linked list?
- 
-**Basic Web Development:**
- -  Explain the difference between HTTP and HTTPS.
- -  What is the purpose of HTML, and can you provide examples of HTML tags?
- 
-**Web Technologies:**
- -  What is the Document Object Model (DOM), and how is it related to web development?
- -  Can you explain the difference between cookies and local storage in web browsers?
- 
-**Basic Coding Concepts:**
- -  What is the difference between a function and a method in programming?
- -  Explain the concept of scope in programming.
- 
-**Problem-Solving Approach:**
- -  How do you typically approach breaking down a complex problem into smaller, manageable parts?
- -  Can you discuss a situation where you had to learn a new technology or concept quickly?
- 
-**Software Development Life Cycle:**
- -  Describe the stages of the software development life cycle.
- -  What is the importance of code reviews in the development process?
- 
-**Collaboration and Communication:**
- -  How do you approach collaborating with team members on a project?
- -  Can you provide an example of a situation where you had to communicate technical information to a non-technical audience?
- 
-**Coding Practices:**
- -  What coding standards do you follow in your projects?
- -  How do you ensure your code is readable and maintainable?
- 
-**Learning and Growth:**
- -  What resources do you use to stay updated on industry trends and new technologies?
- -  Can you describe a situation where you learned from a mistake or failure in a project?
- 
-**Soft Skills:**
- -  How do you handle feedback on your work, and how do you incorporate it into your development process?
- -  Can you discuss a situation where you had to work with a challenging team member?
- 
-**Teamwork:**
- -  How do you contribute to a positive and collaborative team environment?
- -  Can you share an example of a successful team project you worked on?
- 
-**Project Management:**
- -  How do you prioritize tasks and manage your time during a project?
- -  Can you discuss a situation where you had to meet a tight deadline, and how did you handle it?
+**Система контроля версий:**
+-  Использовали ли вы системы контроля версий, такие как Git, раньше?
+-  Можете ли вы объяснить цель ветвей в Git?
 
-**Quality Assurance:**
- -  What role do code reviews play in ensuring code quality?
- -  Can you describe how you would approach testing a feature before it goes live?
+**Алгоритмы и структуры данных:**
+-  С какими структурами данных вы знакомы, и в каких сценариях вы бы использовали каждую из них?
+-  Можете ли вы объяснить разницу между массивом и связанным списком?
+
+**Основы веб-разработки:**
+-  Объясните разницу между HTTP и HTTPS.
+-  Какова цель HTML, и можете ли вы предоставить примеры тегов HTML?
+
+**Веб-технологии:**
+-  Что такое модель объектов документа (DOM), и как она связана с веб-разработкой?
+-  Можете ли вы объяснить разницу между куки и локальным хранилищем в веб-браузерах?
+
+**Основные концепции программирования:**
+-  В чем разница между функцией и методом в программировании?
+-  Объясните концепцию области видимости в программировании.
+
+**Подход к решению проблем:**
+-  Как вы обычно подходите к разбиению сложной задачи на более мелкие, управляемые части?
+-  Можете ли вы обсудить ситуацию, когда вам пришлось быстро изучить новую технологию или концепцию?
+
+**Жизненный цикл разработки программного обеспечения:**
+-  Опишите этапы жизненного цикла разработки программного обеспечения.
+-  Какова важность рецензирования кода в процессе разработки?
+
+**Сотрудничество и коммуникация:**
+-  Как вы подходите к сотрудничеству с членами команды в проекте?
+-  Можете ли вы привести пример ситуации, когда вам пришлось передавать техническую информацию неспециалистам?
+
+**Практики программирования:**
+-  Какие стандарты кодирования вы соблюдаете в своих проектах?
+-  Как вы обеспечиваете читаемость и поддерживаемость вашего кода?
+
+**Обучение и рост:**
+-  Какие ресурсы вы используете для отслеживания трендов в отрасли и новых технологий?
+-  Можете ли вы описать ситуацию, когда вы учились на своих ошибках или неудачах в проекте?
+
+**Мягкие навыки:**
+-  Как вы принимаете обратную связь по своей работе и как интегрируете ее в свой процесс разработки?
+-  Можете ли вы рассказать о ситуации, когда вам пришлось работать с сложным членом команды?
+
+**Командная работа:**
+-  Как вы вносите свой вклад в позитивную и коллаборативную атмосферу в команде?
+-  Можете ли поделиться примером успешного командного проекта, в котором вы участвовали?
+
+**Управление проектом:**
+-  Как вы расставляете приоритеты задач и управляете своим временем в проекте?
+-  Можете ли обсудить ситуацию, когда вам пришлось соблюдать строгий срок, и как вы с этим справились?
+
+**Обеспечение качества:**
+-  Какую роль играют рецензии кода в обеспечении качества кода?
+-  Можете описать, как вы подходите к тестированию функции перед ее внедрением?

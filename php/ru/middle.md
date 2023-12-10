@@ -1,79 +1,79 @@
-**PHP Namespaces:**
-- Explain the purpose of namespaces in PHP.
-- How can namespaces help in organizing and avoiding naming conflicts?
+**Пространства имен PHP:**.
+- Объясните назначение пространств имен в PHP.
+- Как пространства имен могут помочь в организации и предотвращении конфликтов имен?
 
-**Traits and Multiple Inheritance:**
-- Discuss the role of traits in PHP and how they relate to multiple inheritance.
-- Provide an example of using traits in a practical scenario.
+**Трейты и множественное наследование:**
+- Обсудите роль трейтов в PHP и их связь с множественным наследованием.
+- Приведите пример использования трейтов в практическом сценарии.
 
-**PHP Generators:**
-- Explain what generators are in PHP and how they differ from regular functions.
-- Discuss scenarios where using generators is advantageous.
+**Генераторы PHP:**
+- Объясните, что такое генераторы в PHP и чем они отличаются от обычных функций.
+- Обсудите сценарии, в которых использование генераторов является выгодным.
 
-**Anonymous Classes:**
-- What are anonymous classes in PHP, and when might you choose to use them?
-- How can anonymous classes contribute to code organization?
+**Анонимные классы:**
+- Что такое анонимные классы в PHP и когда их можно использовать?
+- Как анонимные классы могут способствовать организации кода?
 
-**Working with JSON in PHP:**
-- How can you encode and decode JSON data in PHP?
-- Discuss the use of json_encode options for customization.
+**Работа с JSON в PHP:**.
+- Как можно кодировать и декодировать данные JSON в PHP?
+- Обсудите использование опций json_encode для настройки.
 
-**PHP Constants and Magic Constants:**
-- Explain the difference between define and const for defining constants.
-- Discuss the purpose of magic constants like __FILE__ and __LINE__.
+**Константы PHP и магические константы:**
+- Объясните разницу между define и const для определения констант.
+- Обсудите назначение магических констант, таких как __FILE__ и __LINE__.
 
-**Late Static Binding:**
-- Discuss the concept of late static binding in PHP.
-- Provide an example where late static binding is beneficial.
+**Позднее статическое связывание:**
+- Обсудите концепцию позднего статического связывания в PHP.
+- Приведите пример, когда поздняя статическая привязка может быть полезной.
 
-**PHP Sessions and Cookies:**
-- How does PHP manage sessions, and what security considerations should be taken into account?
-- Explain the use of cookies in PHP and their potential security issues.
+**Сессии и куки в PHP:**
+- Как PHP управляет сессиями и какие соображения безопасности следует принимать во внимание?
+- Объясните использование cookies в PHP и их потенциальные проблемы с безопасностью.
 
-**Composer Autoloading and PSR Standards:**
-- Explain how Composer handles autoloading in PHP projects.
-- Discuss the importance of following PSR standards in PHP development.
+**Автозагрузка и стандарты PSR в Composer:**.
+- Объясните, как Composer работает с автозагрузкой в PHP-проектах.
+- Обсудите важность следования стандартам PSR при разработке PHP.
 
-**Working with Streams in PHP:**
-- Discuss the concept of streams in PHP.
-- How can you use streams for reading and writing data efficiently?
+**Работа с потоками в PHP:**.
+- Обсудите концепцию потоков в PHP.
+- Как эффективно использовать потоки для чтения и записи данных?
 
-**PHP Traits and Interfaces:**
-- Discuss the use of interfaces in conjunction with traits.
-- How can you resolve conflicts when using multiple traits with overlapping methods?
+**Пункты и интерфейсы в PHP:**
+- Обсудите использование интерфейсов в сочетании с трейтами.
+- Как разрешить конфликты при использовании нескольких трейтов с пересекающимися методами?
 
-**Working with Streams in PHP:**
-- Explain the concept of stream filters in PHP.
-- How can you create a custom stream wrapper for a specific data source?
+**Работа с потоками в PHP:**
+- Объясните концепцию потоковых фильтров в PHP.
+- Как создать пользовательскую обертку потока для определенного источника данных?
 
-**Dependency Injection and Inversion of Control (IoC):**
-- Discuss the principles of IoC and how it relates to dependency injection.
-- Explain the drawbacks of excessive dependency injection.
+**Инъекция зависимости и инверсия контроля (IoC):**.
+- Обсудите принципы IoC и то, как он связан с инъекцией зависимостей.
+- Объясните недостатки чрезмерного внедрения зависимостей.
 
-**Advanced JSON Handling in PHP:**
-- How can you handle JSON decoding errors gracefully in PHP?
-- Discuss strategies for working with JSON Web Tokens (JWT) in PHP.
+**Дополнительная обработка JSON в PHP:**.
+- Как можно изящно обрабатывать ошибки декодирования JSON в PHP?
+- Обсудите стратегии работы с JSON Web Tokens (JWT) в PHP.
 
-**PHP Generators and Coroutines:**
-- Explain the use of coroutines with generators in PHP.
-- How can you implement cooperative multitasking using coroutines?
+**Генераторы и корутины в PHP:**
+- Объясните, как в PHP используются корутины и генераторы.
+- Как можно реализовать кооперативную многозадачность с помощью коротинов?
 
-**PHP Streams and Contexts:**
-- Explain the concept of PHP streams and stream contexts.
-- How can you create a custom stream wrapper for handling custom protocols?
+**Потоки и контексты PHP:**
+- Объясните концепцию потоков и контекстов потоков в PHP.
+- Как создать пользовательскую обертку для потоков для работы с пользовательскими протоколами?
 
-**WebSockets in PHP:**
-- Discuss the use of WebSockets in PHP for real-time communication.
-- How can you implement a WebSocket server using a PHP library?
+**WebSockets в PHP:**
+- Обсудите использование WebSockets в PHP для обмена данными в реальном времени.
+- Как реализовать сервер WebSocket с помощью библиотеки PHP?
 
-**PHP Annotations:**
-- Explain the use of annotations in PHP, and provide examples of libraries utilizing annotations.
-- How can you create and process custom annotations in a PHP project?
+**Аннотации в PHP:**
+- Объясните использование аннотаций в PHP и приведите примеры библиотек, использующих аннотации.
+- Как создавать и обрабатывать пользовательские аннотации в PHP-проекте?
 
-**Generator Delegation:**
-- Discuss the concept of generator delegation in PHP.
-- Provide examples of use cases where generator delegation is beneficial.
+**Делегирование генератора:**
+- Обсудите концепцию делегирования генераторов в PHP.
+- Приведите примеры случаев, когда делегирование генератора может быть полезным.
 
-**PHP Traits and Magic Methods:**
-- How can traits be used to implement magic methods in PHP?
-- Discuss scenarios where using magic methods with traits is advantageous.
+**PHP трейты и магические методы:**
+- Как трейты могут быть использованы для реализации магических методов в PHP?
+- Обсудите сценарии, в которых использование магических методов с трейтами является выгодным.

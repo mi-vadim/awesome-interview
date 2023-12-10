@@ -1,79 +1,78 @@
-**Version Control Systems:**
- - Explain the purpose of version control systems in DevOps
- - How does Git differ from other version control systems?
+**Системы контроля версий:**
+- Объясните назначение систем контроля версий в DevOps
+- Чем Git отличается от других систем контроля версий?
 
-**Continuous Integration (CI) Basics:**
- - What is continuous integration, and why is it important
- - Name a popular CI tool, and explain its primary features.
+**Основы непрерывной интеграции (CI):**
+- Что такое непрерывная интеграция и почему она важна.
+- Назовите популярный инструмент CI и объясните его основные возможности.
 
-**Docker Basics:**
- - What is Docker, and how does it simplify application deployment
- - Explain the difference between an image and a container.
+**Основы Docker:**
+- Что такое Docker и как он упрощает развертывание приложений.
+- Объясните разницу между образом и контейнером.
 
-**Basic Linux Commands:**
- - Name three essential Linux commands for navigating the file system
- - How do you check the usage of system resources in Linux?
+**Базовые команды Linux:**
+- Назовите три основные команды Linux для навигации по файловой системе.
+- Как проверить использование системных ресурсов в Linux?
 
-**Infrastructure as Code (IaC) Introduction:**
- - What is Infrastructure as Code, and why is it valuable
- - Name a popular IaC tool and explain its benefits.
+**Инфраструктура как код (IaC) Введение:**
+- Что такое инфраструктура как код и почему она ценна
+- Назовите популярный инструмент IaC и объясните его преимущества.
 
-**Basic Networking Concepts:**
- - What is the difference between TCP and UDP
- - Explain the purpose of DNS in a network.
+**Основные сетевые концепции:**
+- В чем разница между TCP и UDP
+- Объясните назначение DNS в сети.
 
-**Basic Shell Scripting:**
- - Write a simple shell script that prints the numbers 1 to 5
- - How can you pass arguments to a shell script?
+**Базовые сценарии оболочки:**
+- Напишите простой сценарий оболочки, который печатает числа от 1 до 5
+- Как можно передать аргументы в сценарий оболочки?
 
-**Monitoring Basics:**
- - What is the role of monitoring in DevOps
- - Name a monitoring tool and explain its key features.
+**Основы мониторинга:**
+- Какова роль мониторинга в DevOps
+- Назовите инструмент мониторинга и объясните его ключевые особенности.
 
-**Basic Security Practices:**
- - Explain the importance of keeping software and systems up to date
- - How can you secure SSH access to a Linux server?
+**Основы безопасности:**
+- Объясните важность поддержания программного обеспечения и систем в актуальном состоянии
+- Как можно защитить SSH-доступ к серверу Linux?
 
-**Basic CI/CD Pipeline Understanding:**
- - Describe the stages in a basic CI/CD pipeline
- - How does a CI/CD pipeline contribute to software delivery?
+**Основное понимание конвейера CI/CD:**
+- Опишите этапы базового CI/CD-конвейера
+- Как конвейер CI/CD способствует доставке программного обеспечения?
 
-**Continuous Deployment:**
- - Explain the concept of continuous deployment in DevOps
- - What are the benefits and challenges of implementing continuous deployment?
+**Непрерывное развертывание:**
+- Объясните концепцию непрерывного развертывания в DevOps.
+- Каковы преимущества и проблемы внедрения непрерывного развертывания?
 
-**Secrets Management:**
- - Why is secrets management crucial in a DevOps environment
- - Name a tool or method for securely managing and distributing secrets.
+**Управление секретами:**
+- Почему управление секретами имеет решающее значение в среде DevOps.
+- Назовите инструмент или метод для безопасного управления и распространения секретов.
 
-**Container Orchestration Benefits:**
- - Discuss the benefits of using container orchestration tools
- - How does container orchestration contribute to scalability and reliability?
+**Преимущества оркестровки контейнеров:**
+- Обсудите преимущества использования инструментов оркестровки контейнеров.
+- Как оркестровка контейнеров способствует масштабируемости и надежности?
 
-**Git Branching Strategies:**
- - Explain the importance of branching strategies in Git
- - Discuss a common Git branching model used in software development.
+**Стратегии ветвления в Git:**
+- Объясните важность стратегий ветвления в Git
+- Обсудите распространенную модель ветвления в Git, используемую при разработке программного обеспечения.
 
-**Infrastructure Scalability:**
- - What is horizontal scalability, and how is it achieved in infrastructure design
- - Discuss scenarios where vertical scalability is more appropriate.
+**Масштабируемость инфраструктуры:**
+- Что такое горизонтальная масштабируемость и как она достигается при проектировании инфраструктуры
+- Обсудите сценарии, в которых более уместна вертикальная масштабируемость.
 
-**Load Balancing:**
- - Why is load balancing important in distributed systems
- - Name different types of load balancing algorithms and their characteristics.
+**Балансировка нагрузки:**
+- Почему балансировка нагрузки важна в распределенных системах
+- Назовите различные типы алгоритмов балансировки нагрузки и их характеристики.
 
-**Deployment Strategies:**
- - Discuss various deployment strategies, such as rolling deployments and blue-green deployments
- - When would you choose one deployment strategy over another?
+**Стратегии развертывания:**
+- Обсудите различные стратегии развертывания, такие как скользящее развертывание и "сине-зеленое" развертывание.
+- В каких случаях вы предпочтете одну стратегию развертывания другой?
 
-**Basic Cloud Concepts:**
- - Explain the difference between IaaS, PaaS, and SaaS
- - How does cloud elasticity contribute to infrastructure flexibility?
+**Основные концепции облачных вычислений:**
+- Объясните разницу между IaaS, PaaS и SaaS.
+- Как эластичность облака способствует гибкости инфраструктуры?
+  **Практика совместного кодирования:**
+- Как системы контроля версий могут улучшить практику совместного кодирования
+- Обсудите важность проверки кода в среде совместной разработки.
 
-**Collaborative Coding Practices:**
- - How can version control systems enhance collaborative coding practices
- - Discuss the importance of code reviews in a collaborative development environment.
-
-**Incident Response Basics:**
- - What is an incident response plan, and why is it important
- - How do you prioritize incidents during a system outage
+**Основы реагирования на инциденты:**
+- Что такое план реагирования на инциденты и почему он важен.
+- Как определить приоритетность инцидентов во время сбоя системы

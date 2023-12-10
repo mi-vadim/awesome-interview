@@ -1,79 +1,79 @@
-**Strategic Design in DDD:**
- - Discuss the importance of strategic design in Domain-Driven Design
- - How does strategic design influence the overall architecture of a system?
+**Стратегическое проектирование в DDD:**
+- Обсудите важность стратегического проектирования в Domain-Driven Design
+- Как стратегическое проектирование влияет на общую архитектуру системы?
 
-**DDD and Microservices:**
- - How does DDD align with microservices architecture
- - Discuss the challenges and benefits of applying DDD principles in a microservices environment.
+**DD и микросервисы:**
+- Как DDD сочетается с архитектурой микросервисов.
+- Обсудите проблемы и преимущества применения принципов DDD в среде микросервисов.
 
 **Event Storming:**
- - What is event storming, and how can it be used in the early stages of DDD
- - Discuss the role of different stakeholders in an event storming session.
+- Что такое событийный штурм и как его можно использовать на ранних стадиях DDD.
+- Обсудите роль различных заинтересованных сторон в сессии событийного штурма.
 
-**Anti-Corruption Layer:**
- - Explain the concept of an Anti-Corruption Layer (ACL) in DDD
- - How does an ACL facilitate communication between different bounded contexts?
+**Антикоррупционный слой:**
+- Объясните концепцию антикоррупционного слоя (ACL) в DDD.
+- Как ACL облегчает взаимодействие между различными ограниченными контекстами?
 
-**Domain Services:**
- - What are domain services in DDD, and when should they be used
- - Provide an example of a situation where a domain service is more appropriate than an entity.
+**Доменные сервисы:**
+- Что такое доменные сервисы в DDD и когда их следует использовать
+- Приведите пример ситуации, когда доменная служба более уместна, чем сущность.
 
-**Modeling Aggregates:**
- - Discuss best practices for modeling aggregates in DDD
- - How can you ensure consistency within an aggregate?
+**Моделирование агрегатов:**
+- Обсудите лучшие практики моделирования агрегатов в DDD
+- Как можно обеспечить согласованность внутри агрегата?
 
-**DDD and Testing:**
- - How does DDD influence the testing strategy for a software project
- - Discuss the role of behavioral testing in DDD.
+**DD и тестирование:**
+- Как DDD влияет на стратегию тестирования программного проекта
+- Обсудите роль поведенческого тестирования в DDD.
 
-**Refactoring in DDD:**
- - Explain the importance of refactoring in a DDD-driven project
- - Provide examples of common refactoring techniques in DDD.
+**Рефакторинг в DDD:**
+- Объясните важность рефакторинга в DDD-проекте.
+- Приведите примеры распространенных техник рефакторинга в DDD.
 
-**Read Models in CQRS:**
- - What is a read model in the context of CQRS
- - How do you optimize read models for query performance?
+**Модели чтения в CQRS:**
+- Что такое модель чтения в контексте CQRS
+- Как оптимизировать модели чтения для повышения производительности запросов?
 
-**DDD and Legacy Systems:**
- - Discuss strategies for introducing DDD principles into a legacy system
- - How can DDD help mitigate challenges in maintaining and evolving legacy code?
+**DD и унаследованные системы:**
+- Обсудите стратегии внедрения принципов DDD в унаследованную систему.
+- Как DDD может помочь смягчить проблемы, связанные с поддержкой и развитием унаследованного кода?
 
-**Eventual Consistency in DDD:**
- - Explain the concept of eventual consistency in a DDD context
- - Discuss scenarios where eventual consistency is preferable.
+**Эвентуальная согласованность в DDD:**
+- Объясните концепцию эвентуальной согласованности в контексте DDD
+- Обсудите сценарии, в которых эвентуальная согласованность является предпочтительной.
 
-**Bounded Context Evolution:**
- - How can bounded contexts evolve over time in a DDD-driven project
- - Discuss strategies for handling changes in the understanding of a domain.
+**Эволюция ограниченных контекстов:**
+- Как ограниченные контексты могут эволюционировать со временем в проекте, основанном на DDD.
+- Обсудите стратегии обработки изменений в понимании домена.
 
-**Consistency in Distributed Systems:**
- - Discuss challenges and strategies for maintaining consistency in distributed DDD systems
- - How do you balance consistency and availability in a distributed architecture?
+**Согласованность в распределенных системах:**
+- Обсудите проблемы и стратегии поддержания согласованности в распределенных системах DDD.
+- Как сбалансировать согласованность и доступность в распределенной архитектуре?
 
-**DDD and Hexagonal Architecture:**
- - How does Hexagonal Architecture align with DDD principles
- - Discuss the benefits of using a hexagonal architecture in a DDD project.
+**DD и гексагональная архитектура:**.
+- Как гексагональная архитектура согласуется с принципами DDD
+- Обсудите преимущества использования гексагональной архитектуры в DDD-проекте.
 
-**Domain-Driven Testing:**
- - How can testing practices be aligned with domain-driven development
- - Discuss the role of behavior-driven testing in a DDD context.
+**Тестирование, управляемое доменом:**
+- Как практика тестирования может быть согласована с доменно-ориентированной разработкой
+- Обсудите роль тестирования, ориентированного на поведение, в контексте DDD.
 
-**Implementing Domain Services:**
- - Share best practices for implementing domain services in DDD
- - Discuss situations where a domain service is more appropriate than an entity or value object.
+**Внедрение доменных сервисов:**.
+- Поделитесь лучшими практиками реализации доменных сервисов в DDD
+- Обсудите ситуации, в которых доменные сервисы более уместны, чем сущности или объекты значений.
 
-**Event Sourcing and Event Storage:**
- - How do you choose an event storage mechanism in an event-sourced system
- - Discuss considerations for persisting events in an event-sourced architecture.
+**Источник событий и хранилище событий:**.
+- Как выбрать механизм хранения событий в системе, основанной на событиях.
+- Обсудите соображения по сохранению событий в архитектуре с источниками событий.
 
-**Sagas in DDD:**
- - Explain the concept of sagas in DDD
- - How can sagas be used to manage long-running business processes?
+**Саги в DDD:**
+- Объясните концепцию саг в DDD.
+- Как можно использовать саги для управления длительными бизнес-процессами?
 
-**Event Collaboration vs. Event Storming:**
- - Compare event collaboration and event storming as DDD modeling techniques
- - Discuss scenarios where one technique might be more suitable than the other.
+**Совместная работа с событиями и штурм событий:**.
+- Сравните совместную работу с событиями и штурм событий как методы моделирования в DDD.
+- Обсудите сценарии, в которых одна техника может быть более подходящей, чем другая.
 
-**External Systems Integration in DDD:**
- - How do you integrate external systems in a DDD-driven project
- - Discuss challenges and strategies for maintaining consistency across boundaries
+**Интеграция внешних систем в DDD:**
+- Как интегрировать внешние системы в проект, основанный на DDD.
+- Обсудите проблемы и стратегии поддержания согласованности между границами

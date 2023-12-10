@@ -1,39 +1,39 @@
-**Microservices Architecture:**
- - Define microservices architecture and explain its benefits over monolithic architecture
- - Discuss potential challenges and drawbacks associated with microservices.
+**Архитектура микросервисов:**
+- Дайте определение архитектуры микросервисов и объясните ее преимущества перед монолитной архитектурой.
+- Обсудите потенциальные проблемы и недостатки, связанные с микросервисами.
 
-**Service Discovery:**
- - Explain the role of service discovery in a microservices environment
- - How does service discovery contribute to dynamic and scalable systems?
+**Обнаружение сервисов:**
+- Объясните роль обнаружения сервисов в среде микросервисов.
+- Как обнаружение сервисов способствует созданию динамичных и масштабируемых систем?
 
 **API Gateway:**
- - What is an API Gateway, and how does it facilitate communication in microservices
- - Discuss the advantages of using an API Gateway in a microservices architecture.
+- Что такое API-шлюз и как он облегчает взаимодействие в микросервисах.
+- Обсудите преимущества использования API-шлюза в архитектуре микросервисов.
 
-**Containerization:**
- - Explain the concept of containerization and how it relates to microservices
- - What are the benefits of using containers like Docker in a microservices setup?
+**Контейнеризация:**
+- Объясните концепцию контейнеризации и ее связь с микросервисами.
+- Каковы преимущества использования контейнеров типа Docker в микросервисной архитектуре?
 
-**Load Balancing in Microservices:**
- - Discuss the importance of load balancing in microservices
- - How can load balancing contribute to improved performance and availability?
+**Балансировка нагрузки в микросервисах:**
+- Обсудите важность балансировки нагрузки в микросервисах.
+- Как балансировка нагрузки может способствовать повышению производительности и доступности?
 
-**Event-Driven Architecture:**
- - Explain the principles of event-driven architecture in the context of microservices
- - Provide an example scenario where an event-driven approach is beneficial.
+**Архитектура, управляемая событиями:**
+- Объясните принципы событийно-управляемой архитектуры в контексте микросервисов
+- Приведите пример сценария, в котором событийно-управляемый подход будет полезен.
 
-**Fault Tolerance and Resilience:**
- - Discuss strategies for achieving fault tolerance and resilience in microservices
- - How can the Circuit Breaker pattern enhance the reliability of microservices?
+**Отказоустойчивость и отказоустойчивость:**
+- Обсудите стратегии достижения отказоустойчивости и отказоустойчивости в микросервисах.
+- Как паттерн Circuit Breaker может повысить надежность микросервисов?
 
-**Microservices Testing:**
- - Explain the challenges and strategies for testing microservices
- - How can you implement testing automation in a microservices environment?
+**Тестирование микросервисов:**.
+- Объясните проблемы и стратегии тестирования микросервисов.
+- Как реализовать автоматизацию тестирования в среде микросервисов?
 
-**Continuous Integration and Deployment (CI/CD):**
- - Discuss the role of CI/CD in microservices development
- - How does CI/CD contribute to the agility and reliability of microservices?
+**Непрерывная интеграция и развертывание (CI/CD):**
+- Обсудите роль CI/CD в разработке микросервисов
+- Как CI/CD способствует гибкости и надежности микросервисов?
 
-**Database Per Service Pattern:**
- - Explain the concept of the Database Per Service pattern in microservices
- - What are the advantages and challenges associated with this pattern
+**Паттерн "база данных на сервисе":**
+- Объясните концепцию шаблона Database Per Service в микросервисах.
+- Каковы преимущества и проблемы, связанные с этим паттерном

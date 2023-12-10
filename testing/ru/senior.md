@@ -1,79 +1,79 @@
-**AI/ML in Testing:**
-- Discuss the role of artificial intelligence and machine learning in testing.
-- How can AI-driven testing enhance test automation and analysis?
+**AI/ML в тестировании:**.
+- Обсудите роль искусственного интеллекта и машинного обучения в тестировании.
+- Как тестирование на основе искусственного интеллекта может улучшить автоматизацию и анализ тестов?
 
-**Chaos Engineering:**
-- Explain the principles and benefits of chaos engineering.
-- How can chaos engineering be applied to improve system resilience?
+**Хаос-инженерия:**
+- Объясните принципы и преимущества хаос-инженерии.
+- Как можно применить хаос-инженерию для повышения отказоустойчивости систем?
 
-**Compliance and Regulatory Testing:**
-- Discuss the importance of compliance testing in regulated industries.
-- How do you ensure that software meets specific regulatory standards?
+**Тестирование на соответствие и нормативные требования:**.
+- Обсудите важность тестирования на соответствие нормативным требованиям в регулируемых отраслях.
+- Как убедиться, что программное обеспечение соответствует определенным нормативным стандартам?
 
-**Mutation Testing:**
-- What is mutation testing, and how does it improve test coverage?
-- Discuss challenges and best practices for implementing mutation testing.
+**Мутационное тестирование:**
+- Что такое мутационное тестирование и как оно улучшает тестовое покрытие?
+- Обсудите проблемы и лучшие практики внедрения мутационного тестирования.
 
-**Testing Blockchain Applications:**
-- What challenges are unique to testing blockchain-based applications?
-- How can you ensure the security and reliability of smart contracts?
+**Тестирование блокчейн-приложений:**.
+- Какие проблемы характерны для тестирования приложений на основе блокчейна?
+- Как обеспечить безопасность и надежность смарт-контрактов?
 
-**Shift-Right Testing:**
-- Explain the concept of shift-right testing in the software development lifecycle.
-- How can shift-right testing improve post-release monitoring and feedback?
+**Тестирование со сдвигом вправо:**.
+- Объясните концепцию тестирования со сдвигом вправо в жизненном цикле разработки программного обеспечения.
+- Как тестирование со сдвигом вправо может улучшить мониторинг и обратную связь после выпуска?
 
-**Testing in Agile and DevOps Environments:**
-- Discuss strategies for effective testing in agile development.
-- How does testing evolve in a DevOps culture, and what challenges may arise?
+**Тестирование в Agile и DevOps средах:**.
+- Обсудите стратегии эффективного тестирования в agile-разработке.
+- Как развивается тестирование в культуре DevOps и какие проблемы могут возникнуть?
 
-**Elasticsearch Testing:**
-- What are key considerations for testing applications using Elasticsearch?
-- How can you ensure the performance and scalability of Elasticsearch queries?
+**Тестирование Elasticsearch:**.
+- Какие ключевые моменты необходимо учитывать при тестировании приложений, использующих Elasticsearch?
+- Как обеспечить производительность и масштабируемость запросов к Elasticsearch?
 
-**Testing with Containers and Orchestration:**
-- How does containerization impact testing strategies?
-- Discuss challenges and solutions for testing applications in containerized environments.
+**Тестирование с помощью контейнеров и оркестровки:**.
+- Как контейнеризация влияет на стратегии тестирования?
+- Обсудите проблемы и решения для тестирования приложений в контейнерных средах.
 
-**Resilience Testing:**
-- Explain the importance of resilience testing in distributed systems.
-- How can you simulate and test failure scenarios to ensure system robustness?
+**Тестирование отказоустойчивости:**.
+- Объясните важность тестирования отказоустойчивости в распределенных системах.
+- Как можно моделировать и тестировать сценарии отказов, чтобы обеспечить устойчивость системы?
 
-**PHPUnit Testing Strategies:**
-- Discuss strategies for testing complex scenarios, such as asynchronous code or race conditions.
-- How can you ensure the reliability of tests in a continuous integration pipeline?
+**Стратегии тестирования на PHPUnit:**.
+- Обсудите стратегии тестирования сложных сценариев, таких как асинхронный код или условия гонки.
+- Как обеспечить надежность тестов в конвейере непрерывной интеграции?
 
-**Database Testing with PHPUnit:**
-- How can you use PHPUnit to test database interactions?
-- Discuss considerations for testing against a real database versus using mocks.
+**Тестирование баз данных с помощью PHPUnit:**.
+- Как можно использовать PHPUnit для тестирования взаимодействия с базами данных?
+- Обсуждаем соображения по поводу тестирования на реальной базе данных и использования mocks.
 
-**PHPUnit Test Doubles:**
-- Explain the different types of test doubles in PHPUnit (spy, stub, mock, etc.).
-- Provide an example scenario where using a test double is beneficial.
+**Двойники тестов PHPUnit:**
+- Объясните различные типы тестовых дублей в PHPUnit (шпион, заглушка, макет и т.д.).
+- Приведите пример сценария, в котором использование тестового дубля будет полезным.
 
-**PHPUnit and Dependency Injection:**
-- How can PHPUnit be integrated with dependency injection containers for testing?
-- Discuss best practices for testing code that relies heavily on external dependencies.
+**PHPUnit и инъекция зависимостей:**.
+- Как можно интегрировать PHPUnit с контейнерами инъекции зависимостей для тестирования?
+- Обсудите лучшие практики тестирования кода, сильно зависящего от внешних зависимостей.
 
-**Testing APIs with PHPUnit:**
-- How can you use PHPUnit to test RESTful APIs?
-- Discuss strategies for testing APIs that involve authentication and authorization.
+**Тестирование API с помощью PHPUnit:**.
+- Как использовать PHPUnit для тестирования RESTful API?
+- Обсудите стратегии тестирования API, включающих аутентификацию и авторизацию.
 
-**Behavior-Driven Development (BDD) with PHPUnit:**
-- What is BDD, and how can it be incorporated into PHPUnit testing?
-- Provide an example of writing BDD-style tests using PHPUnit.
+**Поведенчески-ориентированная разработка (BDD) с PHPUnit:**.
+- Что такое BDD и как его можно включить в тестирование на PHPUnit?
+- Приведите пример написания тестов в стиле BDD с помощью PHPUnit.
 
-**PHPUnit and Continuous Integration (CI):**
-- How can you configure PHPUnit to run efficiently in a CI/CD pipeline?
-- Discuss strategies for dealing with flaky tests in a CI environment.
+**PHPUnit и непрерывная интеграция (CI):**.
+- Как настроить PHPUnit для эффективной работы в конвейере CI/CD?
+- Обсудите стратегии работы с нестабильными тестами в среде CI.
 
-**PHPUnit and Selenium Integration:**
-- How can PHPUnit be integrated with Selenium for end-to-end testing?
-- What challenges may arise when maintaining Selenium-based tests?
+**Интеграция PHPUnit и Selenium:**
+- Как можно интегрировать PHPUnit с Selenium для сквозного тестирования?
+- Какие проблемы могут возникнуть при поддержке тестов на базе Selenium?
 
-**Performance Testing with PHPUnit:**
-- Discuss strategies for incorporating performance testing into PHPUnit.
-- How can you simulate and measure the performance impact of a large number of concurrent requests?
+**Тестирование производительности с помощью PHPUnit:**.
+- Обсудите стратегии включения тестирования производительности в PHPUnit.
+- Как можно смоделировать и измерить влияние большого количества одновременных запросов на производительность?
 
-**Testing with PHPUnit in a Microservices Architecture:**
-- What considerations should be taken into account when testing applications in a microservices architecture using PHPUnit?
-- Discuss strategies for testing interactions between microservices.
+**Тестирование с помощью PHPUnit в архитектуре микросервисов:**.
+- Какие соображения следует принимать во внимание при тестировании приложений в архитектуре микросервисов с помощью PHPUnit?
+- Обсудите стратегии тестирования взаимодействия между микросервисами.

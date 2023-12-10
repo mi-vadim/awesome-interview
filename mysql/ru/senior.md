@@ -1,59 +1,59 @@
-**MySQL Storage Architecture:**
-- Dive into the internals of MySQL storage architecture.
-- How does InnoDB store data differently from MyISAM?
+**Архитектура хранилища MySQL:**.
+- Погрузитесь во внутренние аспекты архитектуры хранения данных MySQL.
+- Чем хранение данных в InnoDB отличается от хранения в MyISAM?
 
-**Advanced Query Optimization Techniques:**
-- Explore advanced techniques for optimizing complex queries in MySQL.
-- How can you analyze query execution plans for optimization?
+**Дополнительные методы оптимизации запросов:**.
+- Изучите передовые методы оптимизации сложных запросов в MySQL.
+- Как анализировать планы выполнения запросов для оптимизации?
 
-**MySQL Proxy Servers:**
-- Discuss the role of proxy servers in MySQL and how they enhance scalability.
-- How do proxy servers contribute to load balancing and failover?
+**Прокси-серверы MySQL:**
+- Обсудите роль прокси-серверов в MySQL и то, как они повышают масштабируемость.
+- Как прокси-серверы способствуют балансировке нагрузки и обходу отказа?
 
-**MySQL User Management Best Practices:**
-- Share best practices for managing MySQL users and their privileges.
-- How can you secure MySQL user accounts and enforce strong password policies?
+**Лучшие практики управления пользователями MySQL:**
+- Поделитесь передовым опытом управления пользователями MySQL и их привилегиями.
+- Как обеспечить безопасность учетных записей пользователей MySQL и применить строгую политику паролей?
 
-**MySQL User-Defined Variables:**
-- Explain the concept of user-defined variables in MySQL.
-- Provide examples of scenarios where user-defined variables are useful.
+**Переменные, определяемые пользователем MySQL:**
+- Объясните концепцию определяемых пользователем переменных в MySQL.
+- Приведите примеры сценариев, в которых пользовательские переменные могут быть полезны.
 
-**MySQL Data Encryption:**
-- Discuss strategies for encrypting data at rest and in transit in MySQL.
-- How can you implement transparent data encryption for sensitive information?
+**Шифрование данных в MySQL:**.
+- Обсудите стратегии шифрования данных в состоянии покоя и при передаче в MySQL.
+- Как можно реализовать прозрачное шифрование данных для конфиденциальной информации?
 
-**Audit Logging in MySQL:**
-- Discuss the importance of audit logging in MySQL for security and compliance.
-- How can you configure and utilize the MySQL audit log plugin?
+**Аудиторское протоколирование в MySQL:**.
+- Обсудите важность ведения журнала аудита в MySQL для обеспечения безопасности и соответствия нормативным требованиям.
+- Как настроить и использовать плагин журнала аудита MySQL?
 
-**MySQL Multi-Source Replication:**
-- Explain multi-source replication in MySQL and its use cases.
-- How can you configure and manage replication from multiple sources?
+**Мультиисточниковая репликация в MySQL:**
+- Объясните многоисточниковую репликацию в MySQL и случаи ее использования.
+- Как настроить и управлять репликацией из нескольких источников?
 
-**MySQL InnoDB Cluster:**
-- Discuss the InnoDB cluster in MySQL and its role in high availability.
-- What are the steps to set up and manage an InnoDB cluster?
+**Кластер InnoDB в MySQL:**.
+- Обсудите кластер InnoDB в MySQL и его роль в обеспечении высокой доступности.
+- Каковы шаги по настройке и управлению кластером InnoDB?
 
-**Advanced Full-Text Search Features:**
-- Explore advanced features of full-text search in MySQL.
-- How can you customize and fine-tune full-text search for specific requirements?
+**Расширенные возможности полнотекстового поиска:**.
+- Изучите расширенные возможности полнотекстового поиска в MySQL.
+- Как можно настроить полнотекстовый поиск под конкретные требования?
 
-**MySQL Resource Management:**
-- Discuss resource management strategies in MySQL.
-- How can you optimize resource usage to ensure efficient database performance?
+**Управление ресурсами MySQL:**.
+- Обсудите стратегии управления ресурсами в MySQL.
+- Как оптимизировать использование ресурсов для обеспечения эффективной работы базы данных?
 
-**MySQL External Authentication:**
-- Explain how to implement external authentication in MySQL.
-- Discuss scenarios where external authentication is beneficial.
+**Внешняя аутентификация MySQL:**
+- Объясните, как реализовать внешнюю аутентификацию в MySQL.
+- Обсудите сценарии, в которых внешняя аутентификация может быть полезной.
 
-**MySQL Performance Tuning:**
-- Share advanced techniques for performance tuning in MySQL.
-- How can you monitor and adjust key performance metrics in a production environment?
+**Тюнинг производительности MySQL:**
+- Поделитесь передовыми методами настройки производительности MySQL.
+- Как можно отслеживать и регулировать ключевые показатели производительности в производственной среде?
 
-**MySQL GIS (Geographic Information System):**
-- Explain the GIS features in MySQL for spatial data.
-- Provide examples of scenarios where GIS capabilities are valuable.
+**MySQL GIS (Географическая информационная система):**.
+- Объясните возможности ГИС в MySQL для работы с пространственными данными.
+- Приведите примеры сценариев, в которых возможности ГИС могут оказаться полезными.
 
-**InnoDB Table Compression:**
-- Discuss the benefits and considerations of table compression in InnoDB.
-- How can you implement and manage table compression effectively?
+**Сжатие таблиц в InnoDB:**.
+- Обсудите преимущества и особенности сжатия таблиц в InnoDB.
+- Как можно эффективно реализовать сжатие таблиц и управлять им?

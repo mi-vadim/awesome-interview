@@ -1,79 +1,79 @@
-**PHP Variables and Data Types:**
-- Explain the difference between $var and $$var.
-- What are the basic data types in PHP, and how are they used?
+**Переменные и типы данных в PHP:**.
+- Объясните разницу между $var и $$var.
+- Каковы основные типы данных в PHP и как они используются?
 
-**Control Structures in PHP:**
-- Describe the purpose of the foreach loop in PHP.
-- How does the switch statement differ from an if-else statement?
+**Контрольные структуры в PHP:**.
+- Опишите назначение цикла foreach в PHP.
+- Чем оператор switch отличается от оператора if-else?
 
-**PHP Functions:**
-- What is the difference between include and require in PHP?
-- Explain the concept of function parameters and arguments.
+**Функции PHP:**
+- В чем разница между include и require в PHP?
+- Объясните концепцию параметров и аргументов функции.
 
-**Working with Arrays in PHP:**
-- How do you check if a key exists in an associative array?
-- What is the difference between array_merge and array_merge_recursive?
+**Работа с массивами в PHP:**.
+- Как проверить, существует ли ключ в ассоциативном массиве?
+- В чем разница между array_merge и array_merge_recursive?
 
-**PHP Error Handling:**
-- Discuss the use of try, catch, and finally blocks in PHP.
-- How can you suppress errors in PHP code?
+**Обработка ошибок в PHP:**.
+- Обсудите использование блоков try, catch и finally в PHP.
+- Как можно подавить ошибки в коде PHP?
 
-**PHP String Manipulation:**
-- Explain the difference between single-quoted and double-quoted strings.
-- How do you find the length of a string in PHP?
+**Манипулирование строками в PHP:**
+- Объясните разницу между строками с одинарными и двойными кавычками.
+- Как найти длину строки в PHP?
 
-**Working with Dates and Times:**
-- How can you format a date in PHP using the date function?
-- Discuss the purpose of the strtotime function.
+**Работа с датами и временем:**
+- Как отформатировать дату в PHP с помощью функции date?
+- Обсудите назначение функции strtotime.
 
-**PHP Superglobals:**
-- What is the significance of PHP's superglobals?
-- Explain the differences between $_GET and $_POST.
+**Суперглобалы PHP:**
+- Какое значение имеют суперглобалы в PHP?
+- Объясните разницу между $_GET и $_POST.
 
-**Object-Oriented Programming (OOP) Basics:**
-- Discuss the concepts of encapsulation and inheritance in OOP.
-- How do you instantiate an object in PHP?
+**Основы объектно-ориентированного программирования (ООП):**.
+- Обсудите концепции инкапсуляции и наследования в ООП.
+- Как инстанцировать объект в PHP?
 
-**File Handling in PHP:**
-- Explain the use of fopen, fwrite, and fclose for file handling.
-- How can you read the contents of a file into a string in PHP?
+**Работа с файлами в PHP:**.
+- Объясните использование fopen, fwrite и fclose для работы с файлами.
+- Как прочитать содержимое файла в строку в PHP?
 
-**PHP Error Handling:**
-- Explain custom error handling using the set_error_handler function.
-- How would you handle fatal errors gracefully in PHP?
+**Обработка ошибок в PHP:**
+- Объясните пользовательскую обработку ошибок с помощью функции set_error_handler.
+- Как вы можете изящно обрабатывать фатальные ошибки в PHP?
 
-**Working with Arrays in PHP:**
-- Discuss the use of the array_map and array_filter functions.
-- How can you perform a deep merge of two arrays in PHP?
+**Работа с массивами в PHP:**.
+- Обсудите использование функций array_map и array_filter.
+- Как выполнить глубокое слияние двух массивов в PHP?
 
-**Object-Oriented Programming (OOP) Basics:**
-- Discuss the concept of abstract classes and when to use them.
-- Explain the difference between method overloading and method overriding.
+**Основы объектно-ориентированного программирования (ООП):**.
+- Обсудите концепцию абстрактных классов и когда их следует использовать.
+- Объясните разницу между перегрузкой методов и переопределением методов.
 
-**PHP Sessions and Cookies:**
-- How can you implement session persistence using database storage?
-- Discuss security best practices for handling session data.
+**Сессии и файлы cookie в PHP:**.
+- Как можно реализовать сохранение сеансов с помощью хранилища базы данных?
+- Обсудите передовые методы обеспечения безопасности при работе с данными сеансов.
 
-**PHP Namespaces and Autoloading:**
-- Explain autoloading with Composer and its advantages.
-- How can you autoload classes without using Composer?
+**Пространства имен и автозагрузка в PHP:**
+- Объясните автозагрузку с помощью Composer и ее преимущества.
+- Как можно автозагружать классы без использования Composer?
 
-**Composer Package Management:**
-- Explain the purpose of the composer.json file in a PHP project.
-- How can you use Composer to install a specific version of a package?
+**Управление пакетами Composer:**.
+- Объясните назначение файла composer.json в PHP-проекте.
+- Как можно использовать Composer для установки определенной версии пакета?
 
-**Error Handling and Logging:**
-- Discuss the use of the set_exception_handler function for handling uncaught exceptions.
-- How can you customize error messages displayed to users without revealing sensitive information?
+**Обработка ошибок и ведение журнала:**
+- Обсудите использование функции set_exception_handler для обработки не пойманных исключений.
+- Как можно настроить сообщения об ошибках, выводимые пользователям, не раскрывая конфиденциальную информацию?
 
-**PHP Extensions:**
-- What is a PHP extension, and how can you load/unload extensions dynamically?
-- Discuss the role of the php.ini file in configuring PHP extensions.
+**Расширения PHP:**
+- Что такое расширение PHP и как вы можете загружать/выгружать расширения динамически?
+- Обсудите роль файла php.ini в настройке расширений PHP.
 
-**OPcache Configuration:**
-- Explain how to configure OPcache for optimal performance.
-- How does OPcache handle file changes, and how can you clear the cache manually?
+**Конфигурация OPcache:**
+- Объясните, как настроить OPcache для оптимальной производительности.
+- Как OPcache обрабатывает изменения файлов, и как можно очистить кэш вручную?
 
-**Working with DateTime:**
-- Discuss the use of the DateTime class in PHP for date and time manipulation.
-- How can you calculate the difference between two DateTime objects?
+**Работа с DateTime:**.
+- Обсудите использование класса DateTime в PHP для работы с датой и временем.
+- Как вы можете вычислить разницу между двумя объектами DateTime?

@@ -1,39 +1,39 @@
-**Microservices Communication Protocols:**
- -  Discuss common communication protocols used in microservices (e.g., HTTP, gRPC)
- -  How can you choose the most suitable communication protocol for a microservice?
+**Протоколы взаимодействия в микросервисах:**.
+- Обсудите распространенные протоколы связи, используемые в микросервисах (например, HTTP, gRPC).
+- Как выбрать наиболее подходящий протокол связи для микросервиса?
 
-**Service Mesh:**
- -  - Define a service mesh and discuss its role in microservices architecture
- -  - How can service mesh technologies like Istio enhance microservices communication?
+**Сетка сервисов:**
+- Дайте определение сетки сервисов и обсудите ее роль в архитектуре микросервисов
+- Как технологии сервисной сетки, такие как Istio, могут улучшить взаимодействие микросервисов?
 
-**Observability in Microservices:**
- - Explain the importance of observability for monitoring and managing microservices
- - Discuss key tools and techniques for achieving observability in a microservices system.
+**Наблюдаемость в микросервисах:**
+- Объясните важность наблюдаемости для мониторинга и управления микросервисами.
+- Обсудите ключевые инструменты и техники для достижения наблюдаемости в системе микросервисов.
 
-**Microservices Security:**
- - Discuss security considerations specific to microservices architecture
- - How can you implement authentication and authorization across microservices?
+**Безопасность микросервисов:**
+- Обсудите соображения безопасности, характерные для архитектуры микросервисов
+- Как реализовать аутентификацию и авторизацию в микросервисах?
 
-**Saga Pattern:**
- - Explain the Saga pattern and its use in managing distributed transactions
- - Discuss scenarios where the Saga pattern is preferable over a traditional transactional approach.
+**Паттерн Saga:**
+- Объясните паттерн Saga и его использование для управления распределенными транзакциями.
+- Обсудите сценарии, в которых паттерн Saga предпочтительнее традиционного транзакционного подхода.
 
-**Microservices Data Consistency:**
- - Discuss strategies for maintaining data consistency across microservices
- - How can you handle eventual consistency in a microservices environment?
+**Согласованность данных в микросервисах:**
+- Обсудите стратегии поддержания согласованности данных в микросервисах.
+- Как обеспечить согласованность данных в среде микросервисов?
 
-**Serverless Architecture with Microservices:**
- - Explain the relationship between serverless architecture and microservices
- - Discuss scenarios where serverless functions complement microservices.
+**Бессерверная архитектура с микросервисами:**
+- Объясните взаимосвязь между безсерверной архитектурой и микросервисами
+- Обсудите сценарии, в которых бессерверные функции дополняют микросервисы.
 
-**Micro Frontends:**
- - Discuss the concept of micro frontends and how it aligns with microservices
- - What challenges may arise when implementing micro frontends in a microservices ecosystem?
+**Микрофронтенды:**
+- Обсудите концепцию микрофронтендов и их связь с микросервисами.
+- Какие проблемы могут возникнуть при реализации микрофронтендов в экосистеме микросервисов?
 
-**Chaos Engineering:**
- - Define chaos engineering and explain its relevance to microservices
- - How can you conduct chaos experiments to improve microservices resilience?
+**Хаос-инженерия:**
+- Дайте определение хаос-инжиниринга и объясните его связь с микросервисами
+- Как проводить эксперименты с хаосом для повышения устойчивости микросервисов?
 
-**Microservices Versioning:**
- - Discuss challenges and best practices for versioning microservices
- - How can you implement backward-compatible changes in a microservices architecture
+**Версионирование микросервисов:**
+- Обсудите проблемы и лучшие практики версионирования микросервисов
+- Как реализовать обратно совместимые изменения в архитектуре микросервисов

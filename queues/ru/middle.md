@@ -1,79 +1,79 @@
-**Message Idempotence:**
-- What is message idempotence, and why is it relevant in messaging?
-- How can you design a system to ensure idempotence in message processing?
+**Идемпотентность сообщений:**
+- Что такое идемпотентность сообщений и почему она важна для обмена сообщениями?
+- Как разработать систему, обеспечивающую идемпотентность при обработке сообщений?
 
-**Guarantees in Messaging:**
-- Discuss at least two types of guarantees provided by messaging systems.
-- How does a system achieve exactly-once message delivery?
+**Гарантии в обмене сообщениями:**
+- Обсудите по крайней мере два типа гарантий, предоставляемых системами обмена сообщениями.
+- Как система может обеспечить доставку сообщений "точно в срок"?
 
-**Message Compression:**
-- Explain the benefits and challenges of compressing messages in transit.
-- When would you choose to compress messages?
+**Сжатие сообщений:**
+- Объясните преимущества и проблемы сжатия сообщений при передаче.
+- В каких случаях необходимо сжимать сообщения?
 
-**Exponential Backoff:**
-- What is exponential backoff, and how can it be used in message processing?
-- Discuss scenarios where exponential backoff is beneficial.
+**Экспоненциальная обратная передача:**
+- Что такое экспоненциальное отступление и как оно может быть использовано в обработке сообщений?
+- Обсудите сценарии, в которых экспоненциальный бэкграунд может быть полезен.
 
-**Message Routing:**
-- Describe the concept of message routing in a messaging system.
-- How can you implement dynamic message routing based on content?
+**Маршрутизация сообщений:**
+- Опишите концепцию маршрутизации сообщений в системе обмена сообщениями.
+- Как можно реализовать динамическую маршрутизацию сообщений на основе их содержимого?
 
-**Transactional Messaging:**
-- What is transactional messaging, and when should it be employed?
-- Explain the challenges of implementing transactions across distributed systems.
+**Транзакционный обмен сообщениями:**.
+- Что такое транзакционный обмен сообщениями и когда его следует использовать?
+- Объясните проблемы реализации транзакций в распределенных системах.
 
-**Message TTL:**
-- Discuss the purpose of message Time-To-Live (TTL).
-- How can you handle messages that expire due to TTL?
+**ТТЛ сообщения:**
+- Обсудите назначение времени жизни сообщений (Time-To-Live, TTL).
+- Как можно обрабатывать сообщения, срок действия которых истек из-за TTL?
 
-**Distributed Tracing:**
-- How does distributed tracing work in a messaging environment?
-- What tools or methodologies can be used for distributed tracing?
+**Распределенная трассировка:**.
+- Как работает распределенная трассировка в среде обмена сообщениями?
+- Какие инструменты или методологии можно использовать для распределенной трассировки?
 
-**Monitoring and Metrics:**
-- What metrics are crucial for monitoring the health of a messaging system?
-- Discuss the importance of real-time monitoring in a production environment.
+**Мониторинг и метрики:**
+- Какие метрики важны для мониторинга состояния системы обмена сообщениями?
+- Обсудите важность мониторинга в реальном времени в производственной среде.
 
-**Message Schema Evolution:**
-- Explain how you would handle schema evolution in a messaging system.
-- Discuss the impact of changing message structures on existing consumers.
+**Эволюция схемы сообщений:**.
+- Объясните, как вы будете управлять эволюцией схемы в системе обмена сообщениями.
+- Обсудите влияние изменения структуры сообщений на существующих потребителей.
 
-**Message Triggers:**
-- What are message triggers, and how can they be implemented in a messaging system?
-- Discuss scenarios where message triggers are beneficial.
+**Триггеры сообщений:**.
+- Что такое триггеры сообщений и как они могут быть реализованы в системе обмена сообщениями?
+- Обсудите сценарии, в которых триггеры сообщений могут быть полезны.
 
-**Message Compaction:**
-- Explain the concept of message compaction in the context of message queues.
-- When and why would you use message compaction?
+**Уплотнение сообщений:**.
+- Объясните концепцию уплотнения сообщений в контексте очередей сообщений.
+- Когда и зачем нужно использовать уплотнение сообщений?
 
-**Dead-Letter Queue Strategies:**
-- Discuss strategies for handling messages that end up in a dead-letter queue.
-- How can dead-letter queues be useful in debugging and troubleshooting?
+**Стратегии работы с очередями сообщений:**
+- Обсудите стратегии обработки сообщений, которые попадают в очередь "мертвых букв".
+- Как очереди с мертвыми буквами могут быть полезны при отладке и устранении неполадок?
 
-**Message Filtering Strategies:**
-- How can you implement message filtering based on content in a message queue?
-- Discuss the performance implications of message filtering.
+**Стратегии фильтрации сообщений:**.
+- Как можно реализовать фильтрацию сообщений на основе содержимого очереди сообщений?
+- Обсудите последствия фильтрации сообщений для производительности.
 
-**Message Priority Queues:**
-- What is a priority queue in the context of message processing?
-- When would you choose to use a priority queue?
+**Очереди приоритетов сообщений:**
+- Что такое приоритетная очередь в контексте обработки сообщений?
+- Когда лучше использовать приоритетную очередь?
 
-**Message Partitioning:**
-- Explain the concept of message partitioning in a distributed messaging system.
-- Discuss the benefits and challenges of message partitioning.
+**Разбиение сообщений:**
+- Объясните концепцию разделения сообщений в распределенной системе обмена сообщениями.
+- Обсудите преимущества и проблемы разделения сообщений.
 
-**Message Idempotency Strategies:**
-- How can you implement idempotency in message processing?
-- Discuss scenarios where message idempotency is critical.
+**Стратегии идемпотентности сообщений:**.
+- Как можно реализовать идемпотентность при обработке сообщений?
+- Обсудите сценарии, в которых идемпотентность сообщений является критически важной.
 
-**Message Throttling:**
-- What is message throttling, and when is it necessary in a messaging system?
-- Discuss strategies for implementing effective message throttling.
+**Дросселирование сообщений:**.
+- Что такое дросселирование сообщений и когда оно необходимо в системе обмена сообщениями?
+- Обсудите стратегии реализации эффективного дросселирования сообщений.
 
-**Message Fanout Strategies:**
-- Discuss strategies for efficient message fanout in a message queue.
-- How can you avoid performance bottlenecks in fanout scenarios?
+**Стратегии веерного распространения сообщений:**.
+- Обсудите стратегии эффективного удаления сообщений из очереди сообщений.
+- Как можно избежать узких мест в сценариях веерной рассылки?
 
-**Message Queue Monitoring:**
-- What metrics are essential for monitoring the health of a message queue?
-- Discuss the role of real-time monitoring in ensuring system reliability.
+**Мониторинг очереди сообщений:**
+- Какие метрики необходимы для мониторинга состояния очереди сообщений?
+- Обсудите роль мониторинга в реальном времени в обеспечении надежности системы.

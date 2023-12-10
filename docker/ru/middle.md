@@ -1,79 +1,79 @@
-**Docker Security Best Practices:**
- - Discuss best practices for enhancing Docker container security
- - How can you minimize the attack surface of a Docker container?
+**Лучшие практики обеспечения безопасности контейнеров Docker:**
+- Обсудите лучшие практики для повышения безопасности контейнеров Docker.
+- Как можно минимизировать поверхность атаки контейнера Docker?
 
-**Docker Compose Environment Variables:**
- - Explain how environment variables are used in a Docker Compose file
- - How can you manage sensitive information using environment variables in Docker Compose?
+**Переменные окружения Docker Compose:**
+- Объясните, как переменные окружения используются в файле Docker Compose.
+- Как управлять конфиденциальной информацией с помощью переменных окружения в Docker Compose?
 
-**Docker Network Modes:**
- - Discuss different Docker network modes and their use cases
- - How can you connect a container to multiple networks in Docker?
+**Сетевые режимы Docker:**
+- Обсудите различные сетевые режимы Docker и их использование
+- Как подключить контейнер к нескольким сетям в Docker?
 
-**Multi-Stage Builds:**
- - What is a multi-stage Docker build, and why is it useful
- - Provide an example of using multi-stage builds in a Dockerfile.
+**Многоступенчатые сборки:**
+- Что такое многоступенчатая сборка Docker и почему она полезна
+- Приведите пример использования многоступенчатых сборок в Docker-файле.
 
-**Docker Compose Volumes:**
- - How are volumes defined and used in a Docker Compose file
- - Discuss strategies for managing data persistence with Docker Compose volumes.
+**Docker Compose Volumes:**.
+- Как определяются и используются тома в файле Docker Compose.
+- Обсудите стратегии управления сохранностью данных с помощью томов Docker Compose.
 
-**Docker Image Layers:**
- - Explain the concept of image layers in Docker
- - How can you optimize Docker image builds to reduce layer count?
+**Слои образов Docker:**
+- Объясните концепцию слоев образов в Docker.
+- Как можно оптимизировать сборку образов Docker, чтобы уменьшить количество слоев?
 
-**Docker Compose Networking:**
- - How does networking work between services in Docker Compose
- - Discuss scenarios where custom networks in Docker Compose are beneficial.
+**Сетевое взаимодействие в Docker Compose:**
+- Как работает сетевое взаимодействие между сервисами в Docker Compose
+- Обсудите сценарии, в которых пользовательские сети в Docker Compose могут быть полезны.
 
-**Docker Registry:**
- - What is a Docker registry, and how can you set up a private registry
- - How can you push a custom Docker image to a private registry?
+**Реестр Docker:**
+- Что такое реестр Docker и как создать частный реестр
+- Как отправить пользовательский образ Docker в частный реестр?
 
-**Dockerfile Best Practices:**
- - Share best practices for writing efficient and maintainable Dockerfiles
- - How can you minimize the size of a Docker image?
+**Лучшие практики создания докерных файлов:**.
+- Поделитесь лучшими практиками написания эффективных и поддерживаемых Docker-файлов
+- Как минимизировать размер образа Docker?
 
-**Docker Compose Override Files:**
- - Explain the use of override files in Docker Compose
- - Provide an example of using an override file to customize a Compose configuration.
+**Файлы переопределения в Docker Compose:**
+- Объяснение использования файлов переопределения в Docker Compose
+- Приведите пример использования файла переопределения для настройки конфигурации Compose.
 
-**Docker Swarm Service Update:**
- - Explain the process of updating a service in Docker Swarm
- - Discuss strategies for minimizing downtime during service updates.
+**Обновление служб Docker Swarm:**.
+- Объясните процесс обновления службы в Docker Swarm.
+- Обсудите стратегии минимизации времени простоя во время обновления сервиса.
 
-**Docker Compose Resource Constraints:**
- - How can you specify resource constraints for services in a Docker Compose file
- - Discuss the impact of resource constraints on service performance.
+**Ограничения ресурсов в Docker Compose:**.
+- Как можно указать ограничения ресурсов для служб в файле Docker Compose.
+- Обсудите влияние ограничений ресурсов на производительность сервисов.
 
-**Docker Image Versioning:**
- - Discuss best practices for versioning Docker images
- - How can you use semantic versioning for Docker images?
+**Версионирование образов Docker:**.
+- Обсудите лучшие практики версионирования образов Docker.
+- Как можно использовать семантическое версионирование для образов Docker?
 
-**Docker Compose External Networks (Continued):**
- - Explain how services in Docker Compose can connect to external networks
- - Discuss considerations when dealing with external networks in Docker Compose.
+**Внешние сети Docker Compose (продолжение):**
+- Объясните, как сервисы в Docker Compose могут подключаться к внешним сетям
+- Обсуждение соображений при работе с внешними сетями в Docker Compose.
 
-**Docker Build Cache:**
- - How does Docker utilize the build cache during image builds
- - Discuss strategies for optimizing the use of the build cache.
+**Кэш сборки Docker:**
+- Как Docker использует кэш сборок во время сборки образов.
+- Обсудите стратегии оптимизации использования кэша сборок.
 
-**Docker Compose Custom Network Drivers:**
- - What are custom network drivers in Docker Compose, and when might you use them
- - Provide examples of third-party network drivers for Docker Compose.
+**Пользовательские сетевые драйверы Docker Compose:**.
+- Что такое пользовательские сетевые драйверы в Docker Compose и когда их можно использовать.
+- Приведите примеры сетевых драйверов сторонних производителей для Docker Compose.
 
-**Docker Image Tagging Strategies:**
- - Discuss strategies for tagging Docker images, considering both development and production environments
- - How can you avoid using the "latest" tag in a production environment?
+**Стратегии тегирования изображений Docker:**
+- Обсудите стратегии маркировки образов Docker с учетом особенностей среды разработки и производства.
+- Как избежать использования тега "latest" в производственной среде?
 
-**Docker Compose and Conditional Services:**
- - How can you conditionally include or exclude services in a Docker Compose file
- - Discuss scenarios where conditional services are beneficial.
+**Docker Compose и условные сервисы:**
+- Как можно условно включать или исключать сервисы в файл Docker Compose.
+- Обсудите сценарии, в которых полезны условные сервисы.
 
-**Docker Image Build Arguments:**
- - Explain how build arguments are used in a Dockerfile
- - How can you pass build arguments during a Docker image build?
+**Аргументы сборки образа Docker:**
+- Объясните, как аргументы сборки используются в Dockerfile.
+- Как можно передавать аргументы сборки во время сборки образа Docker?
 
-**Docker Compose Service Discovery (Continued):**
- - Discuss advanced techniques for service discovery within Docker Compose
- - How can you handle service discovery in a dynamic environment with frequent service changes
+**Обнаружение сервисов в Docker Compose (продолжение):**.
+- Обсуждение продвинутых методов обнаружения сервисов в Docker Compose
+- Как можно управлять обнаружением сервисов в динамической среде с частыми изменениями сервисов
