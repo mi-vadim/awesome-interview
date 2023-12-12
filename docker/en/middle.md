@@ -1,49 +1,79 @@
-1. How do you manage environment-specific configurations in a Dockerized PHP application?
+**Docker Security Best Practices:**
+ - Discuss best practices for enhancing Docker container security
+ - How can you minimize the attack surface of a Docker container?
 
-2. Explain the concept of Docker Compose and how it facilitates the orchestration of multi-container applications.
+**Docker Compose Environment Variables:**
+ - Explain how environment variables are used in a Docker Compose file
+ - How can you manage sensitive information using environment variables in Docker Compose?
 
-3. Can you discuss the advantages and use cases of multi-stage builds in Docker for PHP applications?
+**Docker Network Modes:**
+ - Discuss different Docker network modes and their use cases
+ - How can you connect a container to multiple networks in Docker?
 
-4. Describe your approach to optimizing Docker images for PHP applications in terms of size and efficiency.
+**Multi-Stage Builds:**
+ - What is a multi-stage Docker build, and why is it useful
+ - Provide an example of using multi-stage builds in a Dockerfile.
 
-5. How do you manage dependencies and package installation in a Dockerized PHP project? Can you discuss the use of a package manager within Docker?
+**Docker Compose Volumes:**
+ - How are volumes defined and used in a Docker Compose file
+ - Discuss strategies for managing data persistence with Docker Compose volumes.
 
-6. Explain the role of Docker networks in connecting containers. What types of networks are available, and when would you use each?
+**Docker Image Layers:**
+ - Explain the concept of image layers in Docker
+ - How can you optimize Docker image builds to reduce layer count?
 
-7. Discuss the differences between the "COPY" and "ADD" instructions in a Dockerfile. When would you choose one over the other?
+**Docker Compose Networking:**
+ - How does networking work between services in Docker Compose
+ - Discuss scenarios where custom networks in Docker Compose are beneficial.
 
-8. How do you handle database migrations in a Dockerized PHP application? Can you provide an example of how you might structure your Docker Compose file for this purpose?
+**Docker Registry:**
+ - What is a Docker registry, and how can you set up a private registry
+ - How can you push a custom Docker image to a private registry?
 
-9. What is the purpose of Docker volumes, and how do you use them to persist data between container restarts?
+**Dockerfile Best Practices:**
+ - Share best practices for writing efficient and maintainable Dockerfiles
+ - How can you minimize the size of a Docker image?
 
-10. Describe your experience with Docker swarm mode and Kubernetes. When would you choose one container orchestration solution over the other?
+**Docker Compose Override Files:**
+ - Explain the use of override files in Docker Compose
+ - Provide an example of using an override file to customize a Compose configuration.
 
-11. Can you discuss the use of Docker health checks in a PHP application? How do you define and implement health checks for containers?
+**Docker Swarm Service Update:**
+ - Explain the process of updating a service in Docker Swarm
+ - Discuss strategies for minimizing downtime during service updates.
 
-12. Explain the significance of the "ENTRYPOINT" instruction in a Dockerfile. How does it differ from the "CMD" instruction, and when would you use each?
+**Docker Compose Resource Constraints:**
+ - How can you specify resource constraints for services in a Docker Compose file
+ - Discuss the impact of resource constraints on service performance.
 
-13. Discuss your strategy for handling secrets and sensitive information in Dockerized PHP applications. What tools or methods do you use for secure credential management?
+**Docker Image Versioning:**
+ - Discuss best practices for versioning Docker images
+ - How can you use semantic versioning for Docker images?
 
-14. How do you achieve load balancing for a Dockerized PHP application, and what considerations are important for ensuring high availability?
+**Docker Compose External Networks (Continued):**
+ - Explain how services in Docker Compose can connect to external networks
+ - Discuss considerations when dealing with external networks in Docker Compose.
 
-15. Describe your experience with Docker Compose YAML files. What sections are typically included, and how do you configure services and networks?
+**Docker Build Cache:**
+ - How does Docker utilize the build cache during image builds
+ - Discuss strategies for optimizing the use of the build cache.
 
-16. How would you troubleshoot performance issues in a Dockerized PHP application? Can you provide examples of Docker commands and tools for profiling and debugging?
+**Docker Compose Custom Network Drivers:**
+ - What are custom network drivers in Docker Compose, and when might you use them
+ - Provide examples of third-party network drivers for Docker Compose.
 
-17. Can you discuss strategies for optimizing the build and deployment process of a Dockerized PHP application in a CI/CD pipeline?
+**Docker Image Tagging Strategies:**
+ - Discuss strategies for tagging Docker images, considering both development and production environments
+ - How can you avoid using the "latest" tag in a production environment?
 
-18. Explain the role of a Docker registry, and how do you manage the versioning and distribution of Docker images in a team environment?
+**Docker Compose and Conditional Services:**
+ - How can you conditionally include or exclude services in a Docker Compose file
+ - Discuss scenarios where conditional services are beneficial.
 
-19. Discuss the concept of Docker image layering and its impact on image caching and build efficiency.
+**Docker Image Build Arguments:**
+ - Explain how build arguments are used in a Dockerfile
+ - How can you pass build arguments during a Docker image build?
 
-20. How do you implement a zero-downtime deployment strategy for a PHP application using Docker? Can you describe the steps involved?
-
-21. Describe your approach to handling log aggregation and monitoring for Dockerized PHP applications. What tools or services do you use?
-
-22. Discuss your experience with Docker security best practices. How do you ensure the security of both the host system and the containers?
-
-23. How would you integrate Docker with an existing PHP project? What steps would you take to transition from a non-Dockerized to a Dockerized environment?
-
-24. Can you explain the benefits of using Docker labels in a PHP application? How do you leverage labels for documentation and organization?
-
-25. Describe your experience with Docker networking, focusing on the different networking modes available and how you choose the appropriate mode for a given scenario.
+**Docker Compose Service Discovery (Continued):**
+ - Discuss advanced techniques for service discovery within Docker Compose
+ - How can you handle service discovery in a dynamic environment with frequent service changes

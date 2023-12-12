@@ -1,49 +1,79 @@
-1. How would you explain the concept of Domain-Driven Design (DDD) to a colleague who is not familiar with it?
+**Strategic Design in DDD:**
+ - Discuss the importance of strategic design in Domain-Driven Design
+ - How does strategic design influence the overall architecture of a system?
 
-2. Discuss the importance of a bounded context in DDD. How do you define and manage bounded contexts in a complex system?
+**DDD and Microservices:**
+ - How does DDD align with microservices architecture
+ - Discuss the challenges and benefits of applying DDD principles in a microservices environment.
 
-3. Can you provide examples of aggregates in a DDD context? How do aggregates contribute to ensuring consistency within a domain?
+**Event Storming:**
+ - What is event storming, and how can it be used in the early stages of DDD
+ - Discuss the role of different stakeholders in an event storming session.
 
-4. Explain the concept of a ubiquitous language in DDD. How do you establish and maintain a ubiquitous language in collaboration with domain experts?
+**Anti-Corruption Layer:**
+ - Explain the concept of an Anti-Corruption Layer (ACL) in DDD
+ - How does an ACL facilitate communication between different bounded contexts?
 
-5. How do you approach identifying and refining domain entities in a DDD-based application? What criteria do you consider when deciding whether something is an entity?
+**Domain Services:**
+ - What are domain services in DDD, and when should they be used
+ - Provide an example of a situation where a domain service is more appropriate than an entity.
 
-6. Discuss the role of value objects in a domain model. Can you provide examples of when you might use a value object and how they contribute to the integrity of the domain?
+**Modeling Aggregates:**
+ - Discuss best practices for modeling aggregates in DDD
+ - How can you ensure consistency within an aggregate?
 
-7. Can you explain the difference between a domain service and an application service in the context of DDD? How do these services contribute to the overall architecture?
+**DDD and Testing:**
+ - How does DDD influence the testing strategy for a software project
+ - Discuss the role of behavioral testing in DDD.
 
-8. How do you handle the enforcement of complex business rules in a DDD-based application? Can you provide an example of how you've represented and implemented complex rules in the domain model?
+**Refactoring in DDD:**
+ - Explain the importance of refactoring in a DDD-driven project
+ - Provide examples of common refactoring techniques in DDD.
 
-9. Discuss your experience with implementing event sourcing in a DDD context. What benefits does event sourcing offer, and when might you choose to use it?
+**Read Models in CQRS:**
+ - What is a read model in the context of CQRS
+ - How do you optimize read models for query performance?
 
-10. How do you approach the modeling of relationships between aggregates in DDD? What considerations are important when defining relationships to maintain consistency?
+**DDD and Legacy Systems:**
+ - Discuss strategies for introducing DDD principles into a legacy system
+ - How can DDD help mitigate challenges in maintaining and evolving legacy code?
 
-11. Explain the concept of a read model in a CQRS (Command Query Responsibility Segregation) architecture. How does CQRS complement DDD, and when might you use it?
+**Eventual Consistency in DDD:**
+ - Explain the concept of eventual consistency in a DDD context
+ - Discuss scenarios where eventual consistency is preferable.
 
-12. Can you discuss your approach to handling eventual consistency in a distributed system that follows DDD principles? How do you balance consistency and availability?
+**Bounded Context Evolution:**
+ - How can bounded contexts evolve over time in a DDD-driven project
+ - Discuss strategies for handling changes in the understanding of a domain.
 
-13. Discuss your familiarity with strategic patterns in DDD, such as anti-corruption layers or context mapping. When and how would you use these patterns in a real-world application?
+**Consistency in Distributed Systems:**
+ - Discuss challenges and strategies for maintaining consistency in distributed DDD systems
+ - How do you balance consistency and availability in a distributed architecture?
 
-14. How do you handle the evolution of a domain model over time in a DDD-based system? What strategies do you employ to accommodate changes in business requirements?
+**DDD and Hexagonal Architecture:**
+ - How does Hexagonal Architecture align with DDD principles
+ - Discuss the benefits of using a hexagonal architecture in a DDD project.
 
-15. Can you provide examples of situations where you would use domain events in a DDD-based application? How do domain events contribute to a more responsive and loosely coupled system?
+**Domain-Driven Testing:**
+ - How can testing practices be aligned with domain-driven development
+ - Discuss the role of behavior-driven testing in a DDD context.
 
-16. Explain the role of aggregates in managing transactional consistency within a domain. How do you design aggregates to support atomic state changes?
+**Implementing Domain Services:**
+ - Share best practices for implementing domain services in DDD
+ - Discuss situations where a domain service is more appropriate than an entity or value object.
 
-17. Discuss the concept of a saga in DDD. How does a saga help in managing long-running and distributed transactions within a domain?
+**Event Sourcing and Event Storage:**
+ - How do you choose an event storage mechanism in an event-sourced system
+ - Discuss considerations for persisting events in an event-sourced architecture.
 
-18. How do you integrate DDD principles with microservices architecture? Discuss the challenges and benefits of applying DDD in a microservices context.
+**Sagas in DDD:**
+ - Explain the concept of sagas in DDD
+ - How can sagas be used to manage long-running business processes?
 
-19. Describe your experience with implementing DDD tactical patterns, such as the specification pattern or the repository pattern. When and how would you use these patterns?
+**Event Collaboration vs. Event Storming:**
+ - Compare event collaboration and event storming as DDD modeling techniques
+ - Discuss scenarios where one technique might be more suitable than the other.
 
-20. Discuss the role of the DDD building block called a factory. When would you use a factory, and how does it contribute to the creation of complex domain objects?
-
-21. Explain the concept of eventual consistency and how it is achieved in a DDD-based system. What considerations are important when dealing with eventual consistency?
-
-22. How do you approach designing and modeling aggregates to ensure optimal performance in a DDD-based system? What considerations are important for performance optimization?
-
-23. Describe your experience with incorporating DDD into an existing codebase or legacy system. How do you introduce DDD principles without causing disruption?
-
-24. Can you share an example of a situation where you successfully resolved a complex domain modeling challenge in a DDD project? What strategies did you use to overcome the challenge?
-
-25. How do you balance the need for a rich domain model with the practicalities of system performance in a DDD-based application? What trade-offs have you made, and how did they impact the project?
+**External Systems Integration in DDD:**
+ - How do you integrate external systems in a DDD-driven project
+ - Discuss challenges and strategies for maintaining consistency across boundaries

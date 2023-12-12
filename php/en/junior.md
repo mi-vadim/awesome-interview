@@ -1,49 +1,79 @@
-1. Can you explain the difference between include and require in PHP and when you would use each one?
+**PHP Variables and Data Types:**
+- Explain the difference between $var and $$var.
+- What are the basic data types in PHP, and how are they used?
 
-2. What is the purpose of the "echo" and "print" statements in PHP? How are they different?
+**Control Structures in PHP:**
+- Describe the purpose of the foreach loop in PHP.
+- How does the switch statement differ from an if-else statement?
 
-3. How does PHP handle sessions, and what are the common methods for session management?
+**PHP Functions:**
+- What is the difference between include and require in PHP?
+- Explain the concept of function parameters and arguments.
 
-4. Can you explain the concept of namespaces in PHP and how they are used?
+**Working with Arrays in PHP:**
+- How do you check if a key exists in an associative array?
+- What is the difference between array_merge and array_merge_recursive?
 
-5. What is the significance of the "global" keyword in PHP, and how is it used?
+**PHP Error Handling:**
+- Discuss the use of try, catch, and finally blocks in PHP.
+- How can you suppress errors in PHP code?
 
-6. Explain the differences between GET and POST methods in PHP. When would you choose one over the other?
+**PHP String Manipulation:**
+- Explain the difference between single-quoted and double-quoted strings.
+- How do you find the length of a string in PHP?
 
-7. How does PHP support object-oriented programming (OOP)? Provide an example of a basic PHP class and its usage.
+**Working with Dates and Times:**
+- How can you format a date in PHP using the date function?
+- Discuss the purpose of the strtotime function.
 
-8. Describe the use of PDO in PHP for database access. What are the advantages of using prepared statements?
+**PHP Superglobals:**
+- What is the significance of PHP's superglobals?
+- Explain the differences between $_GET and $_POST.
 
-9. What is the purpose of the "composer" tool in PHP, and how can it be beneficial in a project?
+**Object-Oriented Programming (OOP) Basics:**
+- Discuss the concepts of encapsulation and inheritance in OOP.
+- How do you instantiate an object in PHP?
 
-10. How does autoloading work in PHP, and why is it useful?
+**File Handling in PHP:**
+- Explain the use of fopen, fwrite, and fclose for file handling.
+- How can you read the contents of a file into a string in PHP?
 
-11. Explain the concept of traits in PHP and provide a scenario where you might use them.
+**PHP Error Handling:**
+- Explain custom error handling using the set_error_handler function.
+- How would you handle fatal errors gracefully in PHP?
 
-12. What is the purpose of the "spl_autoload_register" function, and how does it differ from other methods of autoloading?
+**Working with Arrays in PHP:**
+- Discuss the use of the array_map and array_filter functions.
+- How can you perform a deep merge of two arrays in PHP?
 
-13. How does error handling work in PHP? Can you describe the difference between "try", "catch", and "finally" blocks?
+**Object-Oriented Programming (OOP) Basics:**
+- Discuss the concept of abstract classes and when to use them.
+- Explain the difference between method overloading and method overriding.
 
-14. Describe the role of the "header" function in PHP and provide an example of when it might be used.
+**PHP Sessions and Cookies:**
+- How can you implement session persistence using database storage?
+- Discuss security best practices for handling session data.
 
-15. What is the purpose of the "$_SESSION" variable in PHP, and how is it used to store and retrieve session data?
+**PHP Namespaces and Autoloading:**
+- Explain autoloading with Composer and its advantages.
+- How can you autoload classes without using Composer?
 
-16. Explain the concept of dependency injection in PHP and provide an example of how it can be implemented.
+**Composer Package Management:**
+- Explain the purpose of the composer.json file in a PHP project.
+- How can you use Composer to install a specific version of a package?
 
-17. How can you secure user input in PHP to prevent common security vulnerabilities, such as SQL injection and cross-site scripting (XSS)?
+**Error Handling and Logging:**
+- Discuss the use of the set_exception_handler function for handling uncaught exceptions.
+- How can you customize error messages displayed to users without revealing sensitive information?
 
-18. Describe the use of cookies in PHP. How are they set, retrieved, and deleted?
+**PHP Extensions:**
+- What is a PHP extension, and how can you load/unload extensions dynamically?
+- Discuss the role of the php.ini file in configuring PHP extensions.
 
-19. Can you explain the difference between the "== " and "===" operators in PHP? Provide examples to illustrate your answer.
+**OPcache Configuration:**
+- Explain how to configure OPcache for optimal performance.
+- How does OPcache handle file changes, and how can you clear the cache manually?
 
-20. What is the purpose of the "foreach" loop in PHP, and how does it differ from other types of loops?
-
-21. Explain the concept of abstract classes and interfaces in PHP. When would you use one over the other?
-
-22. How does PHP support file handling? Provide examples of functions used for reading and writing files.
-
-23. What is the purpose of the "mysqli" extension in PHP, and how does it differ from the older "mysql" extension?
-
-24. Describe the use of the "json_encode" and "json_decode" functions in PHP. When would you use JSON in a PHP application?
-
-25. Can you discuss the importance of code optimization and performance tuning in PHP development? What strategies would you employ to optimize PHP code?
+**Working with DateTime:**
+- Discuss the use of the DateTime class in PHP for date and time manipulation.
+- How can you calculate the difference between two DateTime objects?

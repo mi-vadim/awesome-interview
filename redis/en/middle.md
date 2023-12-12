@@ -1,49 +1,79 @@
-1. How does Redis persistence work, and what are the advantages and disadvantages of using RDB snapshots versus AOF logs?
+**Persistence in Redis:**
+- Discuss the options for data persistence in Redis.
+- When would you choose RDB snapshots over AOF logs?
 
-2. Explain the role of Redis Sentinel in a high-availability setup. How does it contribute to ensuring the availability of Redis instances?
+**Redis Transactions:**
+- How do transactions work in Redis, and when would you use them?
+- Discuss the use of the MULTI, EXEC, and DISCARD commands.
 
-3. Discuss the concept of data modeling in Redis. How do you design the structure of data to optimize performance, especially for complex data scenarios?
+**Lua Scripting:**
+- What is Lua scripting, and how is it used in Redis?
+- Provide an example of a Lua script for Redis.
 
-4. What is Redis sharding, and how does it contribute to scalability? Can you discuss considerations and challenges associated with sharding?
+**Key Space Notifications:**
+- Explain key space notifications in Redis.
+- How can you subscribe to specific types of events?
 
-5. Describe your experience with implementing Redis transactions. When and how would you use multi-command transactions in a Redis environment?
+**Bitmaps in Redis:**
+- What are bitmaps in Redis, and when might you use them?
+- Discuss the bitwise operations that can be applied to bitmaps.
 
-6. How does Redis handle data eviction in cases of memory saturation? Can you explain different eviction policies and when you might use each?
+**Redis Streams:**
+- Describe the concept of Redis streams.
+- How can you retrieve the last N elements from a stream?
 
-7. Explain the significance of Redis Lua scripting. Can you provide examples of situations where you would use Lua scripts with Redis?
+**GeoSpatial Indexing:**
+- Explain how Redis supports geospatial indexing.
+- Provide an example of using geospatial commands in Redis.
 
-8. Discuss the impact of Redis on system resources, especially in terms of CPU and memory usage. How can you optimize Redis performance in resource-constrained environments?
+**HyperLogLog:**
+- What is HyperLogLog, and how does it estimate cardinality?
+- Discuss use cases where HyperLogLog is advantageous.
 
-9. What is the purpose of Redis pub/sub? Can you provide examples of scenarios where pub/sub can be beneficial in a PHP application?
+**Memory Optimization:**
+- How can you optimize memory usage in a Redis instance?
+- Discuss strategies for reducing memory fragmentation.
 
-10. How do you approach Redis security in a production environment? Discuss best practices for securing a Redis server, including authentication and encryption.
+**Redis Cluster:**
+- What is a Redis Cluster, and how does it provide high availability?
+- Explain the role of master and replica nodes in a Redis Cluster.
 
-11. Explain the role of Redis Cluster. How does it distribute data across multiple nodes, and what advantages does it offer in terms of scalability?
+**Event Handling in Redis:**
+- How does Redis handle events, and what are the different types of events?
+- Discuss the role of event handling in a Redis-based application.
 
-12. Describe your experience with monitoring and troubleshooting performance issues in a PHP application that uses Redis. What tools or commands do you use?
+**Optimizing Redis for Read and Write Operations:**
+- What strategies can be employed to optimize Redis for read-heavy workloads?
+- How does Redis handle write-intensive operations?
 
-13. Discuss the use of Redis hyperloglogs. Can you provide an example of a situation where hyperloglogs are useful, and how would you implement them?
+**Connection Pooling:**
+- Explain the concept of connection pooling in Redis.
+- How does connection pooling contribute to performance improvement?
 
-14. How do you handle cache invalidation in a PHP application that uses Redis for caching? Discuss strategies for maintaining cache consistency.
+**Script Loading and Caching:**
+- How does Redis handle the loading and caching of Lua scripts?
+- Discuss strategies for efficient script management in Redis.
 
-15. What are the key differences between Redis streams and traditional message queues? When would you choose one over the other for messaging in a PHP application?
+**Command Pipelining:**
+- Explain the concept of command pipelining in Redis.
+- How does command pipelining improve the efficiency of Redis operations?
 
-16. Explain the purpose and benefits of Redis pipelining. How does it improve the efficiency of multiple commands sent to Redis?
+**Scaling Redis Horizontally:**
+- Discuss strategies for horizontal scaling in a Redis environment.
+- How can you distribute data across multiple Redis instances?
 
-17. How would you implement rate limiting using Redis in a PHP application? Can you discuss the approach and key considerations?
+**Handling Timeouts:**
+- How does Redis handle command timeouts?
+- Discuss scenarios where setting timeouts is crucial for Redis operations.
 
-18. Describe your strategy for handling large datasets in Redis. How do you manage memory usage and optimize performance for datasets that don't fit in memory?
+**Sentinel Configuration:**
+- Explain the configuration settings for Redis Sentinel.
+- How can you fine-tune Redis Sentinel for high availability?
 
-19. Discuss the advantages and use cases of Redis as a session store in a PHP application. What considerations are important for session management with Redis?
+**Monitoring Redis with Metrics:**
+- What are the key performance metrics to monitor in Redis?
+- Discuss the significance of real-time monitoring in Redis.
 
-20. Explain the role of Redis Geo commands. How can you use Redis to implement geospatial features in a PHP application?
-
-21. How do you approach benchmarking and performance testing for a Redis-backed PHP application? What tools or methodologies do you use?
-
-22. Describe your experience with Redis sentinel configurations for failover scenarios. How do you ensure high availability in case of a primary node failure?
-
-23. Discuss the impact of network latency on a Redis-based system. How do you optimize network communications for better performance?
-
-24. Explain the purpose of the Redis "BITOP" command. How would you use it in a PHP application, and what are its applications?
-
-25. Describe your approach to upgrading Redis versions in a production environment. What precautions and best practices do you follow to ensure a smooth upgrade process?
+**Handling Large Hashes:**
+- How can you efficiently handle large hashes in Redis?
+- Discuss potential challenges and optimizations for large hash operations.

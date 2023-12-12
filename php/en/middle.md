@@ -1,49 +1,79 @@
-1. Can you explain the difference between abstract classes and interfaces in PHP, and when would you choose to use one over the other?
+**PHP Namespaces:**
+- Explain the purpose of namespaces in PHP.
+- How can namespaces help in organizing and avoiding naming conflicts?
 
-2. How do you handle exceptions in PHP, and what are some best practices for error handling in a production environment?
+**Traits and Multiple Inheritance:**
+- Discuss the role of traits in PHP and how they relate to multiple inheritance.
+- Provide an example of using traits in a practical scenario.
 
-3. Describe the use of traits in PHP and provide an example of a situation where you found traits to be particularly useful.
+**PHP Generators:**
+- Explain what generators are in PHP and how they differ from regular functions.
+- Discuss scenarios where using generators is advantageous.
 
-4. What is the significance of the "late static binding" feature in PHP, and how can it be applied in your code?
+**Anonymous Classes:**
+- What are anonymous classes in PHP, and when might you choose to use them?
+- How can anonymous classes contribute to code organization?
 
-5. How do you implement and manage caching in a PHP application to optimize performance?
+**Working with JSON in PHP:**
+- How can you encode and decode JSON data in PHP?
+- Discuss the use of json_encode options for customization.
 
-6. Explain the concept of design patterns in PHP. Can you provide examples of design patterns you have used in your projects?
+**PHP Constants and Magic Constants:**
+- Explain the difference between define and const for defining constants.
+- Discuss the purpose of magic constants like __FILE__ and __LINE__.
 
-7. Describe the role of the SOLID principles in object-oriented programming and how they apply to PHP development.
+**Late Static Binding:**
+- Discuss the concept of late static binding in PHP.
+- Provide an example where late static binding is beneficial.
 
-8. How would you optimize database queries in PHP to improve overall application performance?
+**PHP Sessions and Cookies:**
+- How does PHP manage sessions, and what security considerations should be taken into account?
+- Explain the use of cookies in PHP and their potential security issues.
 
-9. Can you discuss the differences between the "header" and "send" methods in PHP for HTTP response manipulation?
+**Composer Autoloading and PSR Standards:**
+- Explain how Composer handles autoloading in PHP projects.
+- Discuss the importance of following PSR standards in PHP development.
 
-10. What is the purpose of the PHP Data Objects (PDO) extension, and how does it enhance database access in comparison to other methods?
+**Working with Streams in PHP:**
+- Discuss the concept of streams in PHP.
+- How can you use streams for reading and writing data efficiently?
 
-11. Describe the use of namespaces in PHP, and explain how they contribute to code organization and maintainability.
+**PHP Traits and Interfaces:**
+- Discuss the use of interfaces in conjunction with traits.
+- How can you resolve conflicts when using multiple traits with overlapping methods?
 
-12. How do you approach testing in PHP, and what testing tools and frameworks are you familiar with?
+**Working with Streams in PHP:**
+- Explain the concept of stream filters in PHP.
+- How can you create a custom stream wrapper for a specific data source?
 
-13. Explain the concept of dependency injection and inversion of control in PHP. Provide examples of how you've implemented these concepts in your projects.
+**Dependency Injection and Inversion of Control (IoC):**
+- Discuss the principles of IoC and how it relates to dependency injection.
+- Explain the drawbacks of excessive dependency injection.
 
-14. Can you discuss the importance of security in PHP development and describe measures you take to prevent common vulnerabilities?
+**Advanced JSON Handling in PHP:**
+- How can you handle JSON decoding errors gracefully in PHP?
+- Discuss strategies for working with JSON Web Tokens (JWT) in PHP.
 
-15. How would you implement a RESTful API in PHP, and what considerations would you take into account for scalability and performance?
+**PHP Generators and Coroutines:**
+- Explain the use of coroutines with generators in PHP.
+- How can you implement cooperative multitasking using coroutines?
 
-16. Describe the process of implementing internationalization and localization in a PHP application. What tools or libraries would you use?
+**PHP Streams and Contexts:**
+- Explain the concept of PHP streams and stream contexts.
+- How can you create a custom stream wrapper for handling custom protocols?
 
-17. How do you manage and optimize autoloaders in PHP to efficiently load classes and improve application performance?
+**WebSockets in PHP:**
+- Discuss the use of WebSockets in PHP for real-time communication.
+- How can you implement a WebSocket server using a PHP library?
 
-18. Discuss the role of middleware in PHP frameworks. Provide examples of middleware usage and how it enhances the functionality of an application.
+**PHP Annotations:**
+- Explain the use of annotations in PHP, and provide examples of libraries utilizing annotations.
+- How can you create and process custom annotations in a PHP project?
 
-19. What is the purpose of the Observer pattern in PHP, and when would you use it in your projects?
+**Generator Delegation:**
+- Discuss the concept of generator delegation in PHP.
+- Provide examples of use cases where generator delegation is beneficial.
 
-20. How do you handle and secure user authentication and authorization in a PHP application?
-
-21. Explain the use of Composer in PHP development, and describe the advantages it brings to a project.
-
-22. Can you discuss the differences between MySQLi and PDO, and when would you choose one over the other for database interactions?
-
-23. Describe your approach to optimizing and fine-tuning SQL queries in PHP for better database performance.
-
-24. How would you implement a scalable and maintainable architecture for a large PHP project?
-
-25. Discuss the role of asynchronous programming in PHP and provide examples of situations where asynchronous techniques would be beneficial.
+**PHP Traits and Magic Methods:**
+- How can traits be used to implement magic methods in PHP?
+- Discuss scenarios where using magic methods with traits is advantageous.

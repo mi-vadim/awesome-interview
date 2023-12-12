@@ -1,49 +1,78 @@
-1. Discuss your experience implementing microservices architecture with Docker for PHP applications. What challenges have you encountered, and how did you address them?
+**Docker Networking: Advanced Topics:**
+ - Discuss advanced networking features in Docker, such as overlay networks
+ - How can you implement secure communication between containers in different Docker networks?
 
-2. How do you design and structure Dockerfiles for complex PHP applications to ensure maintainability and scalability?
+**Docker Security Scanning:**
+ - What is Docker Security Scanning, and how does it enhance container security
+ - Discuss the steps to perform a security scan on a Docker image.
 
-3. Explain the concept of Docker container orchestration, and discuss your experience with tools like Kubernetes or Docker Swarm in managing PHP application deployments.
+**Docker Compose Workflows:**
+ - Share best practices for managing complex workflows with Docker Compose
+ - How can you handle dependencies and ordering of services in Docker Compose?
 
-4. Describe your approach to handling secrets and sensitive information in a Dockerized PHP application. How do you manage secure credential storage and distribution?
+**Docker Compose Extensibility:**
+ - Explain how to use extension fields in Docker Compose files
+ - How can you leverage Compose file templates for reuse?
 
-5. Discuss your strategy for optimizing Docker images in terms of size and efficiency, especially for large-scale PHP applications.
+**Dockerfile Advanced Techniques:**
+ - Discuss advanced techniques for optimizing Dockerfiles
+ - How can you use multi-stage builds for language-specific applications?
 
-6. How do you implement automated testing within a Dockerized PHP development environment? Can you discuss tools and best practices for testing Dockerized applications?
+**Docker Compose and Service Discovery:**
+ - How does service discovery work in Docker Compose
+ - Discuss strategies for handling service discovery in a dynamic environment.
 
-7. Describe your experience with Docker network security. How do you ensure secure communication between containers and protect against external threats?
+**Docker Swarm Mode:**
+ - What is Docker Swarm, and how does it differ from standalone Docker
+ - Discuss the steps to create and manage a Docker Swarm.
 
-8. Explain the role of Docker Compose in a PHP development environment. How do you structure your Compose files for different environments, such as development, testing, and production?
+**Docker Compose Health Checks:**
+ - Explain advanced health check configurations in a Docker Compose file
+ - How can you customize health check intervals and timeouts?
 
-9. Discuss your strategy for managing database migrations and schema changes in a Dockerized PHP project. How do you ensure consistency across different environments?
+**Docker Compose and Secrets Management:**
+ - Discuss approaches for managing secrets in Docker Compose
+ - How can you integrate Docker Compose with external secrets management tools?
 
-10. How do you achieve high availability and load balancing for a PHP application using Docker? Discuss your approach to scaling Dockerized PHP services.
+**Docker BuildKit:**
+ - What is Docker BuildKit, and how does it improve the build process
+ - Discuss advanced features provided by Docker BuildKit.
 
-11. Describe your experience with Docker image registries, such as Docker Hub or private registries. How do you manage versioning and distribution of Docker images in a team environment?
+**Docker Compose and CI/CD Integration:**
+ - How can Docker Compose be integrated into a CI/CD pipeline
+ - Discuss strategies for testing and deploying Docker Compose configurations.
 
-12. Can you discuss your approach to optimizing the build and deployment process of a Dockerized PHP application within a continuous integration and continuous deployment (CI/CD) pipeline?
+**Docker Image Signing:**
+ - What is image signing in Docker, and why is it important
+ - Discuss the steps to sign and verify Docker images.
 
-13. Explain the use of Docker labels and annotations in a PHP project. How do you leverage these for documentation, organization, and other purposes?
+**Docker Compose Extending Services:**
+ - How can you extend services defined in a Docker Compose file
+ - Discuss scenarios where service extension is beneficial.
 
-14. Discuss your familiarity with Docker monitoring tools and practices. How do you ensure performance monitoring and log aggregation in a Dockerized PHP application?
+**Docker Content Trust:**
+ - Explain Docker Content Trust and its role in image security
+ - How can you enable and disable content trust in Docker?
 
-15. How do you handle backward compatibility and versioning of Docker images for PHP applications in a production environment?
+**Docker Compose for Multi-Environment Deployment:**
+ - Discuss strategies for using Docker Compose in multi-environment deployments
+ - How can you parameterize a Docker Compose file for different environments?
 
-16. Explain the role of Docker volumes in managing data persistence for PHP applications. How do you ensure data integrity and consistency?
+**Docker and Kernel Capabilities:**
+ - Explain Linux kernel capabilities in the context of Docker
+ - Discuss scenarios where you might need to adjust kernel capabilities for a container.
 
-17. Describe your experience with Docker health checks in PHP applications. How do you define and implement health checks for containers to ensure robustness?
+**Docker Compose and External Networks:**
+ - How can you connect Docker Compose services to external networks
+ - Discuss considerations when dealing with external networks in Docker Compose.
 
-18. Discuss your approach to securing the Docker host system. What measures do you take to minimize security risks and vulnerabilities?
+**Docker and Persistent Storage:**
+ - Discuss strategies for managing persistent storage in Docker containers
+ - How can you achieve data persistence in stateful Docker applications?
 
-19. How would you implement rolling updates and rollback strategies for a PHP application in a Dockerized environment? Can you provide examples of the commands and configurations you would use?
+**Docker Compose and Application Scaling:**
+ - Explain strategies for scaling applications defined in a Docker Compose file
+ - How can you dynamically adjust the number of replicas for a service?
 
-20. Describe your experience with Docker layer caching and its impact on the build speed of PHP applications. How do you optimize the caching strategy?
-
-21. Can you discuss your experience with Docker for Windows and Docker for Mac? What challenges have you encountered, and how did you overcome them?
-
-22. Explain the benefits of using Docker-compose override files in a PHP development environment. How do you utilize them for different deployment scenarios?
-
-23. Discuss your experience with Docker security scanning tools. How do you ensure that your Docker images are free from vulnerabilities?
-
-24. How do you handle the migration of a legacy PHP application to a Dockerized environment? What challenges and strategies would you consider?
-
-25. Can you provide examples of how you've addressed resource allocation and optimization challenges in a Dockerized PHP application, especially in environments with high traffic and resource demands?
+**Docker Image Hardening:**
+ - Share best practices for hardening Docke

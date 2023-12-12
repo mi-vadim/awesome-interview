@@ -1,49 +1,79 @@
-1. What is DevOps, and how does it aim to improve collaboration between development and operations teams?
+**Version Control Systems:**
+ - Explain the purpose of version control systems in DevOps
+ - How does Git differ from other version control systems?
 
-2. Can you explain the concept of continuous integration (CI) and how it contributes to the DevOps lifecycle?
+**Continuous Integration (CI) Basics:**
+ - What is continuous integration, and why is it important
+ - Name a popular CI tool, and explain its primary features.
 
-3. Describe your understanding of continuous delivery (CD) and its importance in the software development process.
+**Docker Basics:**
+ - What is Docker, and how does it simplify application deployment
+ - Explain the difference between an image and a container.
 
-4. What version control systems have you used, and how do they facilitate collaboration and version management in a DevOps environment?
+**Basic Linux Commands:**
+ - Name three essential Linux commands for navigating the file system
+ - How do you check the usage of system resources in Linux?
 
-5. How would you define infrastructure as code (IaC), and what benefits does it bring to the deployment and management of infrastructure resources?
+**Infrastructure as Code (IaC) Introduction:**
+ - What is Infrastructure as Code, and why is it valuable
+ - Name a popular IaC tool and explain its benefits.
 
-6. Explain the role of containerization (e.g., Docker) in a DevOps workflow. How does it contribute to consistency across different environments?
+**Basic Networking Concepts:**
+ - What is the difference between TCP and UDP
+ - Explain the purpose of DNS in a network.
 
-7. What is the purpose of configuration management tools (e.g., Ansible, Puppet, Chef) in a DevOps context? How do they help maintain consistency in server configurations?
+**Basic Shell Scripting:**
+ - Write a simple shell script that prints the numbers 1 to 5
+ - How can you pass arguments to a shell script?
 
-8. Discuss your understanding of continuous monitoring in DevOps. Why is monitoring important, and what tools have you used for this purpose?
+**Monitoring Basics:**
+ - What is the role of monitoring in DevOps
+ - Name a monitoring tool and explain its key features.
 
-9. How do you approach automated testing in a DevOps pipeline? What types of tests are commonly automated in the CI/CD process?
+**Basic Security Practices:**
+ - Explain the importance of keeping software and systems up to date
+ - How can you secure SSH access to a Linux server?
 
-10. Explain the concept of continuous deployment and how it differs from continuous delivery. What factors would you consider when deciding whether to implement continuous deployment?
+**Basic CI/CD Pipeline Understanding:**
+ - Describe the stages in a basic CI/CD pipeline
+ - How does a CI/CD pipeline contribute to software delivery?
 
-11. Can you describe the importance of collaboration and communication in a DevOps culture? How do you foster effective communication between development and operations teams?
+**Continuous Deployment:**
+ - Explain the concept of continuous deployment in DevOps
+ - What are the benefits and challenges of implementing continuous deployment?
 
-12. Discuss your experience with cloud platforms such as AWS, Azure, or Google Cloud in a DevOps environment. How do these platforms support the principles of DevOps?
+**Secrets Management:**
+ - Why is secrets management crucial in a DevOps environment
+ - Name a tool or method for securely managing and distributing secrets.
 
-13. What is the significance of microservices architecture in a DevOps context? How does it align with DevOps principles, and what challenges might arise?
+**Container Orchestration Benefits:**
+ - Discuss the benefits of using container orchestration tools
+ - How does container orchestration contribute to scalability and reliability?
 
-14. How do you handle versioning and release management in a DevOps workflow? What strategies do you use to manage and track changes across different environments?
+**Git Branching Strategies:**
+ - Explain the importance of branching strategies in Git
+ - Discuss a common Git branching model used in software development.
 
-15. Explain the role of a build tool (e.g., Jenkins, Travis CI) in a CI/CD pipeline. How does it automate the building and packaging of applications?
+**Infrastructure Scalability:**
+ - What is horizontal scalability, and how is it achieved in infrastructure design
+ - Discuss scenarios where vertical scalability is more appropriate.
 
-16. Describe your experience with log management and analysis tools in a DevOps setting. How do you handle logs for troubleshooting and monitoring purposes?
+**Load Balancing:**
+ - Why is load balancing important in distributed systems
+ - Name different types of load balancing algorithms and their characteristics.
 
-17. How would you approach the automation of manual processes in a DevOps environment? Can you provide an example of a process you've automated?
+**Deployment Strategies:**
+ - Discuss various deployment strategies, such as rolling deployments and blue-green deployments
+ - When would you choose one deployment strategy over another?
 
-18. Discuss your understanding of the concept of "Infrastructure as Code" (IaC). How can IaC tools contribute to the automation of infrastructure provisioning and configuration?
+**Basic Cloud Concepts:**
+ - Explain the difference between IaaS, PaaS, and SaaS
+ - How does cloud elasticity contribute to infrastructure flexibility?
 
-19. Explain the role of Git branching strategies in a collaborative development environment. How do branches contribute to the stability and organization of code changes?
+**Collaborative Coding Practices:**
+ - How can version control systems enhance collaborative coding practices
+ - Discuss the importance of code reviews in a collaborative development environment.
 
-20. Can you discuss your experience with container orchestration tools (e.g., Kubernetes, Docker Swarm) and their role in managing and scaling containerized applications?
-
-21. What is the purpose of a container registry in a DevOps pipeline? How do you manage and version Docker images in a container registry?
-
-22. Discuss your familiarity with the concept of "shift-left" in DevOps. How does it apply to testing, security, and other aspects of the development lifecycle?
-
-23. Explain the role of automated deployment tools (e.g., Ansible, Terraform) in a DevOps environment. How do these tools streamline the deployment and configuration of infrastructure?
-
-24. How do you approach security in a DevOps culture? What practices and tools do you use to ensure the security of both code and infrastructure?
-
-25. Describe a situation where you faced a challenge in a DevOps environment. How did you troubleshoot and resolve the issue, and what lessons did you learn from the experience?
+**Incident Response Basics:**
+ - What is an incident response plan, and why is it important
+ - How do you prioritize incidents during a system outage

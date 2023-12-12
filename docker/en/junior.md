@@ -1,49 +1,79 @@
-1. What is Docker, and how does it differ from traditional virtualization?
+**Docker Basics:**
+ - Explain the basic concepts of Docker
+ - What is the purpose of a Docker image?
 
-2. Can you explain the concept of a Docker container and its key components?
+**Container Lifecycle:**
+ - Describe the lifecycle of a Docker container
+ - How do you stop and remove a running container?
 
-3. How do you install Docker on different operating systems, such as Windows, macOS, and Linux?
+**Dockerfile Basics:**
+ - What is a Dockerfile, and how is it used
+ - Provide an example of a simple Dockerfile.
 
-4. Describe the purpose of a Dockerfile and the steps involved in creating one for a PHP application.
+**Docker Volumes:**
+ - What are Docker volumes, and why are they important
+ - How do you share data between a Docker container and the host machine?
 
-5. What is the difference between an image and a container in Docker terminology?
+**Docker Networking:**
+ - Explain the different types of Docker networks
+ - How can containers communicate with each other in a custom network?
 
-6. How do you manage and persist data in Docker containers? Can you explain the use of volumes?
+**Docker Compose Basics:**
+ - What is Docker Compose, and how does it simplify multi-container setups
+ - Provide an example of a basic Docker Compose file.
 
-7. Explain the role of Docker Compose and how it simplifies the management of multi-container applications.
+**Docker Hub:**
+ - What is Docker Hub, and how is it used in Docker workflows
+ - How can you pull a specific version of an image from Docker Hub?
 
-8. How do you link containers in Docker, and what are the benefits of using container orchestration tools like Docker Compose?
+**Container Orchestration:**
+ - Briefly explain the concept of container orchestration
+ - How does Docker Compose differ from container orchestration tools like Kubernetes?
 
-9. Can you discuss the significance of the Docker registry, and how do you push and pull Docker images to and from a registry?
+**Docker Compose Services:**
+ - Explain the purpose of services in a Docker Compose file
+ - How can you scale services in a Docker Compose setup?
 
-10. What is the purpose of the Docker Hub, and how can it be useful in a Dockerized PHP development environment?
+**Docker Health Checks:**
+ - What is a Docker health check, and why would you use it
+ - Provide an example of implementing a health check in a Dockerfile.
 
-11. Explain the concept of Docker networking. How do containers communicate with each other, and how can you expose ports for external access?
+**Docker Image Cleanup:**
+ - Explain the importance of cleaning up unused Docker images
+ - How can you remove all stopped containers with a single command?
 
-12. Describe the differences between Docker containers and virtual machines. In what scenarios would you prefer one over the other?
+**Docker Container Logs:**
+ - How can you view the logs of a running Docker container
+ - Discuss the options for redirecting container logs to external storage.
 
-13. How do you troubleshoot common issues in Docker containers? Can you provide examples of Docker commands and tools for debugging?
+**Docker Compose Build Context:**
+ - What is the build context in a Docker Compose file
+ - How can you optimize the build context for better performance?
 
-14. Discuss the use of environment variables in Docker. How can they be utilized in a PHP application to manage configuration settings?
+**Docker Compose Port Mapping:**
+ - Explain how port mapping is defined in a Docker Compose file
+ - How can you expose a service on a specific host port in Docker Compose?
 
-15. What is the significance of the "ENTRYPOINT" and "CMD" instructions in a Dockerfile, and how do they affect the behavior of a container?
+**Docker Networking: Bridge vs. Host:**
+ - Compare and contrast the Bridge and Host network modes in Docker
+ - When would you choose one network mode over the other?
 
-16. Explain the Docker image layering concept. How does it contribute to image efficiency and reusability?
+**Docker Compose Environment Variables (Continued):**
+ - How can you use environment variable files with Docker Compose
+ - Discuss the order of precedence for environment variables in Docker Compose.
 
-17. Describe your experience with Docker Compose YAML files. What sections are typically included, and how do you configure services and networks?
+**Docker Swarm Mode Basics:**
+ - What is Docker Swarm, and how does it enable orchestration
+ - How can you initialize a Docker Swarm?
 
-18. How would you handle secrets and sensitive information in a Dockerized PHP application? Can you discuss best practices for managing credentials?
+**Docker Compose Restart Policies:**
+ - Explain the role of restart policies in Docker Compose
+ - Provide examples of different restart policies and their use cases.
 
-19. Discuss your experience with Docker volumes and their importance in persisting data between container restarts.
+**Dockerfile ARG vs. ENV:**
+ - Discuss the differences between ARG and ENV in a Dockerfile
+ - When would you use ARG over ENV, and vice versa?
 
-20. What is the purpose of health checks in Docker containers, and how can they be implemented in a PHP application?
-
-21. How do you achieve load balancing and high availability for a Dockerized PHP application? Can you discuss container orchestration tools like Kubernetes?
-
-22. Explain the concept of Docker swarm mode. In what scenarios would you use swarm mode, and how does it differ from other container orchestration solutions?
-
-23. How do you ensure that a Dockerized PHP application is secure? Can you discuss practices for minimizing security risks in Docker containers?
-
-24. Discuss your experience with Docker images for PHP applications. How do you choose a base image, and what additional dependencies might you include?
-
-25. Can you provide examples of Docker commands for managing containers, images, and networks in a PHP development environment?
+**Docker Compose and Dependency Management:**
+ - How can you express dependencies between services in a Docker Compose file
+ - Discuss scenarios where service dependencies are crucial in a multi-container application

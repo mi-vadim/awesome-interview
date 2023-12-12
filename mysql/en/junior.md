@@ -1,49 +1,39 @@
-1. **What is SQL and why is it important in the context of backend development?**
+**Indexing in MySQL:**
+- What is indexing, and why is it essential in MySQL?
+- Explain the difference between clustered and non-clustered indexes.
 
-2. **Explain the difference between SQL and NoSQL databases.**
+**Normalization and Denormalization:**
+- Discuss the concepts of normalization and denormalization in the context of database design.
+- When might you choose denormalization over normalization?
 
-3. **What is a primary key in a relational database?**
+**Foreign Key Constraints:**
+- Explain the purpose of foreign key constraints in MySQL.
+- How do foreign key constraints contribute to maintaining data integrity?
 
-4. **How does the INNER JOIN operation work in SQL?**
+**MySQL Storage Engines:**
+- Discuss different storage engines in MySQL (e.g., InnoDB, MyISAM).
+- What factors would you consider when choosing a storage engine for a specific scenario?
 
-5. **Describe the difference between WHERE and HAVING clauses in SQL.**
+**MySQL Transactions:**
+- What is a MySQL transaction, and why is it important?
+- Discuss the ACID properties and their significance in transactions.
 
-6. **What is normalization, and why is it important in database design?**
+**Query Optimization:**
+- How can you optimize a MySQL query for better performance?
+- Discuss the importance of using the EXPLAIN statement for query analysis.
 
-7. **Explain the purpose of the GROUP BY clause in SQL.**
+**MySQL Views:**
+- What are MySQL views, and how do they simplify query execution?
+- Discuss scenarios where using views can be beneficial.
 
-8. **How do you prevent SQL injection in your queries?**
+**Backup and Recovery:**
+- Explain strategies for backing up and recovering MySQL databases.
+- How can you perform a point-in-time recovery in MySQL?
 
-9. **What is an index in a database, and why is it useful?**
+**Stored Procedures and Functions:**
+- Discuss the advantages of using stored procedures and functions in MySQL.
+- Provide examples of scenarios where stored procedures are useful.
 
-10. **Describe the differences between UNION and UNION ALL in SQL.**
-
-11. **What is the purpose of the ORDER BY clause in a SQL query?**
-
-12. **Explain the concept of foreign keys and their role in maintaining data integrity.**
-
-13. **How do you retrieve unique values from a table using SQL?**
-
-14. **What is a stored procedure, and when would you use one?**
-
-15. **Describe the ACID properties in the context of database transactions.**
-
-16. **What is the difference between a view and a table in SQL?**
-
-17. **How do you update data in a SQL table using the UPDATE statement?**
-
-18. **Explain the difference between the CHAR and VARCHAR data types.**
-
-19. **What is a subquery, and how is it different from a JOIN?**
-
-20. **How can you optimize a SQL query for better performance?**
-
-21. **What is the purpose of the DISTINCT keyword in SQL?**
-
-22. **How do you handle NULL values in SQL?**
-
-23. **Explain the difference between the COUNT and COUNT(*) functions.**
-
-24. **What is the purpose of the TRUNCATE statement in SQL?**
-
-25. **How can you use the LIMIT clause to retrieve a specific number of rows from a query result?**
+**Full-Text Search in MySQL:**
+- Explain the full-text search capabilities in MySQL.
+- How would you implement full-text search functionality in a MySQL application?

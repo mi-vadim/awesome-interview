@@ -1,49 +1,79 @@
-1. What is Redis, and how does it differ from traditional relational databases?
+**Redis Basics:**
+- What is Redis, and how is it different from traditional relational databases?
+- Explain the key-value data model in Redis.
 
-2. Explain the use of Redis as a key-value store. Can you provide examples of scenarios where using Redis for caching is beneficial?
+**Data Types in Redis:**
+- Name and describe at least three data types supported by Redis.
+- When would you use a set instead of a list in Redis?
 
-3. How does Redis support data structures like strings, lists, sets, and hashes? Can you provide examples of each?
+**Command-Line Interface:**
+- How do you interact with Redis using the command-line interface?
+- Explain the purpose of the SET and GET commands.
 
-4. Describe the role of Redis in-memory storage and its impact on performance. How does Redis use memory differently than disk-based databases?
+**String Commands:**
+- Discuss the basic string commands in Redis.
+- How can you concatenate strings in Redis?
 
-5. What are the common use cases for Redis in web development, and how can it enhance the performance of a PHP application?
+**Lists in Redis:**
+- What is a Redis list, and how is it implemented?
+- Explain the difference between LPUSH and RPUSH commands.
 
-6. How do you connect a PHP application to Redis? Can you discuss the different client libraries available for PHP and their advantages?
+**Sets and Sorted Sets:**
+- Describe the characteristics of Redis sets and sorted sets.
+- How can you retrieve the intersection of two sets?
 
-7. Explain the concept of expiration in Redis. How can you set and manage the expiration time for keys in Redis?
+**Hashes in Redis:**
+- What is a Redis hash, and how does it differ from a string?
+- Explain how you can add a field to an existing hash.
 
-8. Discuss the importance of atomic operations in Redis. Can you provide examples of atomic commands and their significance?
+**Key Expiration:**
+- How can you set an expiration time for a key in Redis?
+- Discuss scenarios where key expiration is useful.
 
-9. What is pub/sub in Redis, and how can it be used to implement messaging between different parts of a PHP application?
+**Atomic Operations:**
+- What is the significance of atomic operations in Redis?
+- Provide an example of an atomic operation.
 
-10. Describe the difference between Redis replication and sharding. When would you choose one over the other for scalability?
+**Pub/Sub Mechanism:**
+- Explain the publish/subscribe mechanism in Redis.
+- How can a subscriber receive messages from multiple channels?
 
-11. How does Redis handle persistence? Can you explain the different persistence options available, such as RDB snapshots and AOF logs?
+**Bitwise Operations in Redis:**
+- Explain the bitwise operations supported by Redis.
+- Provide a scenario where bitwise operations are useful.
 
-12. Discuss the significance of Redis transactions. How are transactions implemented in Redis, and what precautions should be taken?
+**Expiration and Eviction:**
+- What happens when a key with an expiration time is accessed after it expires?
+- How does Redis handle the eviction of keys when the memory limit is reached?
 
-13. Explain the purpose of Lua scripting in Redis. Can you provide examples of situations where you might use Lua scripts with Redis?
+**Lua Scripting in Redis:**
+- How can Lua scripting enhance the functionality of Redis?
+- Discuss a use case where Lua scripting is preferable over traditional commands.
 
-14. How do you handle errors and exceptions when working with Redis in a PHP application? Can you discuss best practices for error handling?
+**Sorted Set Commands:**
+- List and explain at least two commands used with sorted sets in Redis.
+- How are elements scored in a sorted set?
 
-15. Describe your experience with Redis data modeling. How do you design the structure of data in Redis to optimize performance?
+**Handling Connection Failures:**
+- How does a Redis client handle connection failures to a Redis server?
+- Discuss strategies for reconnecting to Redis after a connection failure.
 
-16. Discuss the role of Redis Sentinel in high availability setups. How does it contribute to ensuring the availability of Redis instances?
+**Backup and Restore in Redis:**
+- What strategies can be employed for backing up and restoring data in Redis?
+- Discuss the importance of regular backups in a Redis deployment.
 
-17. How can you monitor and troubleshoot performance issues in a PHP application using Redis? What tools or commands would you use?
+**Redis Data Types Overview:**
+- Provide a brief overview of the different data types supported by Redis.
+- When would you choose a hash over a set in Redis?
 
-18. Explain the concept of Redis pipelining and how it can improve the efficiency of multiple commands.
+**Multiple Databases in Redis:**
+- Explain how multiple databases work in a single Redis instance.
+- Discuss the limitations and considerations when using multiple databases.
 
-19. Describe the role of Redis Cluster. How does it distribute data across multiple nodes, and what advantages does it offer in terms of scalability?
+**Handling Large Sets in Redis:**
+- How can you efficiently handle large sets in Redis?
+- Discuss potential challenges and optimizations for large set operations.
 
-20. How do you handle security considerations when using Redis in a PHP application? Can you discuss authentication and encryption options?
-
-21. What is the purpose of the Redis "SCAN" command? How does it differ from the "KEYS" command, and why is it recommended for large datasets?
-
-22. Discuss the impact of Redis on system resources, especially in terms of CPU and memory usage. How can you optimize Redis performance in resource-constrained environments?
-
-23. Explain the role of Redis hyperloglogs and their applications in counting unique items. Can you provide an example of when you might use hyperloglogs?
-
-24. How does Redis handle data eviction in the case of memory saturation? Can you discuss different eviction policies and their implications?
-
-25. Describe your experience with using Redis as a cache for session management in PHP applications. What are the benefits and considerations in this use case?
+**Memory Management in Redis:**
+- Explain the role of Redis in-memory storage.
+- How can you monitor and manage memory usage in a Redis server?
