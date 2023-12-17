@@ -1,1 +1,0 @@
-What is the significance of an aggregate root in DDD

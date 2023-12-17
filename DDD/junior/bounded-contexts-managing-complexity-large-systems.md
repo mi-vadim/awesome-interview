@@ -1,1 +1,0 @@
-Discuss how bounded contexts help manage complexity in large systems.

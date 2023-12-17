@@ -1,79 +1,39 @@
-**Understanding DDD:**
- - [What is Domain-Driven Design (DDD), and why is it important in software development](junior/domain-driven-design-importance-in-software-development.md)
- - [Explain the basic concepts of a domain, entity, and value object in DDD.](junior/domain-entity-value-object-basic-concepts-ddd.md)
+**Basic Concepts of DDD**
+- How would you explain the concept of a Bounded Context in DDD?
+- What is the importance of the Ubiquitous Language in DDD?
 
-**Ubiquitous Language:**
- - [What is the role of a ubiquitous language in DDD](junior/ubiquitous-language-role-in-ddd.md)
- - [How does a ubiquitous language contribute to better communication between development teams and domain experts?](junior/ubiquitous-language-communication-development-teams-domain-experts.md)
+**Entities and Value Objects**
+- What differentiates an Entity from a Value Object in DDD?
+- Can you provide an example of when you would use an Entity over a Value Object?
 
-**Aggregates in DDD:**
- - What is an aggregate in DDD, and why is it useful
- - How can you identify and define aggregates in a given domain?
+**Aggregates and Aggregate Roots**
+- What is an Aggregate in DDD, and how does it differ from regular entities?
+- How do you determine the boundaries of an Aggregate?
 
-**Bounded Contexts:**
- - Define the concept of a bounded context in DDD
- - Discuss how bounded contexts help manage complexity in large systems.
+**Repositories and Data Access**
+- What role do Repositories play in DDD?
+- How might you implement a Repository for an Aggregate Root?
 
-**Repositories and DDD:**
- - Explain the purpose of repositories in DDD
- - How do repositories facilitate data access within a domain-driven application?
+**Domain Events**
+- What are Domain Events and why are they important in DDD?
+- Can you describe a situation where implementing a Domain Event would be beneficial?
 
-**Value Objects in DDD:**
- - Describe the characteristics of a value object in DDD
- - Provide an example of when you would use a value object instead of an entity.
+**Services in DDD**
+- Distinguish between Domain Services and Application Services in DDD.
+- How do you decide when to use a Service instead of a method in an Entity or Value Object?
 
-**Aggregate Roots:**
- - What is the significance of an aggregate root in DDD
- - How do you determine the aggregate root in a given domain?
+**Factories in DDD**
+- What are Factories in DDD and when should they be used?
+- Describe a scenario where you might use a Factory to create an object.
 
-**Event Sourcing Basics:**
- - What is event sourcing in DDD, and how does it differ from traditional data storage approaches
- - Discuss the benefits and challenges of using event sourcing.
+**DDD and Microservices**
+- How does DDD align with microservices architecture?
+- Can you discuss challenges you might face when implementing DDD in a microservices environment?
 
-**CQRS in DDD:**
- - Explain the Command Query Responsibility Segregation (CQRS) pattern in the context of DDD
- - How can CQRS improve the scalability of a system?
+**Strategic Design**
+- What is Strategic Design in DDD and why is it important?
+- How does Strategic Design affect the way you structure your code?
 
-**Domain Events:**
- - What are domain events, and how are they used in DDD
- - Provide an example of modeling a business process using domain events.
-
-**Service Layer in DDD:**
- - Explain the role of a service layer in Domain-Driven Design
- - When would you introduce a service layer in a domain model?
-
-**Value Object Equality:**
- - How do you implement equality for value objects in DDD
- - Discuss the importance of maintaining value object immutability.
-
-**Decoupling in DDD:**
- - Why is decoupling important in DDD, and how can it be achieved
- - Discuss techniques for reducing dependencies between different parts of a domain model.
-
-**Aggregates and Consistency Boundaries:**
- - What is the consistency boundary of an aggregate
- - Explain how aggregates contribute to maintaining consistency in a domain model.
-
-**UI-Driven Design in DDD:**
- - Discuss the concept of UI-driven design in the context of DDD
- - How can a user interface influence the design of a domain model?
-
-**Behavior-Driven Development (BDD) and DDD:**
- - How does Behavior-Driven Development (BDD) align with DDD practices
- - Discuss the benefits of using BDD for specifying and validating domain behavior.
-
-**Repositories vs. Query Objects:**
- - Differentiate between repositories and query objects in DDD
- - When would you use a repository, and when would you use a query object?
-
-**Context Mapping Strategies:**
- - Explain different strategies for context mapping in DDD
- - Discuss the role of context maps in aligning different bounded contexts.
-
-**Domain Events vs. Integration Events:**
- - Compare and contrast domain events and integration events in DDD
- - When would you choose to use one type of event over the other?
-
-**Handling Concurrency in DDD:**
- - How can you address concurrency issues in a DDD application
- - Discuss optimistic concurrency control and its implications
+**Practical Application of DDD**
+- How have you applied DDD concepts in a project you’ve worked on?
+- What challenges did you face when applying DDD principles as a junior developer?

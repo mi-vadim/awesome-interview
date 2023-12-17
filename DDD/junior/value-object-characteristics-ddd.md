@@ -1,1 +1,0 @@
-Describe the characteristics of a value object in DDD

@@ -1,1 +1,0 @@
-What is event sourcing in DDD, and how does it differ from traditional data storage approaches

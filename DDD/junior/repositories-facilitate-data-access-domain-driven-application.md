@@ -1,1 +1,0 @@
-How do repositories facilitate data access within a domain-driven application?

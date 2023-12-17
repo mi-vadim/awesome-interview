@@ -1,1 +1,0 @@
-Explain the basic concepts of a domain, entity, and value object in DDD.

@@ -1,1 +1,0 @@
-How does a ubiquitous language contribute to better communication between development teams and domain experts?

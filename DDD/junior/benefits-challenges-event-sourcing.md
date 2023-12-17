@@ -1,1 +1,0 @@
-Discuss the benefits and challenges of using event sourcing.
