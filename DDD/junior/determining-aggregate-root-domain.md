@@ -1,0 +1,1 @@
+How do you determine the aggregate root in a given domain?

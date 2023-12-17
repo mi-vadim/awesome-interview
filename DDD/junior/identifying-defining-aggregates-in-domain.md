@@ -1,0 +1,1 @@
+How can you identify and define aggregates in a given domain?

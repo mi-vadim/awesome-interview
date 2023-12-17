@@ -1,0 +1,1 @@
+What is an aggregate in DDD, and why is it useful

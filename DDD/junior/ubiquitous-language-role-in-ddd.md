@@ -1,0 +1,1 @@
+What is the role of a ubiquitous language in DDD

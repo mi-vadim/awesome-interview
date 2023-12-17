@@ -1,0 +1,1 @@
+Define the concept of a bounded context in DDD

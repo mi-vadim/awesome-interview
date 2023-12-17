@@ -1,0 +1,1 @@
+What is Domain-Driven Design (DDD), and why is it important in software development

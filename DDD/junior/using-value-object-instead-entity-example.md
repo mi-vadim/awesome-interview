@@ -1,0 +1,1 @@
+Provide an example of when you would use a value object instead of an entity.
