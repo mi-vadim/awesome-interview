@@ -1,79 +1,39 @@
-**Redis Basics:**
-- What is Redis, and how is it different from traditional relational databases?
-- Explain the key-value data model in Redis.
+**Data Types**
+ - Technical: What are the different data types supported by REDIS?
+ - Practical: How would you choose the appropriate REDIS data type for optimizing a real-time chat application?
 
-**Data Types in Redis:**
-- Name and describe at least three data types supported by Redis.
-- When would you use a set instead of a list in Redis?
+**Persistence**
+ - Technical: What are the differences between RDB and AOF persistence in REDIS?
+ - Practical: In what scenario would you prefer AOF over RDB for data persistence?
 
-**Command-Line Interface:**
-- How do you interact with Redis using the command-line interface?
-- Explain the purpose of the SET and GET commands.
+**Memory Management**
+ - Technical: How does REDIS manage memory?
+ - Practical: What steps would you take to monitor and optimize memory usage in REDIS?
 
-**String Commands:**
-- Discuss the basic string commands in Redis.
-- How can you concatenate strings in Redis?
+**Replication**
+ - Technical: Explain the basic replication process in REDIS.
+ - Practical: How would you set up a REDIS replication in a distributed application environment?
 
-**Lists in Redis:**
-- What is a Redis list, and how is it implemented?
-- Explain the difference between LPUSH and RPUSH commands.
+**Transactions**
+ - Technical: What are REDIS transactions and how do they work?
+ - Practical: How can you ensure atomicity in a shopping cart checkout process using REDIS?
 
-**Sets and Sorted Sets:**
-- Describe the characteristics of Redis sets and sorted sets.
-- How can you retrieve the intersection of two sets?
+**Pub/Sub**
+ - Technical: Describe the publish/subscribe model in REDIS.
+ - Practical: How would you implement a notification system using REDIS Pub/Sub?
 
-**Hashes in Redis:**
-- What is a Redis hash, and how does it differ from a string?
-- Explain how you can add a field to an existing hash.
+**Security**
+ - Technical: What are some common security practices when deploying REDIS?
+ - Practical: How would you secure a REDIS instance in a public cloud environment?
 
-**Key Expiration:**
-- How can you set an expiration time for a key in Redis?
-- Discuss scenarios where key expiration is useful.
+**Performance**
+ - Technical: What factors can affect REDIS performance?
+ - Practical: Describe a strategy to diagnose and address latency issues in REDIS.
 
-**Atomic Operations:**
-- What is the significance of atomic operations in Redis?
-- Provide an example of an atomic operation.
+**Backup and Recovery**
+ - Technical: How do you perform backups in REDIS?
+ - Practical: Describe a recovery process from a REDIS backup after a system failure.
 
-**Pub/Sub Mechanism:**
-- Explain the publish/subscribe mechanism in Redis.
-- How can a subscriber receive messages from multiple channels?
-
-**Bitwise Operations in Redis:**
-- Explain the bitwise operations supported by Redis.
-- Provide a scenario where bitwise operations are useful.
-
-**Expiration and Eviction:**
-- What happens when a key with an expiration time is accessed after it expires?
-- How does Redis handle the eviction of keys when the memory limit is reached?
-
-**Lua Scripting in Redis:**
-- How can Lua scripting enhance the functionality of Redis?
-- Discuss a use case where Lua scripting is preferable over traditional commands.
-
-**Sorted Set Commands:**
-- List and explain at least two commands used with sorted sets in Redis.
-- How are elements scored in a sorted set?
-
-**Handling Connection Failures:**
-- How does a Redis client handle connection failures to a Redis server?
-- Discuss strategies for reconnecting to Redis after a connection failure.
-
-**Backup and Restore in Redis:**
-- What strategies can be employed for backing up and restoring data in Redis?
-- Discuss the importance of regular backups in a Redis deployment.
-
-**Redis Data Types Overview:**
-- Provide a brief overview of the different data types supported by Redis.
-- When would you choose a hash over a set in Redis?
-
-**Multiple Databases in Redis:**
-- Explain how multiple databases work in a single Redis instance.
-- Discuss the limitations and considerations when using multiple databases.
-
-**Handling Large Sets in Redis:**
-- How can you efficiently handle large sets in Redis?
-- Discuss potential challenges and optimizations for large set operations.
-
-**Memory Management in Redis:**
-- Explain the role of Redis in-memory storage.
-- How can you monitor and manage memory usage in a Redis server?
+**Configuration**
+ - Technical: What are some important configuration directives in REDIS.conf?
+ - Practical: How would you configure REDIS for high availability and disaster recovery?

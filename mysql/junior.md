@@ -1,39 +1,39 @@
-**Indexing in MySQL:**
-- What is indexing, and why is it essential in MySQL?
-- Explain the difference between clustered and non-clustered indexes.
+**Data Types**
+ - What are the different data types available in SQL?
+ - How do you choose the appropriate data type for a column?
 
-**Normalization and Denormalization:**
-- Discuss the concepts of normalization and denormalization in the context of database design.
-- When might you choose denormalization over normalization?
+**Basic Commands**
+ - What is the difference between the DELETE and TRUNCATE commands?
+ - How would you remove duplicate rows from a SQL table without a temporary table?
 
-**Foreign Key Constraints:**
-- Explain the purpose of foreign key constraints in MySQL.
-- How do foreign key constraints contribute to maintaining data integrity?
+**Joins**
+ - Can you explain the different types of joins in SQL?
+ - Provide a scenario where you would use a LEFT JOIN over an INNER JOIN.
 
-**MySQL Storage Engines:**
-- Discuss different storage engines in MySQL (e.g., InnoDB, MyISAM).
-- What factors would you consider when choosing a storage engine for a specific scenario?
+**Indexes**
+ - What are indexes in SQL and why are they used?
+ - Describe a situation where using an index could potentially slow down performance.
 
-**MySQL Transactions:**
-- What is a MySQL transaction, and why is it important?
-- Discuss the ACID properties and their significance in transactions.
+**Aggregate Functions**
+ - What are aggregate functions? Provide examples.
+ - How would you find the second highest salary in a table using an SQL query?
 
-**Query Optimization:**
-- How can you optimize a MySQL query for better performance?
-- Discuss the importance of using the EXPLAIN statement for query analysis.
+**Subqueries**
+ - What is a subquery, and when would you use one?
+ - Write a query using a subquery to find all customers who have purchased more than 3 items.
 
-**MySQL Views:**
-- What are MySQL views, and how do they simplify query execution?
-- Discuss scenarios where using views can be beneficial.
+**Constraints**
+ - Explain the different types of constraints in SQL.
+ - How would you identify and remove unused or redundant constraints in a database?
 
-**Backup and Recovery:**
-- Explain strategies for backing up and recovering MySQL databases.
-- How can you perform a point-in-time recovery in MySQL?
+**Transactions**
+ - What is a transaction in SQL?
+ - How can you ensure a series of SQL operations are processed as a single transaction?
 
-**Stored Procedures and Functions:**
-- Discuss the advantages of using stored procedures and functions in MySQL.
-- Provide examples of scenarios where stored procedures are useful.
+**Views**
+ - What is a view in SQL and why would you use it?
+ - How would you update a view and what are the limitations?
 
-**Full-Text Search in MySQL:**
-- Explain the full-text search capabilities in MySQL.
-- How would you implement full-text search functionality in a MySQL application?
+**Normalization**
+ - What is normalization, and why is it important?
+ - Provide an example of how you would denormalize data and the scenarios that might lead you to do so.

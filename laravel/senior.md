@@ -1,39 +1,39 @@
-**Laravel Macroable Traits:**
- - Implement a macroable trait that extends the functionality of Eloquent models
- - Discuss the potential challenges and best practices for using macroable traits in a large codebase.
+**Eloquent Performance Tuning**
+ - What strategies can you use to optimize Eloquent performance?
+ - Describe a real-world scenario where you significantly improved Eloquent query performance.
 
-**Laravel Eloquent Indexes:**
- - Optimize a complex query in Laravel by utilizing database indexes
- - Discuss strategies for monitoring and maintaining optimal indexes in a production environment.
+**Complex Routing**
+ - How do you implement API versioning and middleware in routes?
+ - Discuss the strategy for organizing routes in a large-scale application.
 
-**Laravel Databases and Sharding:**
- - Implement a database sharding solution for handling large amounts of data in a Laravel application
- - Discuss challenges and considerations for data consistency and scalability in a sharded database architecture.
+**Middleware for Scalability**
+ - How can middleware be used to enhance the scalability of a Laravel application?
+ - Provide an example of a middleware you've implemented for handling API rate limiting.
 
-**Laravel Macros and Traits:**
- - Create a macro that extends the functionality of the Laravel collection class
- - Discuss advanced use cases for traits and macros in Laravel, including potential pitfalls.
+**Migration Strategies**
+ - What migration strategies are important for zero-downtime deployments?
+ - Discuss a challenging database schema change and how you managed it with migrations.
 
-**Laravel Custom Casts:**
- - Implement a custom cast for handling encryption and decryption of sensitive data in a Laravel model
- - Discuss best practices for using custom casts to enhance data storage and retrieval.
+**Advanced Controller Techniques**
+ - Discuss the Single Action Controller concept and its benefits.
+ - Provide an example of when you'd use Dependency Injection in a controller.
 
-**Laravel Testing Strategies:**
- - Implement a testing strategy for a Laravel application that involves external services and APIs
- - Discuss techniques for testing complex scenarios such as race conditions and long-running processes.
+**Complex Request Handling**
+ - How do you handle complex data transformation in Laravel requests?
+ - Illustrate an example of a custom request handler for a multi-step form.
 
-**Laravel Database Transactions:**
- - Implement a nested transaction strategy to handle complex database interactions in Laravel
- - Discuss potential issues and solutions related to nested transactions in a Laravel application.
+**Query Optimization**
+ - What are the best practices for optimizing Laravel database queries?
+ - Describe a particularly challenging database query optimization you've implemented.
 
-**Laravel Observer Pattern:**
- - Create an advanced implementation of the Observer pattern in Laravel with dynamic event subscriptions
- - Discuss scenarios where the Observer pattern is preferable over other event-driven approaches.
+**Advanced Service Container Usage**
+ - Discuss the use of tags in the service container for complex applications.
+ - How would you implement a context-aware service provider?
 
-**Laravel Authorization Policies:**
- - Implement a dynamic and configurable role-based access control system using Laravel policies
- - Discuss strategies for handling complex and dynamic authorization scenarios.
+**Eloquent ORM Mastery**
+ - Discuss the use of Eloquent events for maintaining data integrity.
+ - How have you used advanced Eloquent features to solve a complex problem?
 
-**Laravel Testing with Factories:**
- - Implement a factory that generates realistic test data for complex relationships in a Laravel application
- - Discuss considerations for maintaining and evolving factories in a growing codebase
+**Performance Testing and Optimization**
+ - What tools and techniques do you use for performance testing in Laravel?
+ - Describe a situation where you had to optimize both the application and server settings to improve performance.

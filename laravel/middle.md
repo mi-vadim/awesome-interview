@@ -1,39 +1,39 @@
-**Laravel Queues:**
- - Implement a custom queue driver for a specialized use case
- - Discuss the pros and cons of using different queue drivers in Laravel.
+**Eloquent Relationships Advanced**
+ - Explain Polymorphic relationships in Eloquent.
+ - How would you implement and use a polymorphic relationship in a document management system?
 
-**Task Scheduling in Laravel:**
- - How can you dynamically schedule tasks based on runtime conditions in Laravel
- - Discuss the impact of long-running scheduled tasks on the overall application performance.
+**Advanced Routing**
+ - What are route groups and how are they beneficial?
+ - Describe how you would implement a RESTful resource controller.
 
-**Laravel Policies and Gates:**
- - Implement a complex policy that considers multiple authorization factors
- - Discuss how you can use gates for fine-grained authorization control in Laravel.
+**Middleware Advanced**
+ - Explain the role of middleware groups in Laravel.
+ - How would you apply a middleware to a group of routes conditionally?
 
-**Laravel Notifications:**
- - Create a notification that sends messages via multiple channels based on user preferences
- - Discuss the use of the Notification::route method for routing notifications to specific channels.
+**Advanced Migrations**
+ - How do you use database seeding and why is it important?
+ - Describe a situation where you had to use a complex foreign key constraint.
 
-**Laravel Mix and Asset Compilation:**
- - Implement custom Laravel Mix tasks for specialized asset compilation scenarios
- - Discuss how you can use versioning and caching to optimize asset delivery in Laravel.
+**Resource Controllers**
+ - What are resource controllers and how do they differ from basic controllers?
+ - Illustrate how you would use a resource controller for an e-commerce product.
 
-**API Authentication in Laravel:**
- - How can you implement OAuth2 authentication for API routes in Laravel
- - Discuss the challenges and solutions for implementing API throttling in a Laravel application.
+**Form Request Validation**
+ - Explain what Form Request Validation is and its advantages.
+ - Provide an example of a custom request validation and how it's used in form submission.
 
-**Laravel Localization:**
- - Implement a multi-language application with dynamic content translation based on user preferences
- - Discuss how you can extend Laravel's localization features for additional language-related functionalities.
+**Complex Queries with Query Builder**
+ - How do you perform joins and subqueries using the Query Builder?
+ - Discuss a scenario where you optimized a query for reporting purposes.
 
-**Laravel Eloquent Relationships:**
- - Implement a polymorphic many-to-many relationship in Laravel
- - Discuss advanced techniques for optimizing queries in scenarios with deep Eloquent relationships.
+**Service Providers**
+ - What are Service Providers and how are they used in Laravel?
+ - Discuss how you would create a custom service provider to manage a third-party API integration.
 
-**Laravel Collection Methods:**
- - Create a custom collection method that transforms collection data using a callback
- - Discuss performance considerations when working with large datasets using Laravel collections.
+**Eloquent ORM Advanced**
+ - Discuss Eloquent scopes and their use cases.
+ - How would you use global scopes to apply a common query constraint across all queries of a model?
 
-**Laravel Testing Basics:**
- - How can you mock a third-party API response for testing in Laravel
- - Discuss strategies for testing asynchronous processes such as queued jobs in Laravel
+**Advanced Testing**
+ - Explain how you implement feature tests in Laravel.
+ - Describe a complex testing scenario you've handled, including mocks and spies.

@@ -1,39 +1,39 @@
-**Routing in Laravel:**
- - Explain how route model binding works in Laravel and provide an example
- - Discuss the differences between named routes and route groups in Laravel.
+**Eloquent Relationships**
+ - What are the different types of relationships available in Eloquent?
+ - Can you explain how you would implement a one-to-many relationship for a blog post and comments model?
 
-**Eloquent ORM Basics:**
- - How can you utilize the withCount method in Eloquent for efficient query optimization
- - Discuss the role of global scopes in Eloquent and provide an example of their application.
+**Routing**
+ - How do you define routes in Laravel?
+ - Describe a scenario where you would use a named route.
 
-**Middleware in Laravel:**
- - Implement a middleware that modifies the response content of a JSON API by adding additional data
- - Discuss the order of middleware execution and how it can impact the request lifecycle.
+**Middleware**
+ - What is Middleware in Laravel and how is it used?
+ - Provide an example of a custom middleware you might create and its purpose.
 
-**Blade Templating Engine:**
- - Explore the concept of Blade directives and provide examples of custom Blade directives
- - Discuss how you can conditionally include a Blade view based on the existence of a variable.
+**Migrations**
+ - What are migrations and how do they work in Laravel?
+ - How would you modify an existing column in a table using migrations?
 
-**Validation in Laravel:**
- - Implement a custom validation rule that checks if a given value is a prime number
- - How can you perform conditional validation based on the input of other fields?
+**Controllers**
+ - What is a Controller and what is its purpose in Laravel?
+ - Describe how you would organize logic in controllers for a simple user management system.
 
-**Database Migrations and Seeders:**
- - Discuss the use of database transactions in migrations and how they enhance database integrity
- - Implement a seeder that dynamically generates and inserts a large dataset into the database.
+**Requests and Responses**
+ - How do you retrieve input data from a request in Laravel?
+ - Discuss a situation where you would need to validate request data and how you would implement it.
 
-**Laravel Artisan Commands:**
- - Create a custom Artisan command that interacts with a third-party API
- - How can you schedule an Artisan command to run at specific intervals using task scheduling?
+**Database Query Builder**
+ - What is the Laravel Query Builder and how does it differ from Eloquent?
+ - Provide an example of a complex query you've written using the Query Builder.
 
-**Dependency Injection in Controllers:**
- - Explain how you can leverage method injection in a Laravel controller
- - Discuss the concept of contextual binding in Laravel's service container.
+**Service Container**
+ - What is the Service Container in Laravel?
+ - Explain how you would bind an interface to a class in the Service Container.
 
-**Laravel Events and Listeners:**
- - Implement an event listener that performs an action only if multiple events are fired within a specific timeframe
- - Discuss the differences between events and observers in Laravel.
+**Eloquent ORM**
+ - Explain what Eloquent is and how it works in Laravel.
+ - Describe a situation where you optimized an Eloquent query for better performance.
 
-**File Storage in Laravel:**
- - Explore the usage of Laravel's file storage for cloud-based services like Amazon S3
- - How can you efficiently handle file uploads with progress tracking in Laravel
+**Testing**
+ - What types of tests are commonly written in Laravel?
+ - How would you write a simple test case for a user authentication flow?

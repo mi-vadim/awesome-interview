@@ -1,39 +1,39 @@
-**Partitioning in MySQL:**
-- Discuss the concept of partitioning in MySQL tables.
-- When would you consider using partitioning for a large dataset?
+**Advanced Joins**
+ - Explain a self-join and provide a practical example of when it might be used.
+ - How would you perform a cross join and what are the implications?
 
-**High Availability and Replication:**
-- Explain how MySQL replication works and its role in achieving high availability.
-- Discuss scenarios where MySQL replication might be suitable or unsuitable.
+**Index Management**
+ - Discuss clustered vs non-clustered indexes.
+ - How would you decide between using a clustered index and a non-clustered index for a particular scenario?
 
-**MySQL Triggers:**
-- What are MySQL triggers, and how can they be used?
-- Discuss potential use cases and considerations when implementing triggers.
+**Performance Tuning**
+ - What are some common ways to optimize SQL queries?
+ - Provide an example of a poorly performing query and how you would improve it.
 
-**Optimistic vs. Pessimistic Locking:**
-- Compare optimistic and pessimistic locking in MySQL.
-- When would you choose one locking strategy over the other?
+**Stored Procedures**
+ - What is a stored procedure in SQL and its advantages?
+ - How would you handle errors in stored procedures?
 
-**Common Table Expressions (CTEs):**
-- Explain the use of Common Table Expressions in MySQL.
-- Provide an example of a scenario where CTEs can simplify complex queries.
+**Triggers**
+ - Explain what triggers are and their use cases.
+ - How can you prevent recursive triggers?
 
-**MySQL Performance Schema:**
-- Discuss the MySQL Performance Schema and its role in performance monitoring.
-- How can you use the Performance Schema to identify performance bottlenecks?
+**Advanced Subqueries**
+ - What are correlated subqueries?
+ - Provide an example of a query using a correlated subquery.
 
-**Handling Large Datasets:**
-- Strategies for efficiently handling large datasets in MySQL.
-- How can you optimize memory usage and processing speed for large queries?
+**Data Integrity**
+ - Explain the concept of ACID in the context of databases.
+ - How do constraints ensure data integrity?
 
-**Character Sets and Collations:**
-- Explain the importance of character sets and collations in MySQL.
-- Discuss scenarios where choosing the right character set is crucial.
+**Database Design**
+ - What are the principles of good database design?
+ - How would you redesign a poorly performing database?
 
-**Database Sharding in MySQL:**
-- Discuss strategies for implementing database sharding in a MySQL application.
-- What challenges may arise when implementing sharding, and how can they be mitigated?
+**Backup and Recovery**
+ - Discuss the strategies for database backup.
+ - How would you restore a database from a backup file?
 
-**MySQL JSON Data Type:**
-- Explain the MySQL JSON data type and its advantages.
-- How can you query and manipulate JSON data in MySQL?
+**Replication**
+ - Explain database replication and its benefits.
+ - How would you set up and manage replication?

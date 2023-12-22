@@ -1,39 +1,39 @@
-**Microservices Architecture:**
- - Define microservices architecture and explain its benefits over monolithic architecture
- - Discuss potential challenges and drawbacks associated with microservices.
+**Communication**
+ - How do microservices communicate with each other?
+ - Can you compare the use of REST versus messaging for inter-service communication?
 
-**Service Discovery:**
- - Explain the role of service discovery in a microservices environment
- - How does service discovery contribute to dynamic and scalable systems?
+**Database Management**
+ - What are the common strategies for database management in microservices?
+ - Explain how database schema migrations are handled in a microservices architecture.
 
-**API Gateway:**
- - What is an API Gateway, and how does it facilitate communication in microservices
- - Discuss the advantages of using an API Gateway in a microservices architecture.
+**Configuration**
+ - How are configurations managed in a microservices environment?
+ - Discuss the implications of centralized vs decentralized configuration management.
 
-**Containerization:**
- - Explain the concept of containerization and how it relates to microservices
- - What are the benefits of using containers like Docker in a microservices setup?
+**Error Handling**
+ - How are errors handled and logged in microservices?
+ - Give an example of a graceful degradation strategy in a microservice that depends on a failed service.
 
-**Load Balancing in Microservices:**
- - Discuss the importance of load balancing in microservices
- - How can load balancing contribute to improved performance and availability?
+**Testing**
+ - What strategies are used for testing microservices?
+ - How does contract testing work, and why is it important in microservices?
 
-**Event-Driven Architecture:**
- - Explain the principles of event-driven architecture in the context of microservices
- - Provide an example scenario where an event-driven approach is beneficial.
+**Deployment**
+ - What is a blue/green deployment strategy?
+ - How does a blue/green deployment affect continuous delivery in a microservices architecture?
 
-**Fault Tolerance and Resilience:**
- - Discuss strategies for achieving fault tolerance and resilience in microservices
- - How can the Circuit Breaker pattern enhance the reliability of microservices?
+**Service Discovery**
+ - What is service discovery, and why is it important?
+ - Discuss the pros and cons of client-side vs server-side service discovery.
 
-**Microservices Testing:**
- - Explain the challenges and strategies for testing microservices
- - How can you implement testing automation in a microservices environment?
+**Security**
+ - How is security managed in microservices?
+ - Explain the role of an API Gateway in securing microservice communications.
 
-**Continuous Integration and Deployment (CI/CD):**
- - Discuss the role of CI/CD in microservices development
- - How does CI/CD contribute to the agility and reliability of microservices?
+**Monitoring**
+ - What are some common patterns for monitoring microservices?
+ - How would you implement distributed tracing in a system of microservices?
 
-**Database Per Service Pattern:**
- - Explain the concept of the Database Per Service pattern in microservices
- - What are the advantages and challenges associated with this pattern
+**Scalability**
+- What is the role of a load balancer in microservices?
+- Discuss strategies to scale a microservice during a spike in demand.

@@ -1,39 +1,39 @@
-**Microservices Communication Protocols:**
- -  Discuss common communication protocols used in microservices (e.g., HTTP, gRPC)
- -  How can you choose the most suitable communication protocol for a microservice?
+**Communication**
+ - What are the trade-offs of synchronous vs asynchronous communication in microservices?
+ - How can message queueing systems affect the reliability of inter-service communication?
 
-**Service Mesh:**
- -  - Define a service mesh and discuss its role in microservices architecture
- -  - How can service mesh technologies like Istio enhance microservices communication?
+**Database Management**
+ - How does the database-per-service model work, and what are its challenges?
+ - Discuss strategies for implementing shared databases in microservices without causing tight coupling.
 
-**Observability in Microservices:**
- - Explain the importance of observability for monitoring and managing microservices
- - Discuss key tools and techniques for achieving observability in a microservices system.
+**Configuration**
+ - How do feature flags work in a microservices environment?
+ - Discuss the impact of dynamic configuration changes in a microservices landscape.
 
-**Microservices Security:**
- - Discuss security considerations specific to microservices architecture
- - How can you implement authentication and authorization across microservices?
+**Error Handling**
+ - What is the circuit breaker pattern, and how does it help in a microservices architecture?
+ - How would you handle a cascading failure scenario in microservices?
 
-**Saga Pattern:**
- - Explain the Saga pattern and its use in managing distributed transactions
- - Discuss scenarios where the Saga pattern is preferable over a traditional transactional approach.
+**Testing**
+ - Explain the difference between end-to-end testing and service integration testing in microservices.
+ - How do consumer-driven contracts contribute to the robustness of a microservices architecture?
 
-**Microservices Data Consistency:**
- - Discuss strategies for maintaining data consistency across microservices
- - How can you handle eventual consistency in a microservices environment?
+**Deployment**
+ - Discuss the role of containers and orchestrators like Kubernetes in microservice deployment.
+ - How does canary releasing differ from blue/green deployment, and when would you use it?
 
-**Serverless Architecture with Microservices:**
- - Explain the relationship between serverless architecture and microservices
- - Discuss scenarios where serverless functions complement microservices.
+**Service Discovery**
+ - How do microservices dynamically locate each other in a cloud environment?
+ - Discuss the challenges of service registry synchronization in a microservices architecture.
 
-**Micro Frontends:**
- - Discuss the concept of micro frontends and how it aligns with microservices
- - What challenges may arise when implementing micro frontends in a microservices ecosystem?
+**Security**
+ - How do OAuth and JWT fit into microservices security?
+ - Discuss the challenges and strategies for managing service-to-service authentication.
 
-**Chaos Engineering:**
- - Define chaos engineering and explain its relevance to microservices
- - How can you conduct chaos experiments to improve microservices resilience?
+**Monitoring**
+ - What metrics are crucial for monitoring the health of microservices?
+ - How would you approach setting up alerts for microservices based on the collected metrics?
 
-**Microservices Versioning:**
- - Discuss challenges and best practices for versioning microservices
- - How can you implement backward-compatible changes in a microservices architecture
+**Scalability**
+- Discuss the concept of "state" in scaling microservices.
+- How do microservices handle data consistency when scaling out?

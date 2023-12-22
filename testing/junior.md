@@ -1,59 +1,39 @@
-**Fundamentals of Testing:**
-- Explain the difference between functional testing and non-functional testing.
-- What is the purpose of test cases, and how are they written?
+**Unit Testing Basics**
+ - Technical: What is unit testing, and what is its primary objective?
+ - Practical: Give an example of a simple unit test in a programming language of your choice.
 
-**Types of Testing:**
-- Discuss the distinctions between smoke testing and sanity testing.
-- What is regression testing, and why is it essential in software development?
+**Test-Driven Development (TDD)**
+ - Technical: Explain the basic cycle of Test-Driven Development (TDD).
+ - Practical: Describe a situation where TDD might be more beneficial than traditional testing approaches.
 
-**Test Automation Basics:**
-- Explain the benefits and challenges of test automation.
-- What are the key considerations for selecting test cases for automation?
+**Assertions**
+ - Technical: What are assertions in unit testing, and how do they work?
+ - Practical: Provide an example of using assertions to validate the outcome of a method.
 
-**Unit Testing in PHP:**
-- What is unit testing, and how does it contribute to code quality?
-- Discuss the popular PHP unit testing frameworks and their features.
+**Test Coverage**
+ - Technical: Define test coverage and its importance in unit testing.
+ - Practical: How would you decide what level of test coverage is sufficient for a project?
 
-**Black Box Testing:**
-- Describe the principles of black box testing.
-- How can equivalence partitioning be applied in black box testing?
+**Mocking and Stubbing**
+ - Technical: Explain the difference between mocking and stubbing.
+ - Practical: When would you use mocking in unit tests?
 
-**Web Application Testing:**
-- What are common security vulnerabilities in web applications, and how can they be tested?
-- Explain the differences between UI testing and API testing.
+**Integration Testing Basics**
+ - Technical: What distinguishes integration testing from unit testing?
+ - Practical: Describe a scenario where integration testing is crucial.
 
-**Database Testing:**
-- Discuss the importance of database testing in a software project.
-- How can you perform data integrity testing in a relational database?
+**Test Fixtures**
+ - Technical: What are test fixtures, and why are they used?
+ - Practical: How do you manage test fixtures in a frequently changing codebase?
 
-**Performance Testing Basics:**
-- What is the goal of performance testing, and what metrics are typically measured?
-- Explain the differences between stress testing and load testing.
+**Error Handling in Tests**
+ - Technical: How should unit tests handle expected errors or exceptions?
+ - Practical: Write a simple test case that expects an exception to be thrown.
 
-**Testing Documentation:**
-- What types of documentation are crucial for effective software testing?
-- How can traceability matrices be used in testing documentation?
+**Continuous Integration**
+ - Technical: Explain the role of continuous integration in software testing.
+ - Practical: How does continuous integration affect the testing process?
 
-**Defect Life Cycle:**
-- Describe the stages of a defect life cycle.
-- How can you prioritize defects based on severity and priority?
-
-**PHPUnit Basics:**
-- Explain the purpose of PHPUnit in PHP development.
-- How can you install PHPUnit in a PHP project using Composer?
-
-**Writing Test Cases:**
-- Discuss the basic structure of a PHPUnit test case.
-- What is the purpose of the setUp method in PHPUnit?
-
-**Assertions in PHPUnit:**
-- Name and explain three common assertions used in PHPUnit.
-- How can you assert that an exception is thrown in a test?
-
-**Test Fixtures:**
-- What is a test fixture in PHPUnit, and why is it useful?
-- How can you share a common setup among multiple test cases?
-
-**PHPUnit Data Providers:**
-- Explain the use of data providers in PHPUnit.
-- Provide an example of using a data provider in a test case.
+**Test Documentation**
+ - Technical: Why is documentation important in software testing?
+ - Practical: What information would you include in test case documentation?

@@ -1,79 +1,39 @@
-**Message Idempotence:**
-- What is message idempotence, and why is it relevant in messaging?
-- How can you design a system to ensure idempotence in message processing?
+**Advanced Messaging Patterns**
+ - What are some advanced messaging patterns besides pub/sub and point-to-point?
+ - Describe a scenario where an advanced pattern provided a solution.
 
-**Guarantees in Messaging:**
-- Discuss at least two types of guarantees provided by messaging systems.
-- How does a system achieve exactly-once message delivery?
+**Transaction Management**
+ - How do transactions work in message brokers?
+ - Discuss how you would implement transactions for a financial services application.
 
-**Message Compression:**
-- Explain the benefits and challenges of compressing messages in transit.
-- When would you choose to compress messages?
+**Message Priority and Ordering**
+ - How can message priority and ordering be managed?
+ - Provide an example of when message ordering is critical and how you would enforce it.
 
-**Exponential Backoff:**
-- What is exponential backoff, and how can it be used in message processing?
-- Discuss scenarios where exponential backoff is beneficial.
+**Dead Letter Queues**
+ - What is a dead letter queue?
+ - How would you utilize a dead letter queue in a system with critical message processing?
 
-**Message Routing:**
-- Describe the concept of message routing in a messaging system.
-- How can you implement dynamic message routing based on content?
+**High Availability and Fault Tolerance**
+ - What strategies are used to achieve high availability in message brokers?
+ - Describe how you would design a fault-tolerant messaging system.
 
-**Transactional Messaging:**
-- What is transactional messaging, and when should it be employed?
-- Explain the challenges of implementing transactions across distributed systems.
+**Load Balancing**
+ - What is the role of load balancing in message brokers?
+ - Discuss how you would implement load balancing in a distributed system.
 
-**Message TTL:**
-- Discuss the purpose of message Time-To-Live (TTL).
-- How can you handle messages that expire due to TTL?
+**Security Considerations**
+ - What are key security considerations when using message brokers?
+ - How would you secure sensitive data being transmitted through messages?
 
-**Distributed Tracing:**
-- How does distributed tracing work in a messaging environment?
-- What tools or methodologies can be used for distributed tracing?
+**Integration Patterns**
+ - What are common integration patterns with message brokers?
+ - Describe a challenging integration you've handled and how you approached it.
 
-**Monitoring and Metrics:**
-- What metrics are crucial for monitoring the health of a messaging system?
-- Discuss the importance of real-time monitoring in a production environment.
+**Throttling and Rate Limiting**
+ - How are throttling and rate limiting managed in message brokers?
+ - Describe a situation where you had to implement rate limiting.
 
-**Message Schema Evolution:**
-- Explain how you would handle schema evolution in a messaging system.
-- Discuss the impact of changing message structures on existing consumers.
-
-**Message Triggers:**
-- What are message triggers, and how can they be implemented in a messaging system?
-- Discuss scenarios where message triggers are beneficial.
-
-**Message Compaction:**
-- Explain the concept of message compaction in the context of message queues.
-- When and why would you use message compaction?
-
-**Dead-Letter Queue Strategies:**
-- Discuss strategies for handling messages that end up in a dead-letter queue.
-- How can dead-letter queues be useful in debugging and troubleshooting?
-
-**Message Filtering Strategies:**
-- How can you implement message filtering based on content in a message queue?
-- Discuss the performance implications of message filtering.
-
-**Message Priority Queues:**
-- What is a priority queue in the context of message processing?
-- When would you choose to use a priority queue?
-
-**Message Partitioning:**
-- Explain the concept of message partitioning in a distributed messaging system.
-- Discuss the benefits and challenges of message partitioning.
-
-**Message Idempotency Strategies:**
-- How can you implement idempotency in message processing?
-- Discuss scenarios where message idempotency is critical.
-
-**Message Throttling:**
-- What is message throttling, and when is it necessary in a messaging system?
-- Discuss strategies for implementing effective message throttling.
-
-**Message Fanout Strategies:**
-- Discuss strategies for efficient message fanout in a message queue.
-- How can you avoid performance bottlenecks in fanout scenarios?
-
-**Message Queue Monitoring:**
-- What metrics are essential for monitoring the health of a message queue?
-- Discuss the role of real-time monitoring in ensuring system reliability.
+**Broker Topology and Architecture**
+ - What are common architectures for deploying message brokers?
+ - How would you decide on the right architecture for a new system?

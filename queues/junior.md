@@ -1,80 +1,39 @@
-**Basics of Messaging:**
-- What is the purpose of a message queue in a distributed system?
-- Explain the difference between synchronous and asynchronous communication.
-- What is the role of a message broker in messaging systems?
+**Basics of Message Brokers**
+ - What is a message broker?
+ - Give an example of a simple use case for a message broker.
 
-**Message Formats:**
-- Describe the JSON and XML formats commonly used in messaging.
-- How do you serialize and deserialize messages in a messaging system?
+**Core Concepts**
+ - What is a message queue?
+ - How might a small web application benefit from implementing a message queue?
 
-**Queue vs. Topic:**
-- Explain the difference between a message queue and a message topic.
-- When would you use a queue, and when would you use a topic?
+**Publish/Subscribe Model**
+ - What is the publish/subscribe model in messaging systems?
+ - How would you decide between using a point-to-point or publish/subscribe model?
 
-**Reliability and Durability:**
-- What is the significance of message durability in a messaging system?
-- How can you ensure reliable message delivery in a queue?
+**Durability and Persistence**
+ - What do durability and persistence mean in the context of message brokers?
+ - Why would you need your messages to be durable in a particular application?
 
-**Error Handling:**
-- How should errors be handled in a messaging system?
-- Explain dead-letter queues and their purpose.
+**Message Routing**
+ - What is message routing?
+ - How would you handle a scenario where messages need to be routed to different consumers based on content?
 
-**Message Priority:**
-- Discuss the concept of message priority. How can it be implemented?
-- What are the potential challenges of using message priority?
+**Scalability**
+ - How do message brokers help with scalability?
+ - What factors would you consider when scaling a system using message brokers?
 
-**Concurrency:**
-- How can you handle concurrency in a messaging system?
-- Explain the terms "producer" and "consumer" in the context of messaging.
+**Performance Considerations**
+ - What impacts the performance of message brokers?
+ - Discuss a time when you had to optimize message throughput in a system.
 
-**Scalability:**
-- Discuss strategies for scaling a messaging system.
-- What considerations should be taken into account when scaling consumers?
+**Reliability**
+ - How do message brokers ensure reliability?
+ - Describe a scenario where message broker reliability is critical, and how you would ensure it.
 
-**Message Acknowledgment:**
-- What is message acknowledgment, and why is it important?
-- Explain the difference between automatic and manual acknowledgment.
+**Error Handling**
+ - What are some common strategies for error handling in message brokers?
+ - Share an approach for dealing with poison messages in a queue.
 
-**Security Measures:**
-- How can you secure communication between producers and consumers?
-- Discuss the use of encryption in messaging systems.
-
-**Message Expiry:**
-- What is message expiration, and why is it important in a queue/messaging system?
-- How can you handle expired messages in a message queue?
-
-**Fanout Exchange:**
-- Explain the concept of a fanout exchange in the context of message queues.
-- When would you use a fanout exchange, and what are its advantages?
-
-**Message Routing Key:**
-- What is the role of a routing key in message queues?
-- How does it contribute to directing messages to specific queues?
-
-**Concurrency Control:**
-- Discuss strategies for managing concurrency control in a message processing system.
-- How can you avoid race conditions in message consumption?
-
-**Message Headers:**
-- Describe the purpose of message headers in a message queue.
-- Provide an example of a scenario where custom message headers are useful.
-
-**Batch Processing:**
-- How can you implement batch processing using a message queue?
-- Discuss the advantages and challenges of batch processing.
-
-**Message Acknowledgment Modes:**
-- Explain different acknowledgment modes in message processing.
-- When would you use auto acknowledgment, and when would you prefer manual acknowledgment?
-
-**Message Serialization Formats:**
-- Discuss common message serialization formats used in message queues.
-- How does the choice of serialization format impact interoperability?
-
-**Load Balancing in Queues:**
-- How can you achieve load balancing among multiple consumers of a message queue?
-- Discuss the factors to consider when designing a load-balanced queue system.
-
-**Message Queue Patterns:**
-- Describe at least two common design patterns used in message queue architectures.
-- How do these patterns address scalability and fault tolerance?
+**Monitoring and Maintenance**
+ - What aspects of message brokers should be monitored?
+ - How would you approach monitoring and maintaining a broker in a production environment?
