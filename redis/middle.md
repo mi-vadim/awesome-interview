@@ -1,39 +1,39 @@
 **Data Structures**
- - Technical: How does REDIS implement sorted sets, and what are its use cases?
- - Practical: Implement a leaderboard system using REDIS sorted sets.
+ - How does Redis implement sorted sets, and what are its use cases?
+ - Implement a leaderboard system using Redis sorted sets.
 
 **Clustering**
- - Technical: Describe the architecture of REDIS Cluster.
- - Practical: How would you migrate an existing single-node REDIS setup to a REDIS Cluster?
+ - Describe the architecture of Redis Cluster.
+ - How would you migrate an existing single-node Redis setup to a Redis Cluster?
 
 **Lua Scripting**
- - Technical: How does Lua scripting work in REDIS?
- - Practical: Provide an example of a Lua script to perform a batch operation.
+ - How does Lua scripting work in Redis?
+ - Provide an example of a Lua script to perform a batch operation.
 
 **Eviction Policies**
- - Technical: What are the different eviction policies available in REDIS?
- - Practical: How would you decide on an eviction policy for a session store?
+ - What are the different eviction policies available in Redis?
+ - How would you decide on an eviction policy for a session store?
 
 **Advanced Persistence**
- - Technical: Compare and contrast RDB, AOF, and hybrid persistence models.
- - Practical: How would you handle a scenario requiring both fast recovery and minimal data loss?
+ - Compare and contrast RDB, AOF, and hybrid persistence models.
+ - How would you handle a scenario requiring both fast recovery and minimal data loss?
 
 **Data Sharding**
- - Technical: What is data sharding and how can it be implemented in REDIS?
- - Practical: Design a sharding strategy for a high-volume messaging application.
+ - What is data sharding and how can it be implemented in Redis?
+ - Design a sharding strategy for a high-volume messaging application.
 
 **Monitoring**
- - Technical: What are the key metrics to monitor in a REDIS server?
- - Practical: Set up a monitoring system for your REDIS servers.
+ - What are the key metrics to monitor in a Redis server?
+ - Set up a monitoring system for your Redis servers.
 
 **Scaling**
- - Technical: Describe strategies for scaling REDIS.
- - Practical: How would you scale an existing REDIS workload to handle ten times the traffic?
+ - Describe strategies for scaling Redis.
+ - How would you scale an existing Redis workload to handle ten times the traffic?
 
 **High Availability**
- - Technical: How does Sentinel provide high availability for REDIS?
- - Practical: Create a plan to deploy a highly available REDIS setup using Sentinel.
+ - How does Sentinel provide high availability for Redis?
+ - Create a plan to deploy a highly available Redis setup using Sentinel.
 
 **Advanced Configurations**
- - Technical: What are some advanced configuration options for tuning REDIS performance?
- - Practical: Optimize a REDIS configuration for a memory-intensive application.
+ - What are some advanced configuration options for tuning Redis performance?
+ - Optimize a Redis configuration for a memory-intensive application.

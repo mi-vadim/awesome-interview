@@ -8,7 +8,7 @@
 
 **Image Optimization**
  - What strategies can be used to reduce the size of a Docker image?
- - Optimize an existing Dockerfile for a Node.js application.
+ - Optimize an existing Dockerfile for a PHP application.
 
 **Docker Compose Scaling**
  - How does scaling work with Docker Compose?
@@ -22,7 +22,7 @@
  - What are some best practices for securing Docker containers?
  - Implement a Dockerfile change that addresses a common security issue.
 
-**CI**/CD with Docker
+**CI/CD with Docker**
  - How is Docker used in a CI/CD pipeline?
  - Integrate a Docker workflow into a simple CI/CD pipeline.
 
@@ -35,5 +35,5 @@
  - Create a small script that uses the Docker API to start and stop containers.
 
 **Advanced Commands and Features**
- -  Describe the purpose of the docker exec command.
- -  How would you enter a running container to modify its configuration files?
+ - Describe the purpose of the docker exec command.
+ - How would you enter a running container to modify its configuration files?

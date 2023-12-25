@@ -1,39 +1,39 @@
 **Data Types**
- - Technical: What are the different data types supported by REDIS?
- - Practical: How would you choose the appropriate REDIS data type for optimizing a real-time chat application?
+ - What are the different data types supported by Redis?
+ - How would you choose the appropriate Redis data type for optimizing a real-time chat application?
 
 **Persistence**
- - Technical: What are the differences between RDB and AOF persistence in REDIS?
- - Practical: In what scenario would you prefer AOF over RDB for data persistence?
+ - What are the differences between RDB and AOF persistence in Redis?
+ - In what scenario would you prefer AOF over RDB for data persistence?
 
 **Memory Management**
- - Technical: How does REDIS manage memory?
- - Practical: What steps would you take to monitor and optimize memory usage in REDIS?
+ - How does Redis manage memory?
+ - What steps would you take to monitor and optimize memory usage in Redis?
 
 **Replication**
- - Technical: Explain the basic replication process in REDIS.
- - Practical: How would you set up a REDIS replication in a distributed application environment?
+ - Explain the basic replication process in Redis.
+ - How would you set up a Redis replication in a distributed application environment?
 
 **Transactions**
- - Technical: What are REDIS transactions and how do they work?
- - Practical: How can you ensure atomicity in a shopping cart checkout process using REDIS?
+ - What are Redis transactions and how do they work?
+ - How can you ensure atomicity in a shopping cart checkout process using Redis?
 
 **Pub/Sub**
- - Technical: Describe the publish/subscribe model in REDIS.
- - Practical: How would you implement a notification system using REDIS Pub/Sub?
+ - Describe the publish/subscribe model in Redis.
+ - How would you implement a notification system using Redis Pub/Sub?
 
 **Security**
- - Technical: What are some common security practices when deploying REDIS?
- - Practical: How would you secure a REDIS instance in a public cloud environment?
+ - What are some common security practices when deploying Redis?
+ - How would you secure a Redis instance in a public cloud environment?
 
 **Performance**
- - Technical: What factors can affect REDIS performance?
- - Practical: Describe a strategy to diagnose and address latency issues in REDIS.
+ - What factors can affect Redis performance?
+ - Describe a strategy to diagnose and address latency issues in Redis.
 
 **Backup and Recovery**
- - Technical: How do you perform backups in REDIS?
- - Practical: Describe a recovery process from a REDIS backup after a system failure.
+ - How do you perform backups in Redis?
+ - Describe a recovery process from a Redis backup after a system failure.
 
 **Configuration**
- - Technical: What are some important configuration directives in REDIS.conf?
- - Practical: How would you configure REDIS for high availability and disaster recovery?
+ - What are some important configuration directives in Redis.conf?
+ - How would you configure Redis for high availability and disaster recovery?
